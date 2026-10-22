@@ -1,0 +1,1 @@
+python -u repro/run_dtu.py --data-root data/DTU --gt-root data/DTU_GT --scans 24 

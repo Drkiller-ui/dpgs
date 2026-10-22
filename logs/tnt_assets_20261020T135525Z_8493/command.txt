@@ -1,0 +1,1 @@
+python -u repro/fetch_tnt_assets.py 

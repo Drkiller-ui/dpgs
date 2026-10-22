@@ -1,0 +1,10 @@
+{
+  "parameters": 411941915,
+  "loaded_tensors": 529,
+  "all_checkpoint_values_finite": true,
+  "missing_keys": [
+    "depth_model.encoder.mask_token"
+  ],
+  "unexpected_keys": [],
+  "interpretation": "The upstream checkpoint omits mask_token. ViT_DINO_reg.prepare_tokens_with_masks uses it only when masks is not None; dense_pipeline.forward calls encoder(input) without masks. Upstream loads with strict_match=False. No inference weights are missing."
+}

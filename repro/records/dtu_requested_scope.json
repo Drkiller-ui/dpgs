@@ -1,0 +1,23 @@
+{
+  "updated_at": "2026-10-22T03:45:42.996835+00:00",
+  "user_scope": "COLMAP only: all 15 small_overlap scans; MASt3R training cancelled by user",
+  "total_runs": 15,
+  "iterations": 10000,
+  "gpu": 0,
+  "sequential": true,
+  "excluded": [
+    "mast3r_sfm",
+    "large_overlap",
+    "TNT",
+    "other paper methods"
+  ],
+  "completed_before_launch": [
+    "scan24_colmap_sfm_small_overlap",
+    "scan37_colmap_sfm_small_overlap",
+    "scan40_colmap_sfm_small_overlap"
+  ],
+  "runner": "bash repro/run_all_dtu.sh",
+  "initializations": [
+    "colmap_sfm"
+  ]
+}

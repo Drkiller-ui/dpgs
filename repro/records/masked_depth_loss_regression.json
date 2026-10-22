@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "empty_loss_and_gradient_zero": true,
+      "nonempty_loss_and_gradient_exactly_unchanged": true
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "empty_loss_and_gradient_zero": true,
+      "nonempty_loss_and_gradient_exactly_unchanged": true
+    },
+    {
+      "device": "cuda",
+      "dtype": "torch.float32",
+      "empty_loss_and_gradient_zero": true,
+      "nonempty_loss_and_gradient_exactly_unchanged": true
+    },
+    {
+      "device": "cuda",
+      "dtype": "torch.float64",
+      "empty_loss_and_gradient_zero": true,
+      "nonempty_loss_and_gradient_exactly_unchanged": true
+    }
+  ],
+  "reason": "Original scan83 total loss was NaN at iteration 4005; reject invalid model",
+  "protocol": "Binary mask count is an integer; clamp only changes the zero-support case"
+}

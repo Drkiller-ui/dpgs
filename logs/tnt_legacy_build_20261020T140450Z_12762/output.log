@@ -1,0 +1,424 @@
+Run directory: logs/tnt_legacy_build_20261020T140450Z_12762
+Consolidate compiler generated dependencies of target EncodeShader
+Consolidate compiler generated dependencies of target tinyobjloader
+Consolidate compiler generated dependencies of target qhullstatic_r
+[  1%] Performing configure step for 'ext_turbojpeg'
+[  1%] Building CXX object src/Tools/CMakeFiles/EncodeShader.dir/EncodeShader.cpp.o
+[  1%] Building CXX object 3rdparty/CMakeFiles/tinyobjloader.dir/tinyobjloader/tiny_obj_loader.cc.o
+-- CMAKE_BUILD_TYPE = Release
+-- VERSION = 2.0.3, BUILD = 20261020
+-- 64-bit build (x86_64)
+-- CMAKE_INSTALL_PREFIX = /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install
+-- CMAKE_INSTALL_BINDIR = bin (/root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin)
+-- CMAKE_INSTALL_DATAROOTDIR = share (/root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share)
+-- CMAKE_INSTALL_DOCDIR = share/doc/libjpeg-turbo (/root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo)
+-- CMAKE_INSTALL_INCLUDEDIR = include (/root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/include)
+-- CMAKE_INSTALL_LIBDIR = lib (/root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/lib)
+-- CMAKE_INSTALL_MANDIR = share/man (/root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/man)
+-- Shared libraries disabled (ENABLE_SHARED = 0)
+-- Static libraries enabled (ENABLE_STATIC = 1)
+-- 12-bit JPEG support disabled (WITH_12BIT = 0)
+-- Arithmetic decoding support enabled (WITH_ARITH_DEC = 1)
+-- Arithmetic encoding support enabled (WITH_ARITH_ENC = 1)
+-- TurboJPEG API library enabled (WITH_TURBOJPEG = 1)
+-- TurboJPEG Java wrapper disabled (WITH_JAVA = 0)
+-- In-memory source/destination managers enabled (WITH_MEM_SRCDST = 1)
+[  9%] Built target qhullstatic_r
+-- Emulating libjpeg API/ABI v6.2 (WITH_JPEG7 = 0, WITH_JPEG8 = 0)
+-- libjpeg API shared library version = 62.3.0
+-- Compiler flags =  -O3 -DNDEBUG
+-- Linker flags =  
+-- Compiler supports pointers to undefined structures.
+-- INLINE = __inline__ __attribute__((always_inline)) (FORCE_INLINE = 1)
+-- Linker supports GNU-style version scripts
+-- CMAKE_EXECUTABLE_SUFFIX = 
+-- SIMD extensions: None (WITH_SIMD = 0)
+-- FLOATTEST = 32bit
+-- RPM architecture = x86_64, DEB architecture = amd64
+-- Configuring done
+Consolidate compiler generated dependencies of target qhullcpp
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_FLAGS
+
+
+-- Build files have been written to: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty/turbojpeg/src/ext_turbojpeg-build
+[  9%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/Coordinates.cpp.o
+[  9%] Performing build step for 'ext_turbojpeg'
+Consolidate compiler generated dependencies of target simd
+[  1%] Built target simd
+Consolidate compiler generated dependencies of target rdjpgcom
+[  2%] Built target rdjpgcom
+Consolidate compiler generated dependencies of target wrjpgcom
+[  4%] Built target wrjpgcom
+Consolidate compiler generated dependencies of target md5cmp
+[  6%] Built target md5cmp
+Consolidate compiler generated dependencies of target jpeg-static
+[ 40%] Built target jpeg-static
+Consolidate compiler generated dependencies of target turbojpeg-static
+[ 80%] Built target turbojpeg-static
+[ 10%] Linking CXX executable ../../bin/EncodeShader
+Consolidate compiler generated dependencies of target cjpeg-static
+[ 85%] Built target cjpeg-static
+Consolidate compiler generated dependencies of target djpeg-static
+[ 91%] Built target djpeg-static
+Consolidate compiler generated dependencies of target jpegtran-static
+[ 10%] Built target EncodeShader
+[ 95%] Built target jpegtran-static
+Consolidate compiler generated dependencies of target jsoncpp
+[ 11%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/PointCoordinates.cpp.o
+Consolidate compiler generated dependencies of target tjunittest-static
+[ 11%] Building CXX object 3rdparty/jsoncpp/CMakeFiles/jsoncpp.dir/json_reader.cpp.o
+[ 98%] Built target tjunittest-static
+Consolidate compiler generated dependencies of target tjbench-static
+[100%] Built target tjbench-static
+[ 12%] Performing install step for 'ext_turbojpeg'
+[  1%] Built target simd
+[  2%] Built target rdjpgcom
+[  4%] Built target wrjpgcom
+[  6%] Built target md5cmp
+[ 40%] Built target jpeg-static
+[ 80%] Built target turbojpeg-static
+[ 85%] Built target cjpeg-static
+[ 91%] Built target djpeg-static
+[ 95%] Built target jpegtran-static
+[ 98%] Built target tjunittest-static
+[ 12%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/Qhull.cpp.o
+[100%] Built target tjbench-static
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/lib/libturbojpeg.a
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin/tjbench
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/include/turbojpeg.h
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/lib/libjpeg.a
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin/cjpeg
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin/djpeg
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin/jpegtran
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin/rdjpgcom
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin/wrjpgcom
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/README.ijg
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/README.md
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/example.txt
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/tjexample.c
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/libjpeg.txt
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/structure.txt
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/usage.txt
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/wizard.txt
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/LICENSE.md
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/man/man1/cjpeg.1
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/man/man1/djpeg.1
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/man/man1/jpegtran.1
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/man/man1/rdjpgcom.1
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/man/man1/wrjpgcom.1
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/lib/pkgconfig/libjpeg.pc
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/lib/pkgconfig/libturbojpeg.pc
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/include/jconfig.h
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/include/jerror.h
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/include/jmorecfg.h
+-- Up-to-date: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/include/jpeglib.h
+[ 13%] Completed 'ext_turbojpeg'
+[ 14%] Built target ext_turbojpeg
+Consolidate compiler generated dependencies of target tinyfiledialogs
+[ 15%] Built target tinyfiledialogs
+Custom target build_all_3rd_party_libs reached.
+[ 15%] Built target build_all_3rd_party_libs
+[ 17%] Generating ../../../../src/Open3D/Visualization/Shader/Shader.h
+[ 17%] Built target ShaderFileTarget
+Consolidate compiler generated dependencies of target Camera
+[ 17%] Building CXX object src/Open3D/Camera/CMakeFiles/Camera.dir/PinholeCameraIntrinsic.cpp.o
+[ 18%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullFacet.cpp.o
+[ 18%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullFacetList.cpp.o
+[ 19%] Building CXX object 3rdparty/jsoncpp/CMakeFiles/jsoncpp.dir/json_value.cpp.o
+[ 20%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullFacetSet.cpp.o
+[ 20%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullHyperplane.cpp.o
+[ 21%] Linking CXX static library ../lib/libtinyobjloader.a
+[ 21%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullPoint.cpp.o
+[ 22%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullPointSet.cpp.o
+[ 22%] Built target tinyobjloader
+[ 22%] Building CXX object 3rdparty/jsoncpp/CMakeFiles/jsoncpp.dir/json_writer.cpp.o
+Consolidate compiler generated dependencies of target ColorMap
+[ 22%] Building CXX object src/Open3D/ColorMap/CMakeFiles/ColorMap.dir/ColorMapOptimization.cpp.o
+[ 22%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullPoints.cpp.o
+[ 22%] Building CXX object src/Open3D/Camera/CMakeFiles/Camera.dir/PinholeCameraParameters.cpp.o
+[ 23%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullQh.cpp.o
+[ 23%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullRidge.cpp.o
+[ 24%] Linking CXX static library ../../lib/libjsoncpp.a
+[ 24%] Built target jsoncpp
+[ 25%] Building CXX object src/Open3D/Camera/CMakeFiles/Camera.dir/PinholeCameraTrajectory.cpp.o
+[ 26%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullSet.cpp.o
+[ 26%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullStat.cpp.o
+[ 27%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullVertex.cpp.o
+[ 27%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullVertexSet.cpp.o
+[ 27%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/RboxPoints.cpp.o
+[ 28%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/RoadError.cpp.o
+[ 28%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/RoadLogEvent.cpp.o
+[ 29%] Building CXX object src/Open3D/ColorMap/CMakeFiles/ColorMap.dir/ColorMapOptimizationJacobian.cpp.o
+[ 30%] Linking CXX static library ../lib/libqhullcpp.a
+[ 30%] Built target qhullcpp
+Consolidate compiler generated dependencies of target Geometry
+[ 30%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/BoundingVolume.cpp.o
+[ 30%] Building CXX object src/Open3D/ColorMap/CMakeFiles/ColorMap.dir/EigenHelperForNonRigidOptimization.cpp.o
+[ 30%] Built target Camera
+Consolidate compiler generated dependencies of target Integration
+[ 31%] Building CXX object src/Open3D/Integration/CMakeFiles/Integration.dir/ScalableTSDFVolume.cpp.o
+[ 31%] Building CXX object src/Open3D/Integration/CMakeFiles/Integration.dir/UniformTSDFVolume.cpp.o
+[ 32%] Building CXX object src/Open3D/ColorMap/CMakeFiles/ColorMap.dir/ImageWarpingField.cpp.o
+Consolidate compiler generated dependencies of target Odometry
+[ 34%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/DownSample.cpp.o
+[ 34%] Building CXX object src/Open3D/Odometry/CMakeFiles/Odometry.dir/Odometry.cpp.o
+[ 34%] Built target Integration
+[ 35%] Building CXX object src/Open3D/Odometry/CMakeFiles/Odometry.dir/RGBDOdometryJacobian.cpp.o
+[ 35%] Building CXX object src/Open3D/ColorMap/CMakeFiles/ColorMap.dir/TriangleMeshAndImageUtilities.cpp.o
+[ 35%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/EstimateNormals.cpp.o
+[ 35%] Built target Odometry
+Consolidate compiler generated dependencies of target Registration
+[ 35%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/ColoredICP.cpp.o
+[ 36%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/Geometry3D.cpp.o
+[ 36%] Built target ColorMap
+Consolidate compiler generated dependencies of target Utility
+[ 36%] Building CXX object src/Open3D/Utility/CMakeFiles/Utility.dir/Console.cpp.o
+[ 37%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/CorrespondenceChecker.cpp.o
+[ 38%] Building CXX object src/Open3D/Utility/CMakeFiles/Utility.dir/Eigen.cpp.o
+[ 38%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/HalfEdgeTriangleMesh.cpp.o
+[ 39%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/Image.cpp.o
+[ 39%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/FastGlobalRegistration.cpp.o
+[ 39%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/Feature.cpp.o
+[ 39%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/ImageFactory.cpp.o
+[ 39%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/IntersectionTest.cpp.o
+[ 40%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/GlobalOptimization.cpp.o
+[ 40%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/PoseGraph.cpp.o
+[ 41%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/KDTreeFlann.cpp.o
+[ 41%] Building CXX object src/Open3D/Utility/CMakeFiles/Utility.dir/FileSystem.cpp.o
+[ 41%] Building CXX object src/Open3D/Utility/CMakeFiles/Utility.dir/Helper.cpp.o
+[ 42%] Building CXX object src/Open3D/Utility/CMakeFiles/Utility.dir/IJsonConvertible.cpp.o
+[ 42%] Building CXX object src/Open3D/Utility/CMakeFiles/Utility.dir/Timer.cpp.o
+Consolidate compiler generated dependencies of target IO
+[ 43%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/FeatureIO.cpp.o
+[ 43%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/IJsonConvertibleIO.cpp.o
+[ 43%] Built target Utility
+[ 43%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/LineSet.cpp.o
+[ 44%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/Registration.cpp.o
+Consolidate compiler generated dependencies of target Visualization
+[ 44%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/GeometryRenderer.cpp.o
+[ 44%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/ImageIO.cpp.o
+[ 45%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/ImageMaskShader.cpp.o
+[ 46%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/LineSetFactory.cpp.o
+[ 46%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/TransformationEstimation.cpp.o
+[ 46%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/ImageShader.cpp.o
+[ 47%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/ImageWarpingFieldIO.cpp.o
+[ 47%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/MeshBase.cpp.o
+[ 47%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/NormalShader.cpp.o
+[ 48%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/Octree.cpp.o
+[ 50%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/PhongShader.cpp.o
+[ 50%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/LineSetIO.cpp.o
+[ 50%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/PickingShader.cpp.o
+[ 50%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/PointCloud.cpp.o
+[ 51%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/OctreeIO.cpp.o
+[ 51%] Built target Registration
+[ 51%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/PinholeCameraTrajectoryIO.cpp.o
+[ 52%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/RGBDImageShader.cpp.o
+[ 52%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/ShaderWrapper.cpp.o
+[ 53%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/PointCloudIO.cpp.o
+[ 54%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/Simple2DShader.cpp.o
+[ 55%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/PointCloudCluster.cpp.o
+[ 55%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/SimpleBlackShader.cpp.o
+[ 56%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/SimpleShader.cpp.o
+[ 56%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/PoseGraphIO.cpp.o
+[ 56%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/PointCloudFactory.cpp.o
+[ 56%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/PointCloudSegmentation.cpp.o
+[ 56%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/TexturePhongShader.cpp.o
+[ 57%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/TriangleMeshIO.cpp.o
+[ 58%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/Qhull.cpp.o
+[ 58%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/VoxelGridIO.cpp.o
+[ 58%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/TextureSimpleShader.cpp.o
+[ 59%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Utility/ColorMap.cpp.o
+[ 59%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/RGBDImage.cpp.o
+[ 59%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileBIN.cpp.o
+[ 60%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileGLTF.cpp.o
+[ 61%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/RGBDImageFactory.cpp.o
+[ 61%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Utility/DrawGeometry.cpp.o
+[ 62%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Utility/GLHelper.cpp.o
+[ 62%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/SurfaceReconstructionAlphaShape.cpp.o
+[ 63%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/SurfaceReconstructionBallPivoting.cpp.o
+[ 63%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Utility/PointCloudPicker.cpp.o
+[ 64%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Utility/SelectionPolygon.cpp.o
+[ 64%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Utility/SelectionPolygonVolume.cpp.o
+[ 64%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/SurfaceReconstructionPoisson.cpp.o
+[ 65%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TetraMesh.cpp.o
+[ 67%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/RenderOption.cpp.o
+[ 67%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/RenderOptionWithEditing.cpp.o
+[ 67%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/ViewControl.cpp.o
+[ 68%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/ViewControlWithCustomAnimation.cpp.o
+[ 68%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileJPG.cpp.o
+[ 69%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileJSON.cpp.o
+[ 69%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/ViewControlWithEditing.cpp.o
+[ 70%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/ViewParameters.cpp.o
+[ 70%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TetraMeshFactory.cpp.o
+[ 70%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileLOG.cpp.o
+[ 70%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/ViewTrajectory.cpp.o
+[ 71%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/Visualizer.cpp.o
+[ 72%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileOBJ.cpp.o
+[ 72%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileOFF.cpp.o
+[ 72%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/VisualizerCallback.cpp.o
+[ 73%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/VisualizerRender.cpp.o
+[ 73%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/VisualizerWithCustomAnimation.cpp.o
+[ 74%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FilePCD.cpp.o
+[ 74%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TriangleMesh.cpp.o
+[ 74%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FilePLY.cpp.o
+[ 74%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/VisualizerWithEditing.cpp.o
+[ 75%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/VisualizerWithKeyCallback.cpp.o
+[ 75%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FilePNG.cpp.o
+[ 75%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/VisualizerWithVertexSelection.cpp.o
+[ 76%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TriangleMeshDeformation.cpp.o
+[ 76%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TriangleMeshFactory.cpp.o
+[ 77%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FilePTS.cpp.o
+[ 77%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileSTL.cpp.o
+[ 78%] Built target Visualization
+[ 79%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TriangleMeshSimplification.cpp.o
+[ 79%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TriangleMeshSubdivide.cpp.o
+[ 80%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileTUM.cpp.o
+[ 81%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/VoxelGrid.cpp.o
+/root/autodl-tmp/dpgs-builds/Open3D-0.9/src/Open3D/Geometry/TriangleMeshSimplification.cpp: In function ‘open3d::geometry::TriangleMesh::SimplifyQuadricDecimation(int) const::<lambda(int, int, bool)>’:
+/root/autodl-tmp/dpgs-builds/Open3D-0.9/src/Open3D/Geometry/TriangleMeshSimplification.cpp:366:43: warning: ‘vbar’ may be used uninitialized [-Wmaybe-uninitialized]
+  366 |                 double costmid = Qbar.Eval(vbar);
+      |                                  ~~~~~~~~~^~~~~~
+/root/autodl-tmp/dpgs-builds/Open3D-0.9/src/Open3D/Geometry/TriangleMeshSimplification.cpp:72:12: note: by argument 2 of type ‘const Vector3d&’ {aka ‘const Eigen::Matrix<double, 3, 1>&’} to ‘double open3d::geometry::Quadric::Eval(const Vector3d&) const’ declared here
+   72 |     double Eval(const Eigen::Vector3d& v) const {
+      |            ^~~~
+/root/autodl-tmp/dpgs-builds/Open3D-0.9/src/Open3D/Geometry/TriangleMeshSimplification.cpp:356:29: note: ‘vbar’ declared here
+  356 |             Eigen::Vector3d vbar;
+      |                             ^~~~
+[ 81%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/VoxelGridFactory.cpp.o
+[ 81%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileXYZ.cpp.o
+[ 82%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileXYZN.cpp.o
+[ 82%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileXYZRGB.cpp.o
+[ 84%] Building C object src/Open3D/IO/CMakeFiles/IO.dir/__/__/__/3rdparty/rply/rply.c.o
+[ 84%] Built target Geometry
+[ 84%] Building C object src/Open3D/IO/CMakeFiles/IO.dir/__/__/__/3rdparty/liblzf/lzf_c.c.o
+[ 84%] Building C object src/Open3D/IO/CMakeFiles/IO.dir/__/__/__/3rdparty/liblzf/lzf_d.c.o
+[ 84%] Built target IO
+[ 84%] Building CXX object src/Open3D/CMakeFiles/Open3D.dir/Open3DConfig.cpp.o
+[ 85%] Linking CXX static library ../../lib/libOpen3D.a
+[ 85%] Built target Open3D
+[ 85%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/camera/camera.cpp.o
+[ 86%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/docstring.cpp.o
+[ 86%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/color_map/color_map.cpp.o
+[ 86%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/geometry/boundingvolume.cpp.o
+[ 87%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/geometry/geometry.cpp.o
+[ 87%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/geometry/halfedgetrianglemesh.cpp.o
+[ 88%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/geometry/image.cpp.o
+[ 88%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/geometry/kdtreeflann.cpp.o
+[ 89%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/geometry/lineset.cpp.o
+[ 89%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/geometry/meshbase.cpp.o
+[ 90%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/geometry/octree.cpp.o
+[ 90%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/geometry/pointcloud.cpp.o
+[ 90%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/geometry/tetramesh.cpp.o
+[ 91%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/geometry/trianglemesh.cpp.o
+[ 91%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/geometry/voxelgrid.cpp.o
+[ 92%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/integration/integration.cpp.o
+[ 92%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/io/class_io.cpp.o
+[ 93%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/io/io.cpp.o
+[ 93%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/odometry/odometry.cpp.o
+[ 94%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/open3d_pybind.cpp.o
+[ 94%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/registration/feature.cpp.o
+[ 94%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/registration/global_optimization.cpp.o
+[ 95%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/registration/registration.cpp.o
+[ 95%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/utility/console.cpp.o
+[ 96%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/utility/eigen.cpp.o
+[ 96%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/utility/utility.cpp.o
+[ 97%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/visualization/renderoption.cpp.o
+[ 97%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/visualization/utility.cpp.o
+[ 98%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/visualization/viewcontrol.cpp.o
+[ 98%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/visualization/visualization.cpp.o
+[ 98%] Building CXX object src/Python/CMakeFiles/open3d.dir/open3d_pybind/visualization/visualizer.cpp.o
+[100%] Linking CXX shared module ../../lib/Python/open3d.cpython-310-x86_64-linux-gnu.so
+lto-wrapper: warning: using serial compilation of 44 LTRANS jobs
+[100%] Built target open3d
+[100%] Built target python-package
+/root/autodl-tmp/DP-GS/repro/tnt_eval_env/.venv/lib/python3.10/site-packages/wheel/bdist_wheel.py:4: FutureWarning: The 'wheel' package is no longer the canonical location of the 'bdist_wheel' command, and will be removed in a future release. Please update to setuptools v70.1 or later which contains an integrated version of this command.
+  warn(
+/root/autodl-tmp/DP-GS/repro/tnt_eval_env/.venv/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: MIT License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running bdist_wheel
+running build
+running build_py
+creating build/lib/open3d
+copying open3d/__init__.py -> build/lib/open3d
+copying open3d/j_visualizer.py -> build/lib/open3d
+running egg_info
+creating open3d.egg-info
+writing open3d.egg-info/PKG-INFO
+writing dependency_links to open3d.egg-info/dependency_links.txt
+writing requirements to open3d.egg-info/requires.txt
+writing top-level names to open3d.egg-info/top_level.txt
+writing manifest file 'open3d.egg-info/SOURCES.txt'
+reading manifest file 'open3d.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'open3d/open3d*.pyd'
+warning: no files found matching 'open3d/*depthengine*'
+warning: no files found matching 'open3d/*k4a*'
+warning: no files found matching 'open3d/*libstdc*'
+warning: no files found matching '*.*' under directory 'open3d/static'
+warning: no previously-included files matching '*.py[co]' found anywhere in distribution
+adding license file 'LICENSE.txt'
+writing manifest file 'open3d.egg-info/SOURCES.txt'
+copying open3d/open3d.cpython-310-x86_64-linux-gnu.so -> build/lib/open3d
+/root/autodl-tmp/DP-GS/repro/tnt_eval_env/.venv/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:90: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel/open3d-0.9.0.0.data/purelib
+creating build/bdist.linux-x86_64/wheel/open3d-0.9.0.0.data/purelib/open3d
+copying build/lib/open3d/__init__.py -> build/bdist.linux-x86_64/wheel/open3d-0.9.0.0.data/purelib/open3d
+copying build/lib/open3d/j_visualizer.py -> build/bdist.linux-x86_64/wheel/open3d-0.9.0.0.data/purelib/open3d
+copying build/lib/open3d/open3d.cpython-310-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/wheel/open3d-0.9.0.0.data/purelib/open3d
+running install_data
+creating build/bdist.linux-x86_64/wheel/open3d-0.9.0.0.data/data
+creating build/bdist.linux-x86_64/wheel/open3d-0.9.0.0.data/data/share/jupyter/nbextensions/open3d
+creating build/bdist.linux-x86_64/wheel/open3d-0.9.0.0.data/data/etc/jupyter/nbconfig/notebook.d
+copying enable_jupyter_extension.json -> build/bdist.linux-x86_64/wheel/open3d-0.9.0.0.data/data/etc/jupyter/nbconfig/notebook.d
+running install_egg_info
+Copying open3d.egg-info to build/bdist.linux-x86_64/wheel/open3d-0.9.0.0.data/purelib/open3d-0.9.0.0-py3.10.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/open3d-0.9.0.0.dist-info/WHEEL
+creating 'pip_package/open3d-0.9.0.0-cp310-cp310-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'open3d-0.9.0.0.data/data/etc/jupyter/nbconfig/notebook.d/enable_jupyter_extension.json'
+adding 'open3d-0.9.0.0.data/purelib/open3d/__init__.py'
+adding 'open3d-0.9.0.0.data/purelib/open3d/j_visualizer.py'
+adding 'open3d-0.9.0.0.data/purelib/open3d/open3d.cpython-310-x86_64-linux-gnu.so'
+adding 'open3d-0.9.0.0.dist-info/licenses/LICENSE.txt'
+adding 'open3d-0.9.0.0.dist-info/METADATA'
+adding 'open3d-0.9.0.0.dist-info/WHEEL'
+adding 'open3d-0.9.0.0.dist-info/top_level.txt'
+adding 'open3d-0.9.0.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+pip wheel created at /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/lib/python_package/pip_package
+[100%] Built target pip-package

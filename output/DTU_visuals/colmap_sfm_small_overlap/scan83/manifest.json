@@ -1,0 +1,62 @@
+{
+  "scan": 83,
+  "model": "/autodl-fs/data/dpgs/output/DTU/scan83_colmap_sfm_small_overlap",
+  "iteration": 10000,
+  "cd": 1.101205253180491,
+  "model_sha256": "4246bb4da9f56441a7651ff4ac9906de6908514ed0bac496fdf08fd2f7c576ee",
+  "protected_files_unchanged": true,
+  "views": [
+    {
+      "view": "0022",
+      "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan83/images/0022.png",
+      "size": [
+        777,
+        581
+      ],
+      "camera_uid": 0,
+      "training_view": true,
+      "alpha_mask_applied_for_display": true,
+      "depth_display_2_98_percentiles": [
+        2.646882667541504,
+        2.997756071090698
+      ],
+      "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+      "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+    },
+    {
+      "view": "0025",
+      "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan83/images/0025.png",
+      "size": [
+        777,
+        581
+      ],
+      "camera_uid": 1,
+      "training_view": true,
+      "alpha_mask_applied_for_display": true,
+      "depth_display_2_98_percentiles": [
+        2.5966907215118407,
+        2.999526872634888
+      ],
+      "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+      "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+    },
+    {
+      "view": "0028",
+      "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan83/images/0028.png",
+      "size": [
+        777,
+        581
+      ],
+      "camera_uid": 2,
+      "training_view": true,
+      "alpha_mask_applied_for_display": true,
+      "depth_display_2_98_percentiles": [
+        2.330607328414917,
+        2.9046167945861816
+      ],
+      "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+      "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+    }
+  ],
+  "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan83"
+}

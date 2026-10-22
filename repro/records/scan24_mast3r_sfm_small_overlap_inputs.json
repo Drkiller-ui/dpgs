@@ -1,0 +1,80 @@
+{
+  "arguments": {
+    "scan": 24,
+    "data_type": "small_overlap",
+    "sfm_type": "mast3r_sfm",
+    "stage": "inputs",
+    "data_root": "data/DTU_mast3r_recomputed",
+    "output_root": "/root/autodl-tmp/DP-GS/output",
+    "gt_root": "/root/autodl-tmp/DP-GS/data/DTU_GT"
+  },
+  "views": [
+    {
+      "name": "0022.png",
+      "image_size": [
+        1554,
+        1162
+      ],
+      "normal_shape": [
+        581,
+        777,
+        3
+      ]
+    },
+    {
+      "name": "0025.png",
+      "image_size": [
+        1554,
+        1162
+      ],
+      "normal_shape": [
+        581,
+        777,
+        3
+      ]
+    },
+    {
+      "name": "0028.png",
+      "image_size": [
+        1554,
+        1162
+      ],
+      "normal_shape": [
+        581,
+        777,
+        3
+      ]
+    }
+  ],
+  "initialization": {
+    "points": 481186,
+    "minimum": [
+      -1.3763797927505497,
+      -2.1377893142283746,
+      -0.7049421949021546
+    ],
+    "maximum": [
+      0.9577971665432057,
+      1.0760901558694238,
+      1.3808735647601775
+    ]
+  },
+  "ground_truth": {
+    "points": 5169152,
+    "minimum": [
+      -354.82672119140625,
+      -348.1523132324219,
+      473.37384033203125
+    ],
+    "maximum": [
+      223.83758544921875,
+      443.9493713378906,
+      944.4434204101562
+    ]
+  },
+  "observation_mask_shape": [
+    386,
+    492,
+    399
+  ]
+}

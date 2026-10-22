@@ -1,0 +1,19 @@
+{
+  "upstream_commit": "dc1ce835ea3c6bb7887333c50df7a13497a45c09",
+  "arguments": {
+    "data_root": "/root/autodl-tmp/DP-GS/data/DTU",
+    "gt_root": "/root/autodl-tmp/DP-GS/data/DTU_GT",
+    "scans": [
+      97
+    ],
+    "data_type": "small_overlap",
+    "sfm_type": "colmap_sfm",
+    "output_root": "/autodl-fs/data/dpgs/output",
+    "stage": "prepare",
+    "gpu": "0",
+    "dry_run": false,
+    "force": false,
+    "recompute_normals": false
+  },
+  "commands": []
+}

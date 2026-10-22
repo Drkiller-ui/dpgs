@@ -1,0 +1,32 @@
+{
+  "scan": 24,
+  "data_type": "small_overlap",
+  "sfm_type": "colmap_sfm",
+  "iterations": 10000,
+  "training_progress_elapsed_seconds": 619,
+  "peak_gpu_memory_mib_so_far": 2730,
+  "final_gaussians": 218906,
+  "postprocessed_mesh_vertices": 639288,
+  "phase": "completed",
+  "log_dir": "logs/scan24_colmap_small_20261020T133339Z_6505",
+  "peak_gpu_memory_mib": 2730,
+  "stage_timings": [
+    {
+      "script": "train.py",
+      "seconds": 630.648166179657
+    },
+    {
+      "script": "render_and_mesh_extract.py",
+      "seconds": 13.159586668014526
+    },
+    {
+      "script": "repro/eval_dtu.py",
+      "seconds": 76.04978847503662
+    }
+  ],
+  "metrics": {
+    "mean_d2s": 1.328720698095878,
+    "mean_s2d": 1.240790276161164,
+    "overall": 1.284755487128521
+  }
+}

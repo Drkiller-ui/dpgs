@@ -1,0 +1,28 @@
+Run directory: logs/mirror-warm_20261020T131529Z_3578
+Using CPython 3.10.20 interpreter at: .venv/bin/python
+Resolved 8 packages in 2.45s
+Downloading nvidia-cudnn-cu12 (634.0MiB)
+Downloading nvidia-nccl-cu12 (168.1MiB)
+Downloading nvidia-cusolver-cu12 (122.5MiB)
+Downloading nvidia-cublas-cu12 (346.2MiB)
+Downloading nvidia-cufft-cu12 (201.7MiB)
+Downloading nvidia-cusparse-cu12 (197.8MiB)
+ Downloaded nvidia-cusolver-cu12
+ Downloaded nvidia-nccl-cu12
+ Downloaded nvidia-cusparse-cu12
+ Downloaded nvidia-cufft-cu12
+ Downloaded nvidia-cublas-cu12
+ Downloaded nvidia-cudnn-cu12
+Prepared 8 packages in 1m 48s
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 8 packages in 572ms
+ + nvidia-cublas-cu12==12.4.2.65 (from https://download.pytorch.org/whl/cu124/nvidia_cublas_cu12-12.4.2.65-py3-none-manylinux2014_x86_64.whl)
+ + nvidia-cuda-runtime-cu12==12.4.99 (from https://download.pytorch.org/whl/cu124/nvidia_cuda_runtime_cu12-12.4.99-py3-none-manylinux2014_x86_64.whl)
+ + nvidia-cudnn-cu12==9.1.0.70 (from https://download.pytorch.org/whl/cu124/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl)
+ + nvidia-cufft-cu12==11.2.0.44 (from https://download.pytorch.org/whl/cu124/nvidia_cufft_cu12-11.2.0.44-py3-none-manylinux2014_x86_64.whl)
+ + nvidia-cusolver-cu12==11.6.0.99 (from https://download.pytorch.org/whl/cu124/nvidia_cusolver_cu12-11.6.0.99-py3-none-manylinux2014_x86_64.whl)
+ + nvidia-cusparse-cu12==12.3.0.142 (from https://download.pytorch.org/whl/cu124/nvidia_cusparse_cu12-12.3.0.142-py3-none-manylinux2014_x86_64.whl)
+ + nvidia-nccl-cu12==2.20.5 (from https://download.pytorch.org/whl/cu124/nvidia_nccl_cu12-2.20.5-py3-none-manylinux2014_x86_64.whl)
+ + nvidia-nvtx-cu12==12.4.99 (from https://download.pytorch.org/whl/cu124/nvidia_nvtx_cu12-12.4.99-py3-none-manylinux2014_x86_64.whl)

@@ -1,0 +1,11 @@
+Run directory: logs/open3d-warm_20261020T132357Z_4254
+Using CPython 3.10.20 interpreter at: .venv/bin/python
+Resolved 1 package in 1.82s
+Downloading open3d (426.9MiB)
+ Downloaded open3d
+Prepared 1 package in 1m 24s
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 613ms
+ + open3d==0.19.0 (from https://pypi.tuna.tsinghua.edu.cn/packages/c7/45/13bc9414ee9db611cba90b9efa69f66f246560e8ade575f1ee5b7f7b5d31/open3d-0.19.0-cp310-cp310-manylinux_2_31_x86_64.whl)

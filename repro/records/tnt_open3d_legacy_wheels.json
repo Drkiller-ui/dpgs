@@ -1,0 +1,60 @@
+[
+  {
+    "version": "0.9.0",
+    "wheels": [
+      {
+        "filename": "open3d-0.9.0.0-cp27-cp27mu-manylinux1_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/67/6e/4b0b124007f642c6305b4444ed7c143867d3fc74e90efaf0c51ecfe5db6a/open3d-0.9.0.0-cp27-cp27mu-manylinux1_x86_64.whl",
+        "bytes": 4914439,
+        "sha256": "f8c1a476178faddfb21cee9403ae97bb2fbf7337f15574227fcf8f248715ed6e"
+      },
+      {
+        "filename": "open3d-0.9.0.0-cp35-cp35m-manylinux1_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/4b/0a/c8dd5edeb29a45d02ecc48b5261454b0703880e7e37b28ff102dfe9b5f85/open3d-0.9.0.0-cp35-cp35m-manylinux1_x86_64.whl",
+        "bytes": 4914273,
+        "sha256": "d1f6b19b11e6698379c3229e759dedffe2b948e78c35f7bf052732055fd236cb"
+      },
+      {
+        "filename": "open3d-0.9.0.0-cp36-cp36m-manylinux1_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/d2/e3/83e1918760ff82d796a07506c1483a24148825ddc6bb4aab4fb7e96fb0c4/open3d-0.9.0.0-cp36-cp36m-manylinux1_x86_64.whl",
+        "bytes": 4914268,
+        "sha256": "10b875f2f010f81a8335b0bce4f92f9aa2942abac3f3c1989b347c4a636e526e"
+      },
+      {
+        "filename": "open3d-0.9.0.0-cp37-cp37m-manylinux1_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/b2/a6/37327951a750ae35672a20177c66b23e00f0f612894b63d427204cbc1ecd/open3d-0.9.0.0-cp37-cp37m-manylinux1_x86_64.whl",
+        "bytes": 4910804,
+        "sha256": "9558b5ce3deb6ed4b508fb2e726d5fcf320b83295f1df8d3faf3236a3384a935"
+      }
+    ]
+  },
+  {
+    "version": "0.9.0.0",
+    "wheels": [
+      {
+        "filename": "open3d-0.9.0.0-cp27-cp27mu-manylinux1_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/67/6e/4b0b124007f642c6305b4444ed7c143867d3fc74e90efaf0c51ecfe5db6a/open3d-0.9.0.0-cp27-cp27mu-manylinux1_x86_64.whl",
+        "bytes": 4914439,
+        "sha256": "f8c1a476178faddfb21cee9403ae97bb2fbf7337f15574227fcf8f248715ed6e"
+      },
+      {
+        "filename": "open3d-0.9.0.0-cp35-cp35m-manylinux1_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/4b/0a/c8dd5edeb29a45d02ecc48b5261454b0703880e7e37b28ff102dfe9b5f85/open3d-0.9.0.0-cp35-cp35m-manylinux1_x86_64.whl",
+        "bytes": 4914273,
+        "sha256": "d1f6b19b11e6698379c3229e759dedffe2b948e78c35f7bf052732055fd236cb"
+      },
+      {
+        "filename": "open3d-0.9.0.0-cp36-cp36m-manylinux1_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/d2/e3/83e1918760ff82d796a07506c1483a24148825ddc6bb4aab4fb7e96fb0c4/open3d-0.9.0.0-cp36-cp36m-manylinux1_x86_64.whl",
+        "bytes": 4914268,
+        "sha256": "10b875f2f010f81a8335b0bce4f92f9aa2942abac3f3c1989b347c4a636e526e"
+      },
+      {
+        "filename": "open3d-0.9.0.0-cp37-cp37m-manylinux1_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/b2/a6/37327951a750ae35672a20177c66b23e00f0f612894b63d427204cbc1ecd/open3d-0.9.0.0-cp37-cp37m-manylinux1_x86_64.whl",
+        "bytes": 4910804,
+        "sha256": "9558b5ce3deb6ed4b508fb2e726d5fcf320b83295f1df8d3faf3236a3384a935"
+      }
+    ]
+  }
+]

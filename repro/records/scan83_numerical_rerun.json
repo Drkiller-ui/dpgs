@@ -1,0 +1,10 @@
+{
+  "rerun_total_loss_samples": 10000,
+  "rerun_nonfinite_steps": [],
+  "empty_propagation_events": [
+    "[ITER 8003] Empty propagated depth mask for 0028; zero propagation loss [22/10 11:15:43]"
+  ],
+  "passed_full_output_validation": true,
+  "note": "Original failed run retained; rerun accepted by model finiteness and geometry/metric validation, not by CD ranking",
+  "original_iteration_4005_components_not_captured": true
+}

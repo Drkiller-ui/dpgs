@@ -1,0 +1,27 @@
+Run directory: logs/tnt_assets_20261020T135525Z_8493
+TNT_FAILED Barn images Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator.
+TNT_FAILED Caterpillar images Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator.
+TNT_FAILED Ignatius ground_truth Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator.
+TNT_FAILED Ignatius images Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator.
+TNT_FAILED Truck ground_truth Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator.
+TNT_FAILED Truck images Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator.
+TNT_READY Barn trajectory 104669
+TNT_READY Barn alignment 407
+TNT_READY Barn crop 1257
+TNT_READY Caterpillar trajectory 97410
+TNT_READY Caterpillar alignment 406
+TNT_READY Caterpillar crop 2099
+TNT_READY Ignatius trajectory 66736
+TNT_READY Ignatius alignment 408
+TNT_READY Barn ground_truth 344152660
+TNT_READY Ignatius crop 952
+TNT_READY Truck trajectory 63753
+TNT_READY Truck alignment 408
+TNT_READY Truck crop 631
+TNT_READY Caterpillar ground_truth 370031940
+Traceback (most recent call last):
+  File "/root/autodl-tmp/DP-GS/repro/fetch_tnt_assets.py", line 116, in <module>
+    main()
+  File "/root/autodl-tmp/DP-GS/repro/fetch_tnt_assets.py", line 112, in main
+    raise RuntimeError('Some TNT assets are unavailable; see ' + str(path))
+RuntimeError: Some TNT assets are unavailable; see /root/autodl-tmp/DP-GS/repro/records/tnt_current_assets.json

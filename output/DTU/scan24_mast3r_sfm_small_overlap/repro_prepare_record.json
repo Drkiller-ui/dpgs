@@ -1,0 +1,36 @@
+{
+  "upstream_commit": "dc1ce835ea3c6bb7887333c50df7a13497a45c09",
+  "arguments": {
+    "data_root": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed",
+    "gt_root": null,
+    "scans": [
+      24
+    ],
+    "data_type": "small_overlap",
+    "sfm_type": "mast3r_sfm",
+    "output_root": "/autodl-fs/data/dpgs/output",
+    "stage": "prepare",
+    "gpu": "0",
+    "dry_run": false,
+    "force": false,
+    "recompute_normals": false
+  },
+  "commands": [
+    {
+      "command": [
+        "/root/autodl-tmp/DP-GS/.venv/bin/python",
+        "run_mast3r.py",
+        "--scene_path",
+        "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan24",
+        "--output_dir",
+        "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan24/mast3r",
+        "--image_idx",
+        "0",
+        "1",
+        "2"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS/mast3r",
+      "seconds": 105.72364854812622
+    }
+  ]
+}

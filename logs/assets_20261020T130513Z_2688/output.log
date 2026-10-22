@@ -1,0 +1,8 @@
+Run directory: logs/assets_20261020T130513Z_2688
+Installed 12 packages in 663ms
+SampleSet.zip remote bytes 6905656531 entries 2115
+Already extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask24_10.mat
+Already extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane24.mat
+Points.zip remote bytes 6966262016 entries 126
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl024_total.ply
+DTU_GT_READY

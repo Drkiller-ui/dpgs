@@ -1,0 +1,942 @@
+{
+  "generated_at": "2026-10-22T04:51:33.567092+00:00",
+  "seconds": 113.82211756706238,
+  "scans": 15,
+  "views": 45,
+  "training_views_only": true,
+  "retrained": false,
+  "existing_artifacts_unchanged": true,
+  "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap",
+  "reports": [
+    {
+      "scan": 24,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan24_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 1.284755487128521,
+      "model_sha256": "8d3713035c6f4e7e2b3bf7e4a7d787eb37cd3f965e09cb85a48f59a5df785899",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan24/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.7511919689178468,
+            2.38785397529602
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan24/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.8381496524810792,
+            2.3897875118255616
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan24/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.556097218990326,
+            2.238434100151062
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan24"
+    },
+    {
+      "scan": 37,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan37_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 1.8357423188122193,
+      "model_sha256": "0164419445d95ae89f85bb5133e85894a9a52edcf45805ba8ac7cc67083cc0a1",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan37/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.059441328048706,
+            2.967061996459961
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan37/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.145279145240784,
+            3.018378400802612
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan37/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.091784610748291,
+            2.934389839172363
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan37"
+    },
+    {
+      "scan": 40,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan40_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 1.554857421004587,
+      "model_sha256": "5a702754c16c1b6e303943b0e86ddce8d32ae181577d56c806bf2bc16f177f92",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan40/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.4993583130836488,
+            2.1372135925292968
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan40/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.547015826702118,
+            2.177821888923645
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan40/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.2760816836357116,
+            2.114658598899841
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan40"
+    },
+    {
+      "scan": 55,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan55_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 0.684329062478036,
+      "model_sha256": "141b904cbc69cc9a7c1de7844000249d5159078d3e6acf382a8e81cee43f50eb",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan55/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.9615811705589294,
+            2.554059624671936
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan55/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.0033161640167236,
+            2.5102163219451903
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan55/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.0770578289031985,
+            2.396228857040405
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan55"
+    },
+    {
+      "scan": 63,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan63_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 0.7963137112419134,
+      "model_sha256": "b7ad13782444a4b74b2e4fe20d9d85a3f5dd680dfecca66f7bf94eb26e9ac7b0",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan63/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.9213493919372557,
+            3.4874026632308963
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan63/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.9687361907958985,
+            3.6374846935272216
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan63/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.7766684913635253,
+            3.3890736007690427
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan63"
+    },
+    {
+      "scan": 65,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan65_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 1.2283556493158934,
+      "model_sha256": "6707e31519a7e53de725c85ecae16c8fa5fd4b88e37b51931bfb9c47464c7245",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan65/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.393327522277832,
+            2.7276720523834226
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan65/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.4007551431655885,
+            2.78177125453949
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan65/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.7884874534606934,
+            2.599026837348938
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan65"
+    },
+    {
+      "scan": 69,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan69_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 0.6086934138884827,
+      "model_sha256": "9bb251e912cdd79334ca2c120c96c9855820a8e36c14c8b80bc44a1fdad3a911",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan69/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.9703847980499267,
+            2.4826888751983645
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan69/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.969195885658264,
+            2.4120704078674318
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan69/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.7241761016845703,
+            2.4525792884826663
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan69"
+    },
+    {
+      "scan": 83,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan83_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 1.101205253180491,
+      "model_sha256": "4246bb4da9f56441a7651ff4ac9906de6908514ed0bac496fdf08fd2f7c576ee",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan83/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.646882667541504,
+            2.997756071090698
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan83/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.5966907215118407,
+            2.999526872634888
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan83/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.330607328414917,
+            2.9046167945861816
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan83"
+    },
+    {
+      "scan": 97,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan97_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 0.80780451620503,
+      "model_sha256": "d692d1d5c1b1f62c29f14512cd266b30ea1f5bbc1d95efcc314cc07f34278c1d",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan97/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.7224835109710694,
+            2.093940505981445
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan97/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.7446539998054504,
+            2.113131046295166
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan97/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.5474640703201294,
+            2.119033679962158
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan97"
+    },
+    {
+      "scan": 105,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan105_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 0.8238323599270428,
+      "model_sha256": "fdd32a5692ae19ca629b4a75bfc07b1375a92dc53251879c4f4fa13e88ccba24",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan105/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.941894769668579,
+            2.292548179626465
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan105/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.943752555847168,
+            2.263360033035278
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan105/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.6527855348587037,
+            2.333213753700256
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan105"
+    },
+    {
+      "scan": 106,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan106_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 0.8031309514632854,
+      "model_sha256": "7af9bdfe6590e913aa81230ffcb211c85345e1148e6b130132a9a137af828dd1",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan106/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.6732208442687988,
+            2.098535614013672
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan106/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.6618138790130614,
+            2.1368210315704346
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan106/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.3572696781158446,
+            2.0069320249557494
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan106"
+    },
+    {
+      "scan": 110,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan110_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 0.5422628816640946,
+      "model_sha256": "5fce8fd26430629992aaa17f150b1c05f87e4c4719e18dadd4a79aa74240429b",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan110/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.904136576652527,
+            2.30346999168396
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan110/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.9229895234107972,
+            2.265612816810608
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan110/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.7492329120635985,
+            2.3180341720581055
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan110"
+    },
+    {
+      "scan": 114,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan114_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 0.42941710585562387,
+      "model_sha256": "5b7a2e31743b341add8ce0fa2c7a6011790bbd7fd9d64fbd5b7d7c145eab36dc",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan114/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.5861579918861388,
+            1.9331637692451478
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan114/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.6530529642105103,
+            1.8907934141159057
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan114/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.3940251111984252,
+            1.900109338760376
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan114"
+    },
+    {
+      "scan": 118,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan118_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 0.649453515518904,
+      "model_sha256": "2da293b0861f2c13d4b97fb4788951d20af2e42d6ebc7e75785dd1bfbe1ed644",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan118/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.873608613014221,
+            2.314193077087402
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan118/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.9049596977233887,
+            2.2547910690307615
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan118/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            1.7360509967803954,
+            2.145857434272766
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan118"
+    },
+    {
+      "scan": 122,
+      "model": "/autodl-fs/data/dpgs/output/DTU/scan122_colmap_sfm_small_overlap",
+      "iteration": 10000,
+      "cd": 0.9019409374593914,
+      "model_sha256": "bc2656f2049084d13d363e1727b4f1321ba206693e5eed1ad5fbb2e739f00c9c",
+      "protected_files_unchanged": true,
+      "views": [
+        {
+          "view": "0022",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan122/images/0022.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 0,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.01109169960022,
+            2.6392804813385045
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0025",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan122/images/0025.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 1,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.0043034172058105,
+            2.5158036422729495
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        },
+        {
+          "view": "0028",
+          "source_image": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan122/images/0028.png",
+          "size": [
+            777,
+            581
+          ],
+          "camera_uid": 2,
+          "training_view": true,
+          "alpha_mask_applied_for_display": true,
+          "depth_display_2_98_percentiles": [
+            2.0125389194488523,
+            2.419923815727234
+          ],
+          "depth_units": "model camera coordinates; no conversion to DTU millimeters",
+          "normal_coordinates": "camera-local xyz; RGB = 0.5 * normalized normal + 0.5"
+        }
+      ],
+      "output": "/autodl-fs/data/dpgs/output/DTU_visuals/colmap_sfm_small_overlap/scan122"
+    }
+  ]
+}

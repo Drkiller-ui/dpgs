@@ -1,0 +1,6 @@
+timestamp, index, name, memory.used [MiB], memory.total [MiB], utilization.gpu [%]
+2026/10/20 21:06:48.128, 0, NVIDIA GeForce RTX 4080 SUPER, 1 MiB, 32760 MiB, 0 %
+2026/10/20 21:06:49.131, 0, NVIDIA GeForce RTX 4080 SUPER, 1 MiB, 32760 MiB, 0 %
+2026/10/20 21:06:50.132, 0, NVIDIA GeForce RTX 4080 SUPER, 1 MiB, 32760 MiB, 0 %
+2026/10/20 21:06:51.134, 0, NVIDIA GeForce RTX 4080 SUPER, 1 MiB, 32760 MiB, 0 %
+2026/10/20 21:06:52.135, 0, NVIDIA GeForce RTX 4080 SUPER, 1 MiB, 32760 MiB, 0 %

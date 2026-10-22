@@ -1,0 +1,37 @@
+[
+  {
+    "model": "scan24_colmap_sfm_small_overlap",
+    "total_loss_samples": 10000,
+    "nonfinite_steps": []
+  },
+  {
+    "model": "scan37_colmap_sfm_small_overlap",
+    "total_loss_samples": 10000,
+    "nonfinite_steps": []
+  },
+  {
+    "model": "scan40_colmap_sfm_small_overlap",
+    "total_loss_samples": 10000,
+    "nonfinite_steps": []
+  },
+  {
+    "model": "scan55_colmap_sfm_small_overlap",
+    "total_loss_samples": 10000,
+    "nonfinite_steps": []
+  },
+  {
+    "model": "scan63_colmap_sfm_small_overlap",
+    "total_loss_samples": 10000,
+    "nonfinite_steps": []
+  },
+  {
+    "model": "scan65_colmap_sfm_small_overlap",
+    "total_loss_samples": 10000,
+    "nonfinite_steps": []
+  },
+  {
+    "model": "scan69_colmap_sfm_small_overlap",
+    "total_loss_samples": 10000,
+    "nonfinite_steps": []
+  }
+]

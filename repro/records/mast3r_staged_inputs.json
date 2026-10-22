@@ -1,0 +1,182 @@
+[
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan24",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan24",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan24/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan24/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan37",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan37",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan37/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan37/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan40",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan40",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan40/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan40/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan55",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan55",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan55/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan55/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan63",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan63",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan63/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan63/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan65",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan65",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan65/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan65/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan69",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan69",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan69/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan69/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan83",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan83",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan83/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan83/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan97",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan97",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan97/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan97/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan105",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan105",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan105/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan105/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan106",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan106",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan106/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan106/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan110",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan110",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan110/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan110/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan114",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan114",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan114/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan114/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan118",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan118",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan118/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan118/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan122",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan122",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan122/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/small_overlap/scan122/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan24",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan24",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan24/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan24/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan37",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan37",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan37/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan37/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan40",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan40",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan40/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan40/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan55",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan55",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan55/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan55/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan63",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan63",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan63/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan63/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan65",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan65",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan65/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan65/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan69",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan69",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan69/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan69/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan83",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan83",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan83/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan83/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan97",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan97",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan97/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan97/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan105",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan105",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan105/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan105/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan106",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan106",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan106/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan106/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan110",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan110",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan110/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan110/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan114",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan114",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan114/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan114/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan118",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan118",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan118/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan118/mast3r"
+  },
+  {
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan122",
+    "staged": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan122",
+    "author_mast3r_preserved": "/root/autodl-tmp/DP-GS/data/DTU/large_overlap/scan122/mast3r",
+    "new_mast3r_output": "/root/autodl-tmp/DP-GS/data/DTU_mast3r_recomputed/large_overlap/scan122/mast3r"
+  }
+]

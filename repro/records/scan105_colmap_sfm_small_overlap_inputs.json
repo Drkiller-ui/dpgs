@@ -1,0 +1,80 @@
+{
+  "arguments": {
+    "scan": 105,
+    "data_type": "small_overlap",
+    "sfm_type": "colmap_sfm",
+    "stage": "inputs",
+    "data_root": "/root/autodl-tmp/DP-GS/data/DTU",
+    "output_root": "/autodl-fs/data/dpgs/output",
+    "gt_root": "/root/autodl-tmp/DP-GS/data/DTU_GT"
+  },
+  "views": [
+    {
+      "name": "0022.png",
+      "image_size": [
+        1554,
+        1162
+      ],
+      "normal_shape": [
+        581,
+        777,
+        3
+      ]
+    },
+    {
+      "name": "0025.png",
+      "image_size": [
+        1554,
+        1162
+      ],
+      "normal_shape": [
+        581,
+        777,
+        3
+      ]
+    },
+    {
+      "name": "0028.png",
+      "image_size": [
+        1554,
+        1162
+      ],
+      "normal_shape": [
+        581,
+        777,
+        3
+      ]
+    }
+  ],
+  "initialization": {
+    "points": 5811,
+    "minimum": [
+      -0.11977756023406982,
+      -0.3897954225540161,
+      -0.4154652953147888
+    ],
+    "maximum": [
+      0.41417503356933594,
+      0.4559664726257324,
+      0.4743863344192505
+    ]
+  },
+  "ground_truth": {
+    "points": 4577222,
+    "minimum": [
+      -435.39215087890625,
+      -318.6131286621094,
+      553.3887939453125
+    ],
+    "maximum": [
+      212.68540954589844,
+      434.764892578125,
+      918.3786010742188
+    ]
+  },
+  "observation_mask_shape": [
+    475,
+    600,
+    355
+  ]
+}

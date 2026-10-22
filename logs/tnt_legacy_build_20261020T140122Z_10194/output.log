@@ -1,0 +1,511 @@
+Run directory: logs/tnt_legacy_build_20261020T140122Z_10194
+[  1%] Creating directories for 'ext_turbojpeg'
+[  1%] Building CXX object src/Tools/CMakeFiles/EncodeShader.dir/EncodeShader.cpp.o
+[  1%] Building CXX object 3rdparty/CMakeFiles/tinyobjloader.dir/tinyobjloader/tiny_obj_loader.cc.o
+[  1%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/global_r.c.o
+[  2%] No download step for 'ext_turbojpeg'
+[  3%] No update step for 'ext_turbojpeg'
+[  3%] No patch step for 'ext_turbojpeg'
+[  3%] Performing configure step for 'ext_turbojpeg'
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+[  4%] Linking CXX executable ../../bin/EncodeShader
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- CMAKE_BUILD_TYPE = Release
+-- VERSION = 2.0.3, BUILD = 20261020
+-- 64-bit build (x86_64)
+-- CMAKE_INSTALL_PREFIX = /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install
+-- CMAKE_INSTALL_BINDIR = bin (/root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin)
+-- CMAKE_INSTALL_DATAROOTDIR = share (/root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share)
+-- CMAKE_INSTALL_DOCDIR = share/doc/libjpeg-turbo (/root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo)
+-- CMAKE_INSTALL_INCLUDEDIR = include (/root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/include)
+-- CMAKE_INSTALL_LIBDIR = lib (/root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/lib)
+-- CMAKE_INSTALL_MANDIR = share/man (/root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/man)
+-- Shared libraries disabled (ENABLE_SHARED = 0)
+-- Static libraries enabled (ENABLE_STATIC = 1)
+-- 12-bit JPEG support disabled (WITH_12BIT = 0)
+-- Arithmetic decoding support enabled (WITH_ARITH_DEC = 1)
+-- Arithmetic encoding support enabled (WITH_ARITH_ENC = 1)
+-- TurboJPEG API library enabled (WITH_TURBOJPEG = 1)
+-- TurboJPEG Java wrapper disabled (WITH_JAVA = 0)
+-- In-memory source/destination managers enabled (WITH_MEM_SRCDST = 1)
+-- Emulating libjpeg API/ABI v6.2 (WITH_JPEG7 = 0, WITH_JPEG8 = 0)
+-- libjpeg API shared library version = 62.3.0
+-- Compiler flags =  -O3 -DNDEBUG
+-- Linker flags =  
+-- Looking for sys/types.h
+[  4%] Built target EncodeShader
+[  4%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/Coordinates.cpp.o
+[  5%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/stat_r.c.o
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of size_t
+[  5%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/geom2_r.c.o
+[  6%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/PointCoordinates.cpp.o
+-- Check size of size_t - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Performing Test HAVE_BUILTIN_CTZL
+-- Performing Test HAVE_BUILTIN_CTZL - Success
+-- Looking for include file locale.h
+-- Looking for include file locale.h - found
+-- Looking for include file stdlib.h
+[  6%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/poly2_r.c.o
+-- Looking for include file stdlib.h - found
+-- Looking for include file sys/types.h
+[  6%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/Qhull.cpp.o
+-- Looking for include file sys/types.h - found
+-- Looking for memset
+-- Looking for memset - found
+-- Looking for memcpy
+-- Looking for memcpy - found
+-- Check size of unsigned char
+-- Check size of unsigned char - done
+-- Check size of unsigned short
+[  7%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullFacet.cpp.o
+-- Check size of unsigned short - done
+-- Performing Test INCOMPLETE_TYPES
+-- Performing Test INCOMPLETE_TYPES - Success
+-- Compiler supports pointers to undefined structures.
+-- Performing Test RIGHT_SHIFT_IS_UNSIGNED
+-- Performing Test RIGHT_SHIFT_IS_UNSIGNED - Failed
+-- Performing Test __CHAR_UNSIGNED__
+[  8%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/merge_r.c.o
+-- Performing Test __CHAR_UNSIGNED__ - Failed
+-- Performing Test INLINE_WORKS
+-- Performing Test INLINE_WORKS - Success
+-- INLINE = __inline__ __attribute__((always_inline)) (FORCE_INLINE = 1)
+-- Performing Test HAVE_VERSION_SCRIPT
+[  8%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullFacetList.cpp.o
+-- Performing Test HAVE_VERSION_SCRIPT - Success
+-- Linker supports GNU-style version scripts
+-- CMAKE_EXECUTABLE_SUFFIX = 
+-- SIMD extensions: None (WITH_SIMD = 0)
+-- FLOATTEST = 32bit
+-- RPM architecture = x86_64, DEB architecture = amd64
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_FLAGS
+    CMAKE_CXX_FLAGS_DEBUG
+    CMAKE_CXX_FLAGS_RELEASE
+
+
+-- Build files have been written to: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty/turbojpeg/src/ext_turbojpeg-build
+[  8%] Performing build step for 'ext_turbojpeg'
+[  1%] Building C object CMakeFiles/simd.dir/jsimd_none.c.o
+[  1%] Built target simd
+[  2%] Building C object CMakeFiles/rdjpgcom.dir/rdjpgcom.c.o
+[  2%] Linking C executable rdjpgcom
+[  2%] Built target rdjpgcom
+[  8%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullFacetSet.cpp.o
+[  3%] Building C object CMakeFiles/wrjpgcom.dir/wrjpgcom.c.o
+[  4%] Linking C executable wrjpgcom
+[  9%] Linking CXX static library ../lib/libtinyobjloader.a
+[  4%] Built target wrjpgcom
+[  9%] Built target tinyobjloader
+[  4%] Building C object md5/CMakeFiles/md5cmp.dir/md5cmp.c.o
+[  9%] Building CXX object 3rdparty/jsoncpp/CMakeFiles/jsoncpp.dir/json_reader.cpp.o
+[  5%] Building C object md5/CMakeFiles/md5cmp.dir/md5.c.o
+[  9%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/libqhull_r.c.o
+[  5%] Building C object md5/CMakeFiles/md5cmp.dir/md5hl.c.o
+[ 10%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullHyperplane.cpp.o
+[  6%] Linking C executable md5cmp
+[  6%] Built target md5cmp
+[  6%] Building C object CMakeFiles/jpeg-static.dir/jcapimin.c.o
+[  7%] Building C object CMakeFiles/jpeg-static.dir/jcapistd.c.o
+[ 11%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/geom_r.c.o
+[  8%] Building C object CMakeFiles/jpeg-static.dir/jccoefct.c.o
+[ 11%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullPoint.cpp.o
+[  8%] Building C object CMakeFiles/jpeg-static.dir/jccolor.c.o
+[ 11%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/poly_r.c.o
+[  9%] Building C object CMakeFiles/jpeg-static.dir/jcdctmgr.c.o
+[ 12%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullPointSet.cpp.o
+[ 13%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/qset_r.c.o
+[ 10%] Building C object CMakeFiles/jpeg-static.dir/jchuff.c.o
+[ 13%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/mem_r.c.o
+[ 13%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullPoints.cpp.o
+[ 14%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/random_r.c.o
+[ 14%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/usermem_r.c.o
+[ 14%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/userprintf_r.c.o
+[ 15%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/io_r.c.o
+[ 17%] Building CXX object 3rdparty/jsoncpp/CMakeFiles/jsoncpp.dir/json_value.cpp.o
+[ 18%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullQh.cpp.o
+[ 18%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullRidge.cpp.o
+[ 19%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullSet.cpp.o
+[ 19%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/user_r.c.o
+[ 20%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/rboxlib_r.c.o
+[ 20%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullStat.cpp.o
+[ 20%] Building CXX object 3rdparty/jsoncpp/CMakeFiles/jsoncpp.dir/json_writer.cpp.o
+[ 20%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullVertex.cpp.o
+[ 20%] Building C object 3rdparty/CMakeFiles/qhullstatic_r.dir/qhull/src/libqhull_r/userprintf_rbox_r.c.o
+[ 21%] Linking C static library ../lib/libqhullstatic_r.a
+[ 21%] Built target qhullstatic_r
+[ 21%] Building C object 3rdparty/tinyfiledialogs/CMakeFiles/tinyfiledialogs.dir/tinyfiledialogs.c.o
+[ 10%] Building C object CMakeFiles/jpeg-static.dir/jcicc.c.o
+[ 11%] Building C object CMakeFiles/jpeg-static.dir/jcinit.c.o
+[ 12%] Building C object CMakeFiles/jpeg-static.dir/jcmainct.c.o
+[ 22%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/QhullVertexSet.cpp.o
+[ 12%] Building C object CMakeFiles/jpeg-static.dir/jcmarker.c.o
+[ 13%] Building C object CMakeFiles/jpeg-static.dir/jcmaster.c.o
+[ 14%] Building C object CMakeFiles/jpeg-static.dir/jcomapi.c.o
+[ 22%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/RboxPoints.cpp.o
+[ 14%] Building C object CMakeFiles/jpeg-static.dir/jcparam.c.o
+[ 23%] Linking C static library ../../lib/libtinyfiledialogs.a
+[ 23%] Linking CXX static library ../../lib/libjsoncpp.a
+[ 23%] Built target tinyfiledialogs
+[ 23%] Built target jsoncpp
+[ 15%] Building C object CMakeFiles/jpeg-static.dir/jcphuff.c.o
+[ 24%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/RoadError.cpp.o
+[ 25%] Generating ../../../../src/Open3D/Visualization/Shader/Shader.h
+[ 25%] Built target ShaderFileTarget
+[ 25%] Building CXX object 3rdparty/CMakeFiles/qhullcpp.dir/qhull/src/libqhullcpp/RoadLogEvent.cpp.o
+[ 16%] Building C object CMakeFiles/jpeg-static.dir/jcprepct.c.o
+[ 16%] Building C object CMakeFiles/jpeg-static.dir/jcsample.c.o
+[ 17%] Building C object CMakeFiles/jpeg-static.dir/jctrans.c.o
+[ 18%] Building C object CMakeFiles/jpeg-static.dir/jdapimin.c.o
+[ 18%] Building C object CMakeFiles/jpeg-static.dir/jdapistd.c.o
+[ 26%] Linking CXX static library ../lib/libqhullcpp.a
+[ 19%] Building C object CMakeFiles/jpeg-static.dir/jdatasrc.c.o
+[ 20%] Building C object CMakeFiles/jpeg-static.dir/jdatadst.c.o
+[ 20%] Building C object CMakeFiles/jpeg-static.dir/jdcoefct.c.o
+[ 21%] Building C object CMakeFiles/jpeg-static.dir/jdcolor.c.o
+[ 22%] Building C object CMakeFiles/jpeg-static.dir/jddctmgr.c.o
+[ 22%] Building C object CMakeFiles/jpeg-static.dir/jdhuff.c.o
+[ 23%] Building C object CMakeFiles/jpeg-static.dir/jdicc.c.o
+[ 24%] Building C object CMakeFiles/jpeg-static.dir/jdinput.c.o
+[ 24%] Building C object CMakeFiles/jpeg-static.dir/jdmainct.c.o
+[ 25%] Building C object CMakeFiles/jpeg-static.dir/jdmarker.c.o
+[ 26%] Building C object CMakeFiles/jpeg-static.dir/jdmaster.c.o
+[ 26%] Building C object CMakeFiles/jpeg-static.dir/jdmerge.c.o
+[ 26%] Built target qhullcpp
+[ 27%] Building C object CMakeFiles/jpeg-static.dir/jdphuff.c.o
+[ 28%] Building C object CMakeFiles/jpeg-static.dir/jdpostct.c.o
+[ 28%] Building C object CMakeFiles/jpeg-static.dir/jdsample.c.o
+[ 29%] Building C object CMakeFiles/jpeg-static.dir/jdtrans.c.o
+[ 30%] Building C object CMakeFiles/jpeg-static.dir/jerror.c.o
+[ 30%] Building C object CMakeFiles/jpeg-static.dir/jfdctflt.c.o
+[ 31%] Building C object CMakeFiles/jpeg-static.dir/jfdctfst.c.o
+[ 32%] Building C object CMakeFiles/jpeg-static.dir/jfdctint.c.o
+[ 33%] Building C object CMakeFiles/jpeg-static.dir/jidctfst.c.o
+[ 33%] Building C object CMakeFiles/jpeg-static.dir/jidctflt.c.o
+[ 34%] Building C object CMakeFiles/jpeg-static.dir/jidctint.c.o
+[ 34%] Building C object CMakeFiles/jpeg-static.dir/jidctred.c.o
+[ 35%] Building C object CMakeFiles/jpeg-static.dir/jquant1.c.o
+[ 36%] Building C object CMakeFiles/turbojpeg-static.dir/jcapimin.c.o
+[ 37%] Building C object CMakeFiles/jpeg-static.dir/jquant2.c.o
+[ 38%] Building C object CMakeFiles/turbojpeg-static.dir/jcapistd.c.o
+[ 38%] Building C object CMakeFiles/turbojpeg-static.dir/jccoefct.c.o
+[ 38%] Building C object CMakeFiles/jpeg-static.dir/jutils.c.o
+[ 39%] Building C object CMakeFiles/jpeg-static.dir/jmemmgr.c.o
+[ 40%] Building C object CMakeFiles/turbojpeg-static.dir/jccolor.c.o
+[ 41%] Building C object CMakeFiles/jpeg-static.dir/jmemnobs.c.o
+[ 41%] Building C object CMakeFiles/jpeg-static.dir/jaricom.c.o
+[ 42%] Building C object CMakeFiles/jpeg-static.dir/jcarith.c.o
+[ 43%] Building C object CMakeFiles/turbojpeg-static.dir/jcdctmgr.c.o
+[ 44%] Building C object CMakeFiles/jpeg-static.dir/jdarith.c.o
+[ 44%] Building C object CMakeFiles/turbojpeg-static.dir/jchuff.c.o
+[ 45%] Building C object CMakeFiles/turbojpeg-static.dir/jcicc.c.o
+[ 46%] Building C object CMakeFiles/turbojpeg-static.dir/jcinit.c.o
+[ 46%] Linking C static library libjpeg.a
+[ 46%] Building C object CMakeFiles/turbojpeg-static.dir/jcmainct.c.o
+[ 47%] Building C object CMakeFiles/turbojpeg-static.dir/jcmarker.c.o
+[ 48%] Building C object CMakeFiles/turbojpeg-static.dir/jcmaster.c.o
+[ 48%] Built target jpeg-static
+[ 48%] Building C object CMakeFiles/cjpeg-static.dir/cjpeg.c.o
+[ 48%] Building C object CMakeFiles/turbojpeg-static.dir/jcomapi.c.o
+[ 49%] Building C object CMakeFiles/turbojpeg-static.dir/jcparam.c.o
+[ 50%] Building C object CMakeFiles/cjpeg-static.dir/cdjpeg.c.o
+[ 50%] Building C object CMakeFiles/cjpeg-static.dir/rdgif.c.o
+[ 51%] Building C object CMakeFiles/cjpeg-static.dir/rdppm.c.o
+[ 52%] Building C object CMakeFiles/cjpeg-static.dir/rdswitch.c.o
+[ 53%] Building C object CMakeFiles/turbojpeg-static.dir/jcphuff.c.o
+[ 53%] Building C object CMakeFiles/cjpeg-static.dir/rdbmp.c.o
+[ 53%] Building C object CMakeFiles/turbojpeg-static.dir/jcprepct.c.o
+[ 54%] Building C object CMakeFiles/cjpeg-static.dir/rdtarga.c.o
+[ 55%] Building C object CMakeFiles/turbojpeg-static.dir/jcsample.c.o
+[ 56%] Building C object CMakeFiles/turbojpeg-static.dir/jctrans.c.o
+[ 57%] Linking C executable cjpeg-static
+[ 57%] Building C object CMakeFiles/turbojpeg-static.dir/jdapimin.c.o
+[ 57%] Built target cjpeg-static
+[ 57%] Building C object CMakeFiles/djpeg-static.dir/djpeg.c.o
+[ 58%] Building C object CMakeFiles/turbojpeg-static.dir/jdapistd.c.o
+[ 59%] Building C object CMakeFiles/turbojpeg-static.dir/jdatadst.c.o
+[ 59%] Building C object CMakeFiles/turbojpeg-static.dir/jdatasrc.c.o
+[ 60%] Building C object CMakeFiles/djpeg-static.dir/cdjpeg.c.o
+[ 61%] Building C object CMakeFiles/djpeg-static.dir/rdcolmap.c.o
+[ 61%] Building C object CMakeFiles/djpeg-static.dir/rdswitch.c.o
+[ 62%] Building C object CMakeFiles/djpeg-static.dir/wrgif.c.o
+[ 63%] Building C object CMakeFiles/djpeg-static.dir/wrppm.c.o
+[ 63%] Building C object CMakeFiles/djpeg-static.dir/wrbmp.c.o
+[ 64%] Building C object CMakeFiles/djpeg-static.dir/wrtarga.c.o
+[ 65%] Building C object CMakeFiles/jpegtran-static.dir/jpegtran.c.o
+[ 66%] Building C object CMakeFiles/jpegtran-static.dir/cdjpeg.c.o
+[ 66%] Building C object CMakeFiles/jpegtran-static.dir/rdswitch.c.o
+[ 67%] Linking C executable djpeg-static
+[ 68%] Building C object CMakeFiles/jpegtran-static.dir/transupp.c.o
+[ 68%] Built target djpeg-static
+[ 69%] Building C object CMakeFiles/turbojpeg-static.dir/jdcoefct.c.o
+[ 70%] Building C object CMakeFiles/turbojpeg-static.dir/jdcolor.c.o
+[ 70%] Building C object CMakeFiles/turbojpeg-static.dir/jddctmgr.c.o
+[ 71%] Building C object CMakeFiles/turbojpeg-static.dir/jdhuff.c.o
+[ 72%] Building C object CMakeFiles/turbojpeg-static.dir/jdicc.c.o
+[ 72%] Building C object CMakeFiles/turbojpeg-static.dir/jdinput.c.o
+[ 73%] Building C object CMakeFiles/turbojpeg-static.dir/jdmainct.c.o
+[ 74%] Building C object CMakeFiles/turbojpeg-static.dir/jdmarker.c.o
+[ 75%] Linking C executable jpegtran-static
+[ 75%] Building C object CMakeFiles/turbojpeg-static.dir/jdmaster.c.o
+[ 75%] Built target jpegtran-static
+[ 76%] Building C object CMakeFiles/turbojpeg-static.dir/jdmerge.c.o
+[ 77%] Building C object CMakeFiles/turbojpeg-static.dir/jdphuff.c.o
+[ 77%] Building C object CMakeFiles/turbojpeg-static.dir/jdpostct.c.o
+[ 78%] Building C object CMakeFiles/turbojpeg-static.dir/jdsample.c.o
+[ 79%] Building C object CMakeFiles/turbojpeg-static.dir/jdtrans.c.o
+[ 79%] Building C object CMakeFiles/turbojpeg-static.dir/jerror.c.o
+[ 80%] Building C object CMakeFiles/turbojpeg-static.dir/jfdctflt.c.o
+[ 81%] Building C object CMakeFiles/turbojpeg-static.dir/jfdctfst.c.o
+[ 82%] Building C object CMakeFiles/turbojpeg-static.dir/jidctflt.c.o
+[ 82%] Building C object CMakeFiles/turbojpeg-static.dir/jfdctint.c.o
+[ 83%] Building C object CMakeFiles/turbojpeg-static.dir/jidctfst.c.o
+[ 83%] Building C object CMakeFiles/turbojpeg-static.dir/jidctint.c.o
+[ 84%] Building C object CMakeFiles/turbojpeg-static.dir/jidctred.c.o
+[ 85%] Building C object CMakeFiles/turbojpeg-static.dir/jquant1.c.o
+[ 85%] Building C object CMakeFiles/turbojpeg-static.dir/jquant2.c.o
+[ 86%] Building C object CMakeFiles/turbojpeg-static.dir/jutils.c.o
+[ 87%] Building C object CMakeFiles/turbojpeg-static.dir/jmemmgr.c.o
+[ 87%] Building C object CMakeFiles/turbojpeg-static.dir/jmemnobs.c.o
+[ 88%] Building C object CMakeFiles/turbojpeg-static.dir/jaricom.c.o
+[ 89%] Building C object CMakeFiles/turbojpeg-static.dir/jcarith.c.o
+[ 89%] Building C object CMakeFiles/turbojpeg-static.dir/jdarith.c.o
+[ 90%] Building C object CMakeFiles/turbojpeg-static.dir/turbojpeg.c.o
+[ 91%] Building C object CMakeFiles/turbojpeg-static.dir/transupp.c.o
+[ 91%] Building C object CMakeFiles/turbojpeg-static.dir/jdatadst-tj.c.o
+[ 92%] Building C object CMakeFiles/turbojpeg-static.dir/jdatasrc-tj.c.o
+[ 93%] Building C object CMakeFiles/turbojpeg-static.dir/rdbmp.c.o
+[ 93%] Building C object CMakeFiles/turbojpeg-static.dir/rdppm.c.o
+[ 94%] Building C object CMakeFiles/turbojpeg-static.dir/wrbmp.c.o
+[ 95%] Building C object CMakeFiles/turbojpeg-static.dir/wrppm.c.o
+[ 95%] Linking C static library libturbojpeg.a
+[ 95%] Built target turbojpeg-static
+[ 96%] Building C object CMakeFiles/tjunittest-static.dir/tjutil.c.o
+[ 97%] Building C object CMakeFiles/tjunittest-static.dir/md5/md5.c.o
+[ 97%] Building C object CMakeFiles/tjunittest-static.dir/tjunittest.c.o
+[ 98%] Building C object CMakeFiles/tjbench-static.dir/tjbench.c.o
+[ 99%] Building C object CMakeFiles/tjunittest-static.dir/md5/md5hl.c.o
+[ 99%] Building C object CMakeFiles/tjbench-static.dir/tjutil.c.o
+[ 99%] Linking C executable tjunittest-static
+[100%] Linking C executable tjbench-static
+[100%] Built target tjunittest-static
+[100%] Built target tjbench-static
+[ 26%] Performing install step for 'ext_turbojpeg'
+Consolidate compiler generated dependencies of target simd
+Consolidate compiler generated dependencies of target rdjpgcom
+Consolidate compiler generated dependencies of target wrjpgcom
+Consolidate compiler generated dependencies of target md5cmp
+[  1%] Built target simd
+[  3%] Built target wrjpgcom
+[  4%] Built target rdjpgcom
+[  6%] Built target md5cmp
+Consolidate compiler generated dependencies of target turbojpeg-static
+Consolidate compiler generated dependencies of target jpeg-static
+[ 40%] Built target jpeg-static
+[ 80%] Built target turbojpeg-static
+Consolidate compiler generated dependencies of target cjpeg-static
+Consolidate compiler generated dependencies of target jpegtran-static
+Consolidate compiler generated dependencies of target djpeg-static
+Consolidate compiler generated dependencies of target tjunittest-static
+[ 84%] Built target jpegtran-static
+[ 89%] Built target cjpeg-static
+[ 95%] Built target djpeg-static
+[ 98%] Built target tjunittest-static
+Consolidate compiler generated dependencies of target tjbench-static
+[100%] Built target tjbench-static
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/lib/libturbojpeg.a
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin/tjbench
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/include/turbojpeg.h
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/lib/libjpeg.a
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin/cjpeg
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin/djpeg
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin/jpegtran
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin/rdjpgcom
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/bin/wrjpgcom
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/README.ijg
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/README.md
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/example.txt
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/tjexample.c
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/libjpeg.txt
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/structure.txt
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/usage.txt
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/wizard.txt
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/doc/libjpeg-turbo/LICENSE.md
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/man/man1/cjpeg.1
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/man/man1/djpeg.1
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/man/man1/jpegtran.1
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/man/man1/rdjpgcom.1
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/share/man/man1/wrjpgcom.1
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/lib/pkgconfig/libjpeg.pc
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/lib/pkgconfig/libturbojpeg.pc
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/include/jconfig.h
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/include/jerror.h
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/include/jmorecfg.h
+-- Installing: /root/autodl-tmp/dpgs-builds/Open3D-0.9/build/3rdparty_install/include/jpeglib.h
+[ 27%] Completed 'ext_turbojpeg'
+[ 27%] Built target ext_turbojpeg
+Custom target build_all_3rd_party_libs reached.
+[ 27%] Built target build_all_3rd_party_libs
+[ 27%] Building CXX object src/Open3D/Camera/CMakeFiles/Camera.dir/PinholeCameraIntrinsic.cpp.o
+[ 27%] Building CXX object src/Open3D/ColorMap/CMakeFiles/ColorMap.dir/ColorMapOptimization.cpp.o
+[ 27%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/BoundingVolume.cpp.o
+[ 28%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/GeometryRenderer.cpp.o
+[ 28%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/ImageMaskShader.cpp.o
+[ 28%] Building CXX object src/Open3D/Camera/CMakeFiles/Camera.dir/PinholeCameraParameters.cpp.o
+[ 29%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/ImageShader.cpp.o
+[ 30%] Building CXX object src/Open3D/ColorMap/CMakeFiles/ColorMap.dir/ColorMapOptimizationJacobian.cpp.o
+[ 31%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/DownSample.cpp.o
+[ 31%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/NormalShader.cpp.o
+[ 32%] Building CXX object src/Open3D/Camera/CMakeFiles/Camera.dir/PinholeCameraTrajectory.cpp.o
+[ 32%] Building CXX object src/Open3D/ColorMap/CMakeFiles/ColorMap.dir/EigenHelperForNonRigidOptimization.cpp.o
+[ 34%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/PhongShader.cpp.o
+[ 34%] Built target Camera
+[ 34%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/PickingShader.cpp.o
+[ 35%] Building CXX object src/Open3D/ColorMap/CMakeFiles/ColorMap.dir/ImageWarpingField.cpp.o
+[ 35%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/EstimateNormals.cpp.o
+[ 36%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/Geometry3D.cpp.o
+[ 37%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/RGBDImageShader.cpp.o
+[ 37%] Building CXX object src/Open3D/ColorMap/CMakeFiles/ColorMap.dir/TriangleMeshAndImageUtilities.cpp.o
+[ 37%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/ShaderWrapper.cpp.o
+[ 37%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/Simple2DShader.cpp.o
+[ 37%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/HalfEdgeTriangleMesh.cpp.o
+[ 38%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/Image.cpp.o
+[ 38%] Built target ColorMap
+[ 38%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/ImageFactory.cpp.o
+[ 39%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/SimpleBlackShader.cpp.o
+[ 39%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/SimpleShader.cpp.o
+[ 39%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/IntersectionTest.cpp.o
+[ 40%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/KDTreeFlann.cpp.o
+[ 40%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/LineSet.cpp.o
+[ 41%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/LineSetFactory.cpp.o
+[ 41%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/MeshBase.cpp.o
+[ 42%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/TexturePhongShader.cpp.o
+[ 43%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/Octree.cpp.o
+[ 43%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/PointCloud.cpp.o
+[ 43%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Shader/TextureSimpleShader.cpp.o
+[ 44%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/PointCloudCluster.cpp.o
+[ 44%] Building CXX object src/Open3D/Integration/CMakeFiles/Integration.dir/ScalableTSDFVolume.cpp.o
+[ 44%] Building CXX object src/Open3D/Odometry/CMakeFiles/Odometry.dir/Odometry.cpp.o
+[ 44%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/PointCloudFactory.cpp.o
+[ 45%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Utility/ColorMap.cpp.o
+[ 45%] Building CXX object src/Open3D/Integration/CMakeFiles/Integration.dir/UniformTSDFVolume.cpp.o
+[ 45%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/PointCloudSegmentation.cpp.o
+[ 45%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Utility/DrawGeometry.cpp.o
+[ 46%] Building CXX object src/Open3D/Odometry/CMakeFiles/Odometry.dir/RGBDOdometryJacobian.cpp.o
+[ 46%] Built target Odometry
+[ 46%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/ColoredICP.cpp.o
+[ 47%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/Qhull.cpp.o
+[ 47%] Built target Integration
+[ 47%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/RGBDImage.cpp.o
+[ 48%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Utility/GLHelper.cpp.o
+[ 48%] Building CXX object src/Open3D/Utility/CMakeFiles/Utility.dir/Console.cpp.o
+[ 48%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Utility/PointCloudPicker.cpp.o
+[ 50%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/CorrespondenceChecker.cpp.o
+[ 51%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/RGBDImageFactory.cpp.o
+[ 51%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Utility/SelectionPolygon.cpp.o
+[ 52%] Building CXX object src/Open3D/Utility/CMakeFiles/Utility.dir/Eigen.cpp.o
+[ 52%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/SurfaceReconstructionAlphaShape.cpp.o
+[ 52%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/FastGlobalRegistration.cpp.o
+[ 53%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Utility/SelectionPolygonVolume.cpp.o
+[ 54%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/SurfaceReconstructionBallPivoting.cpp.o
+[ 55%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/Feature.cpp.o
+[ 55%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/RenderOption.cpp.o
+[ 55%] Building CXX object src/Open3D/Utility/CMakeFiles/Utility.dir/FileSystem.cpp.o
+[ 55%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/SurfaceReconstructionPoisson.cpp.o
+[ 55%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/GlobalOptimization.cpp.o
+[ 56%] Building CXX object src/Open3D/Utility/CMakeFiles/Utility.dir/Helper.cpp.o
+[ 57%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/RenderOptionWithEditing.cpp.o
+[ 57%] Building CXX object src/Open3D/Utility/CMakeFiles/Utility.dir/IJsonConvertible.cpp.o
+[ 57%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/ViewControl.cpp.o
+[ 57%] Building CXX object src/Open3D/Utility/CMakeFiles/Utility.dir/Timer.cpp.o
+[ 57%] Built target Utility
+[ 58%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/ViewControlWithCustomAnimation.cpp.o
+[ 58%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/PoseGraph.cpp.o
+[ 59%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TetraMesh.cpp.o
+[ 60%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/Registration.cpp.o
+[ 60%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/ViewControlWithEditing.cpp.o
+[ 60%] Building CXX object src/Open3D/Registration/CMakeFiles/Registration.dir/TransformationEstimation.cpp.o
+[ 61%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/ViewParameters.cpp.o
+[ 62%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/FeatureIO.cpp.o
+[ 62%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/ViewTrajectory.cpp.o
+[ 62%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/IJsonConvertibleIO.cpp.o
+[ 62%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/ImageIO.cpp.o
+[ 62%] Built target Registration
+[ 62%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/Visualizer.cpp.o
+[ 63%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/VisualizerCallback.cpp.o
+[ 64%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/ImageWarpingFieldIO.cpp.o
+[ 64%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/VisualizerRender.cpp.o
+[ 64%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TetraMeshFactory.cpp.o
+[ 64%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/LineSetIO.cpp.o
+[ 64%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TriangleMesh.cpp.o
+[ 65%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/OctreeIO.cpp.o
+[ 67%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/VisualizerWithCustomAnimation.cpp.o
+[ 67%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/VisualizerWithEditing.cpp.o
+[ 67%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/PinholeCameraTrajectoryIO.cpp.o
+[ 68%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/PointCloudIO.cpp.o
+[ 69%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/VisualizerWithKeyCallback.cpp.o
+[ 70%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TriangleMeshDeformation.cpp.o
+[ 70%] Building CXX object src/Open3D/Visualization/CMakeFiles/Visualization.dir/Visualizer/VisualizerWithVertexSelection.cpp.o
+[ 70%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/PoseGraphIO.cpp.o
+[ 71%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/TriangleMeshIO.cpp.o
+[ 71%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/ClassIO/VoxelGridIO.cpp.o
+[ 71%] Built target Visualization
+[ 72%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileBIN.cpp.o
+[ 72%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TriangleMeshFactory.cpp.o
+[ 72%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileGLTF.cpp.o
+[ 72%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileJPG.cpp.o
+[ 73%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileJSON.cpp.o
+[ 74%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TriangleMeshSimplification.cpp.o
+[ 74%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/TriangleMeshSubdivide.cpp.o
+[ 75%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/VoxelGrid.cpp.o
+[ 75%] Building CXX object src/Open3D/Geometry/CMakeFiles/Geometry.dir/VoxelGridFactory.cpp.o
+/root/autodl-tmp/dpgs-builds/Open3D-0.9/src/Open3D/Geometry/TriangleMeshSimplification.cpp: In function ‘open3d::geometry::TriangleMesh::SimplifyQuadricDecimation(int) const::<lambda(int, int, bool)>’:
+/root/autodl-tmp/dpgs-builds/Open3D-0.9/src/Open3D/Geometry/TriangleMeshSimplification.cpp:366:43: error: ‘vbar’ may be used uninitialized [-Werror=maybe-uninitialized]
+  366 |                 double costmid = Qbar.Eval(vbar);
+      |                                  ~~~~~~~~~^~~~~~
+/root/autodl-tmp/dpgs-builds/Open3D-0.9/src/Open3D/Geometry/TriangleMeshSimplification.cpp:72:12: note: by argument 2 of type ‘const Vector3d&’ {aka ‘const Eigen::Matrix<double, 3, 1>&’} to ‘double open3d::geometry::Quadric::Eval(const Vector3d&) const’ declared here
+   72 |     double Eval(const Eigen::Vector3d& v) const {
+      |            ^~~~
+/root/autodl-tmp/dpgs-builds/Open3D-0.9/src/Open3D/Geometry/TriangleMeshSimplification.cpp:356:29: note: ‘vbar’ declared here
+  356 |             Eigen::Vector3d vbar;
+      |                             ^~~~
+[ 75%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileLOG.cpp.o
+cc1plus: all warnings being treated as errors
+gmake[3]: *** [src/Open3D/Geometry/CMakeFiles/Geometry.dir/build.make:468: src/Open3D/Geometry/CMakeFiles/Geometry.dir/TriangleMeshSimplification.cpp.o] Error 1
+gmake[3]: *** Waiting for unfinished jobs....
+[ 76%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileOBJ.cpp.o
+gmake[2]: *** [CMakeFiles/Makefile2:807: src/Open3D/Geometry/CMakeFiles/Geometry.dir/all] Error 2
+gmake[2]: *** Waiting for unfinished jobs....
+[ 76%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileOFF.cpp.o
+[ 77%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FilePCD.cpp.o
+[ 77%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FilePLY.cpp.o
+[ 78%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FilePNG.cpp.o
+[ 78%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FilePTS.cpp.o
+[ 78%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileSTL.cpp.o
+[ 79%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileTUM.cpp.o
+[ 79%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileXYZ.cpp.o
+[ 80%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileXYZN.cpp.o
+[ 80%] Building CXX object src/Open3D/IO/CMakeFiles/IO.dir/FileFormat/FileXYZRGB.cpp.o
+[ 81%] Building C object src/Open3D/IO/CMakeFiles/IO.dir/__/__/__/3rdparty/rply/rply.c.o
+[ 81%] Building C object src/Open3D/IO/CMakeFiles/IO.dir/__/__/__/3rdparty/liblzf/lzf_c.c.o
+[ 82%] Building C object src/Open3D/IO/CMakeFiles/IO.dir/__/__/__/3rdparty/liblzf/lzf_d.c.o
+[ 82%] Built target IO
+gmake[1]: *** [CMakeFiles/Makefile2:1267: src/Python/CMakeFiles/pip-package.dir/rule] Error 2
+gmake: *** [Makefile:546: pip-package] Error 2

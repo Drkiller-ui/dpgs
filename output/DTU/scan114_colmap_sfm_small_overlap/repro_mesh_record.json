@@ -1,0 +1,42 @@
+{
+  "upstream_commit": "dc1ce835ea3c6bb7887333c50df7a13497a45c09",
+  "arguments": {
+    "data_root": "/root/autodl-tmp/DP-GS/data/DTU",
+    "gt_root": "/root/autodl-tmp/DP-GS/data/DTU_GT",
+    "scans": [
+      114
+    ],
+    "data_type": "small_overlap",
+    "sfm_type": "colmap_sfm",
+    "output_root": "/autodl-fs/data/dpgs/output",
+    "stage": "mesh",
+    "gpu": "0",
+    "dry_run": false,
+    "force": false,
+    "recompute_normals": false
+  },
+  "commands": [
+    {
+      "command": [
+        "/root/autodl-tmp/DP-GS/.venv/bin/python",
+        "render_and_mesh_extract.py",
+        "--model_path",
+        "/autodl-fs/data/dpgs/output/DTU/scan114_colmap_sfm_small_overlap",
+        "--dataset_name",
+        "DTU",
+        "--sfm_type",
+        "colmap_sfm",
+        "--skip_test",
+        "--skip_train",
+        "--iteration",
+        "10000",
+        "--num_cluster",
+        "1",
+        "--voxel_size",
+        "0.002"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS",
+      "seconds": 8.762709140777588
+    }
+  ]
+}

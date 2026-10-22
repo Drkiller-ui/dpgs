@@ -1,0 +1,8 @@
+{
+  "class": "AsymmetricMASt3R",
+  "parameters": 688638856,
+  "state_tensors": 1017,
+  "all_values_finite": true,
+  "device": "cpu",
+  "purpose": "Weight/model loading verification only; no MASt3R initialization or reconstruction run yet"
+}

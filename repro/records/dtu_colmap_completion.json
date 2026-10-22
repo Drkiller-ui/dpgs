@@ -1,0 +1,566 @@
+{
+  "completed_at": "2026-10-22T04:44:38.199862+00:00",
+  "scope": "small_overlap / COLMAP only",
+  "completed": 15,
+  "total": 15,
+  "mean_cd": 0.9368063056762341,
+  "paper_mean_cd": 1.02,
+  "iterations_per_scan": 10000,
+  "mast3r_training_cancelled": true,
+  "job": "/autodl-fs/data/dpgs/logs/dtu_paper_30_20261022T030743Z_9064",
+  "job_exit_code": 0,
+  "upstream_commit": "dc1ce835ea3c6bb7887333c50df7a13497a45c09",
+  "source_sha256": {
+    "train.py": "ffdb870fef76ba89a8acfac51bf3ce68995f18a111568c40da3557893c56ea5a",
+    "utils/loss_utils.py": "59075bd60d3bf88fe8c394a477e01bf1dd623cc53aab60e22b1b3d281d10b8ea",
+    "repro/run_dtu.py": "7871d2cb5b024115631ae1187fd833d9df85641b273ec2c9adcdb6fc5db515e2",
+    "repro/validate_dtu.py": "5646d4a1cb50004c9588bd25bd8dc1dc2457d9d36feeda1939f9fc3a321a9643"
+  },
+  "numerical_repair_records": [
+    "repro/records/scan83_numerical_failure.json",
+    "repro/records/scan83_numerical_rerun.json",
+    "repro/records/masked_depth_loss_regression.json"
+  ],
+  "scenes": [
+    {
+      "scan": 24,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 1.328720698095878,
+        "mean_s2d": 1.240790276161164,
+        "overall": 1.284755487128521
+      },
+      "gaussians": 218906,
+      "mesh": {
+        "vertices": 639288,
+        "triangles": 1236831
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan24_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 35901590
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan24_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan24_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 33339849
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan24_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 97
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan24_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1989
+        }
+      }
+    },
+    {
+      "scan": 37,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 1.668451917900828,
+        "mean_s2d": 2.0030327197236106,
+        "overall": 1.8357423188122193
+      },
+      "gaussians": 173727,
+      "mesh": {
+        "vertices": 637113,
+        "triangles": 1205047
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan37_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 28492234
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan37_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan37_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 32867932
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan37_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 99
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan37_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1989
+        }
+      }
+    },
+    {
+      "scan": 40,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 1.1334442767589419,
+        "mean_s2d": 1.976270565250232,
+        "overall": 1.554857421004587
+      },
+      "gaussians": 266045,
+      "mesh": {
+        "vertices": 466559,
+        "triangles": 905605
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan40_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 43632386
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan40_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan40_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 24370227
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan40_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 98
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan40_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1989
+        }
+      }
+    },
+    {
+      "scan": 55,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 0.47170681005567416,
+        "mean_s2d": 0.8969513149003979,
+        "overall": 0.684329062478036
+      },
+      "gaussians": 228997,
+      "mesh": {
+        "vertices": 408438,
+        "triangles": 798519
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan55_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 37556514
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan55_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan55_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 21408842
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan55_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 100
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan55_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1989
+        }
+      }
+    },
+    {
+      "scan": 63,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 1.0509164087242968,
+        "mean_s2d": 0.54171101375953,
+        "overall": 0.7963137112419134
+      },
+      "gaussians": 106047,
+      "mesh": {
+        "vertices": 662021,
+        "triangles": 1270542
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan63_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 17392714
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan63_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan63_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 34391883
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan63_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 98
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan63_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1989
+        }
+      }
+    },
+    {
+      "scan": 65,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 0.9974848075815457,
+        "mean_s2d": 1.459226491050241,
+        "overall": 1.2283556493158934
+      },
+      "gaussians": 163946,
+      "mesh": {
+        "vertices": 517290,
+        "triangles": 998948
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan65_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 26888150
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan65_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan65_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 26953423
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan65_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 99
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan65_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1989
+        }
+      }
+    },
+    {
+      "scan": 69,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 0.5146181118316283,
+        "mean_s2d": 0.7027687159453371,
+        "overall": 0.6086934138884827
+      },
+      "gaussians": 183025,
+      "mesh": {
+        "vertices": 451148,
+        "triangles": 876606
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan69_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 30017106
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan69_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan69_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 23577143
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan69_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 100
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan69_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1989
+        }
+      }
+    },
+    {
+      "scan": 83,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 0.8495379867362169,
+        "mean_s2d": 1.352872519624765,
+        "overall": 1.101205253180491
+      },
+      "gaussians": 155735,
+      "mesh": {
+        "vertices": 388378,
+        "triangles": 751373
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan83_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 25541546
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan83_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan83_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 20254324
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan83_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 98
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan83_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1989
+        }
+      }
+    },
+    {
+      "scan": 97,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 0.8683839520056048,
+        "mean_s2d": 0.7472250804044552,
+        "overall": 0.80780451620503
+      },
+      "gaussians": 207879,
+      "mesh": {
+        "vertices": 310552,
+        "triangles": 604276
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan97_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 34093162
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan97_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan97_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 16240761
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan97_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 98
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan97_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1989
+        }
+      }
+    },
+    {
+      "scan": 105,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 0.6486948883015613,
+        "mean_s2d": 0.9989698315525244,
+        "overall": 0.8238323599270428
+      },
+      "gaussians": 168086,
+      "mesh": {
+        "vertices": 358119,
+        "triangles": 694414
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan105_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 27567110
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan105_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan105_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 18696864
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan105_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 100
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan105_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1991
+        }
+      }
+    },
+    {
+      "scan": 106,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 0.5598351439781251,
+        "mean_s2d": 1.0464267589484457,
+        "overall": 0.8031309514632854
+      },
+      "gaussians": 161243,
+      "mesh": {
+        "vertices": 302318,
+        "triangles": 584310
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan106_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 26444858
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan106_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan106_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 15758885
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan106_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 100
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan106_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1991
+        }
+      }
+    },
+    {
+      "scan": 110,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 0.5758048651322094,
+        "mean_s2d": 0.5087208981959799,
+        "overall": 0.5422628816640946
+      },
+      "gaussians": 163113,
+      "mesh": {
+        "vertices": 268608,
+        "triangles": 527636
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan110_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 26751538
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan110_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan110_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 14111953
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan110_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 100
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan110_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1991
+        }
+      }
+    },
+    {
+      "scan": 114,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 0.32603113291570696,
+        "mean_s2d": 0.5328030787955408,
+        "overall": 0.42941710585562387
+      },
+      "gaussians": 169785,
+      "mesh": {
+        "vertices": 226679,
+        "triangles": 446963
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan114_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 27845746
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan114_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan114_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 11931121
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan114_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 102
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan114_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1991
+        }
+      }
+    },
+    {
+      "scan": 118,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 0.47796925290665365,
+        "mean_s2d": 0.8209377781311542,
+        "overall": 0.649453515518904
+      },
+      "gaussians": 182727,
+      "mesh": {
+        "vertices": 356728,
+        "triangles": 696112
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan118_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 29968234
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan118_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan118_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 18681381
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan118_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 100
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan118_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1991
+        }
+      }
+    },
+    {
+      "scan": 122,
+      "iterations": 10000,
+      "metrics": {
+        "mean_d2s": 0.6631360698840382,
+        "mean_s2d": 1.1407458050347445,
+        "overall": 0.9019409374593914
+      },
+      "gaussians": 131449,
+      "mesh": {
+        "vertices": 324071,
+        "triangles": 623836
+      },
+      "files": {
+        "gaussian_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan122_colmap_sfm_small_overlap/point_cloud/iteration_10000/point_cloud.ply",
+          "bytes": 21558642
+        },
+        "appearance_model": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan122_colmap_sfm_small_overlap/app_model/iteration_10000/app.pth",
+          "bytes": 13960
+        },
+        "mesh": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan122_colmap_sfm_small_overlap/train/ours_10000/fuse_post.ply",
+          "bytes": 16860054
+        },
+        "metrics": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan122_colmap_sfm_small_overlap/train/ours_10000/results.json",
+          "bytes": 100
+        },
+        "configuration": {
+          "path": "/autodl-fs/data/dpgs/output/DTU/scan122_colmap_sfm_small_overlap/cfg_args",
+          "bytes": 1991
+        }
+      }
+    }
+  ]
+}

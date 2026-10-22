@@ -1,0 +1,1 @@
+https://pypi.tuna.tsinghua.edu.cn/packages/c7/45/13bc9414ee9db611cba90b9efa69f66f246560e8ade575f1ee5b7f7b5d31/open3d-0.19.0-cp310-cp310-manylinux_2_31_x86_64.whl --hash=sha256:5b60234fa6a56a20caf1560cad4e914133c8c198d74d7b839631c90e8592762e

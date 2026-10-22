@@ -1,0 +1,49 @@
+Run directory: logs/dtu-gt_20261020T130706Z_2902
+SampleSet.zip remote bytes 6905656531 entries 2115
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask105_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask106_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask110_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask114_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask118_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask122_10.mat
+Already extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask24_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask37_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask40_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask55_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask63_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask65_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask69_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask83_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/ObsMask97_10.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane105.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane106.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane110.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane114.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane118.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane122.mat
+Already extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane24.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane37.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane40.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane55.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane63.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane65.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane69.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane83.mat
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/ObsMask/Plane97.mat
+Points.zip remote bytes 6966262016 entries 126
+Already extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl024_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl037_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl040_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl055_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl063_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl065_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl069_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl083_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl097_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl105_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl106_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl110_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl114_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl118_total.ply
+Extracted /root/autodl-tmp/DP-GS/data/DTU_GT/Points/stl/stl122_total.ply
+DTU_GT_READY

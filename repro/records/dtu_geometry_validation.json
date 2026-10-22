@@ -1,0 +1,92 @@
+[
+  {
+    "scan": 24,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 37,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 40,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 55,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 63,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 65,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 69,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 83,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 97,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 105,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 106,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 110,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 114,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 118,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  },
+  {
+    "scan": 122,
+    "decoded_video_frames": 60,
+    "fps": 15.0,
+    "camera_motion_verified": true
+  }
+]

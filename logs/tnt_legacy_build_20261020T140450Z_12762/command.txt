@@ -1,0 +1,1 @@
+cmake --build /root/autodl-tmp/dpgs-builds/Open3D-0.9/build --target pip-package --parallel 4 

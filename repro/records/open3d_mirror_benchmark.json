@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c7/45/13bc9414ee9db611cba90b9efa69f66f246560e8ade575f1ee5b7f7b5d31/open3d-0.19.0-cp310-cp310-manylinux_2_31_x86_64.whl",
+    "status": 206,
+    "bytes": 16777216,
+    "MBps": 2.8167232475854314
+  },
+  {
+    "url": "https://mirrors.aliyun.com/pypi/packages/c7/45/13bc9414ee9db611cba90b9efa69f66f246560e8ade575f1ee5b7f7b5d31/open3d-0.19.0-cp310-cp310-manylinux_2_31_x86_64.whl",
+    "status": 206,
+    "bytes": 16777216,
+    "MBps": 0.26789272023948313
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/c7/45/13bc9414ee9db611cba90b9efa69f66f246560e8ade575f1ee5b7f7b5d31/open3d-0.19.0-cp310-cp310-manylinux_2_31_x86_64.whl",
+    "status": 206,
+    "bytes": 16777216,
+    "MBps": 0.9115690173699583
+  }
+]

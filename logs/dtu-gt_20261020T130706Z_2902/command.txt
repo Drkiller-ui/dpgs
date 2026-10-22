@@ -1,0 +1,1 @@
+uv tool run --from gdown python repro/fetch_assets.py --only gt --scans 24 37 40 55 63 65 69 83 97 105 106 110 114 118 122 

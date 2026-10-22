@@ -1,0 +1,1 @@
+Initial detached launch was reaped before dependency installation. No surviving process; superseded by logs/setup_20261020T130445Z_2525.

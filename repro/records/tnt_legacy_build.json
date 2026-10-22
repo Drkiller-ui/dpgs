@@ -1,0 +1,20 @@
+{
+  "source": "https://github.com/isl-org/Open3D",
+  "tag": "v0.9.0",
+  "commit": "e5ba382ff991b4af74c8f7e4a66167fcabf26c5f",
+  "wheel": "repro/tnt_eval_env/wheels/open3d-0.9.0.0-cp310-cp310-linux_x86_64.whl",
+  "sha256": "907d4143256d06d390c2e2f6e27b45465f80c71fb96b6f71569d8d1f600d16ed",
+  "build_options": {
+    "CMAKE_BUILD_TYPE": "Release",
+    "CMAKE_CXX_FLAGS": "-Wno-error=maybe-uninitialized",
+    "BUILD_CPP_EXAMPLES": "OFF",
+    "BUILD_UNIT_TESTS": "OFF",
+    "ENABLE_JUPYTER": "OFF",
+    "BUILD_JSONCPP": "ON",
+    "PYTHON_EXECUTABLE": "repro/tnt_eval_env/.venv/bin/python"
+  },
+  "geometry_source_changes": false,
+  "binding_source_changes": false,
+  "build_concurrency": 4,
+  "selftest": "repro/records/tnt_evaluator_selftest_0.9.json"
+}

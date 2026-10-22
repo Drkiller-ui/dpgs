@@ -1,0 +1,33 @@
+{
+  "arguments": {
+    "scan": 63,
+    "data_type": "small_overlap",
+    "sfm_type": "colmap_sfm",
+    "stage": "outputs",
+    "data_root": "/root/autodl-tmp/DP-GS/data/DTU",
+    "output_root": "/autodl-fs/data/dpgs/output",
+    "gt_root": "/root/autodl-tmp/DP-GS/data/DTU_GT"
+  },
+  "gaussians": {
+    "points": 106047,
+    "minimum": [
+      -5.2601494789123535,
+      -4.763277530670166,
+      -2.852309226989746
+    ],
+    "maximum": [
+      3.1043238639831543,
+      2.305798053741455,
+      3.761085033416748
+    ]
+  },
+  "mesh": {
+    "vertices": 662021,
+    "triangles": 1270542
+  },
+  "metrics": {
+    "mean_d2s": 1.0509164087242968,
+    "mean_s2d": 0.54171101375953,
+    "overall": 0.7963137112419134
+  }
+}

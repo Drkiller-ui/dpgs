@@ -1,0 +1,1 @@
+uv pip install --target /tmp/dpgs-mirror-warm --no-deps --require-hashes -r repro/records/open3d_mirror_requirement.txt 

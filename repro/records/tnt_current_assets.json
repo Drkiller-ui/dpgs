@@ -1,0 +1,179 @@
+{
+  "source": "https://www.tanksandtemples.org/download/",
+  "assets": [
+    {
+      "scene": "Barn",
+      "role": "ground_truth",
+      "url": "https://drive.google.com/file/d/0B-ePgl6HF260UEVoYTVFX0V1MXM/view?usp=sharing&resourcekey=0-4yH5seXqNeaMtpBMozvVmw",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Barn/Barn.ply",
+      "status": "downloaded_validated",
+      "bytes": 344152660,
+      "sha256": "57366de305144818c3f60a7776602cdda615fabc17b6865d9d1291b57fb18dcc"
+    },
+    {
+      "scene": "Barn",
+      "role": "images",
+      "url": "https://drive.google.com/file/d/0B-ePgl6HF260NzQySklGdXZyQzA/view?usp=sharing&resourcekey=0-luQ7Jaym5BQL6IjxsgXY9A",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Barn/Barn.zip",
+      "status": "failed",
+      "error": "Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator."
+    },
+    {
+      "scene": "Caterpillar",
+      "role": "ground_truth",
+      "url": "https://drive.google.com/file/d/0B-ePgl6HF260ODdvT09Xc1JxOFE/view?usp=sharing&resourcekey=0-8MFJ0w6feKFfkig8vnwKiQ",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Caterpillar/Caterpillar.ply",
+      "status": "downloaded_validated",
+      "bytes": 370031940,
+      "sha256": "8e71d3dc9525fd17b2d3b11f5944a195d75435892b99eb75c006c38d00870b61"
+    },
+    {
+      "scene": "Caterpillar",
+      "role": "images",
+      "url": "https://drive.google.com/file/d/0B-ePgl6HF260b2JNbnZYYjczU2s/view?usp=sharing&resourcekey=0-pO8ilXjCCCEkSTVuePIe5g",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Caterpillar/Caterpillar.zip",
+      "status": "failed",
+      "error": "Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator."
+    },
+    {
+      "scene": "Ignatius",
+      "role": "ground_truth",
+      "url": "https://drive.google.com/file/d/0B-ePgl6HF260aFJKYm9VdWNVbU0/view?usp=sharing&resourcekey=0-SQeDh2MSoHxFkSCNijG79Q",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Ignatius/Ignatius.ply",
+      "status": "failed",
+      "error": "Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator."
+    },
+    {
+      "scene": "Ignatius",
+      "role": "images",
+      "url": "https://drive.google.com/file/d/0B-ePgl6HF260d0l0ZDNSZ3ZxREk/view?usp=sharing&resourcekey=0-DoBcm2nIvBpxqMUPgmcmXQ",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Ignatius/Ignatius.zip",
+      "status": "failed",
+      "error": "Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator."
+    },
+    {
+      "scene": "Truck",
+      "role": "ground_truth",
+      "url": "https://drive.google.com/file/d/0B-ePgl6HF260NlB1MXF1ZUs0c0U/view?usp=sharing&resourcekey=0-W5oFSFe8Ga-k5wGuqYWxAg",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Truck/Truck.ply",
+      "status": "failed",
+      "error": "Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator."
+    },
+    {
+      "scene": "Truck",
+      "role": "images",
+      "url": "https://drive.google.com/file/d/0B-ePgl6HF260NEw3OGN4ckF0dnM/view?usp=sharing&resourcekey=0-uYzL1Ga_EW1Ck0o-msT7Sg",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Truck/Truck.zip",
+      "status": "failed",
+      "error": "Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator."
+    },
+    {
+      "scene": "Barn",
+      "role": "trajectory",
+      "url": "https://drive.google.com/file/d/19baFLY8jrnPoRp2FX2pkuKZA3gcR6mn9/view?usp=sharing&resourcekey=",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Barn/Barn_COLMAP_SfM.log",
+      "status": "downloaded_validated",
+      "bytes": 104669,
+      "sha256": "680a666cdaed9c1b694d6213ffcf9b6b3279201b42d157b64eb0fa2ef600eec3"
+    },
+    {
+      "scene": "Barn",
+      "role": "alignment",
+      "url": "https://drive.google.com/file/d/1c3F2ZF46BFXzw7b4Kjc0eD5SoW4PhhXg/view?usp=sharing&resourcekey=",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Barn/Barn_trans.txt",
+      "status": "downloaded_validated",
+      "bytes": 407,
+      "sha256": "8cb4c321d1adcb5e1112d46487878243b181f0e06037029997fb4cb2036c0d56"
+    },
+    {
+      "scene": "Barn",
+      "role": "crop",
+      "url": "https://drive.google.com/file/d/1ZMeO6gbenmfsb6kxWi-ZM1flOy9wd1-s/view?usp=sharing&resourcekey=",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Barn/Barn.json",
+      "status": "downloaded_validated",
+      "bytes": 1257,
+      "sha256": "34d7bab5b991112148750f09004efb56b31692a68417e7a45f82776926b65df6"
+    },
+    {
+      "scene": "Caterpillar",
+      "role": "trajectory",
+      "url": "https://drive.google.com/file/d/1qCYVKFKwCxOkbLXsvHf-q7u8zoE9Qm-i/view?usp=sharing&resourcekey=",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Caterpillar/Caterpillar_COLMAP_SfM.log",
+      "status": "downloaded_validated",
+      "bytes": 97410,
+      "sha256": "4a63cbf37702b1d4aae3a8bcb75429791c263eebb5252039595f2857523d7fe7"
+    },
+    {
+      "scene": "Caterpillar",
+      "role": "alignment",
+      "url": "https://drive.google.com/file/d/1VT3ZIsg20mZPvWZZHIgdK-Oxgd9BRtsu/view?usp=sharing&resourcekey=",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Caterpillar/Caterpillar_trans.txt",
+      "status": "downloaded_validated",
+      "bytes": 406,
+      "sha256": "bf20dae166c1c5a934dcb73f9a00af0e3d2b34e805e15596713b7d52d0a9c115"
+    },
+    {
+      "scene": "Caterpillar",
+      "role": "crop",
+      "url": "https://drive.google.com/file/d/16HspBIUg9rP9tSCczYgdUXVYH9QFClzq/view?usp=sharing&resourcekey=",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Caterpillar/Caterpillar.json",
+      "status": "downloaded_validated",
+      "bytes": 2099,
+      "sha256": "0bc5042203aafb0b504806767b0908379073ba5e623355f46016ae0aa65def27"
+    },
+    {
+      "scene": "Ignatius",
+      "role": "trajectory",
+      "url": "https://drive.google.com/file/d/172dDxEcJyA6i2Ih3zy3QNWK1R-2sAIi_/view?usp=sharing&resourcekey=",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Ignatius/Ignatius_COLMAP_SfM.log",
+      "status": "downloaded_validated",
+      "bytes": 66736,
+      "sha256": "e2698f7c4ff664ae5f77302e3a187474db4b02c8c4862975afa31ad65edcba9d"
+    },
+    {
+      "scene": "Ignatius",
+      "role": "alignment",
+      "url": "https://drive.google.com/file/d/1wSCbCrOT7GsGVLDq0aXs4RHhs4FUzUeM/view?usp=sharing&resourcekey=",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Ignatius/Ignatius_trans.txt",
+      "status": "downloaded_validated",
+      "bytes": 408,
+      "sha256": "a6c473c797818a5a05213e7b886d3a4ee209dac52f998f3e0c6bc0725ac11226"
+    },
+    {
+      "scene": "Ignatius",
+      "role": "crop",
+      "url": "https://drive.google.com/file/d/1_0fESbNxfNI5NWzQ4RBhh460a9_0J54q/view?usp=sharing&resourcekey=",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Ignatius/Ignatius.json",
+      "status": "downloaded_validated",
+      "bytes": 952,
+      "sha256": "58f4f12dbdc98e7a0fc68ba7bd6ba6e31e1b912f4395ba3b9659105f00ceba28"
+    },
+    {
+      "scene": "Truck",
+      "role": "trajectory",
+      "url": "https://drive.google.com/file/d/1uItQhBS5Uiwgdo5xLshHiTJZddX9c3Za/view?usp=sharing&resourcekey=",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Truck/Truck_COLMAP_SfM.log",
+      "status": "downloaded_validated",
+      "bytes": 63753,
+      "sha256": "97e23dd33ca848ef6231a24c3b3222c0318a73cccf3ad975ea29c76b42f6bb6f"
+    },
+    {
+      "scene": "Truck",
+      "role": "alignment",
+      "url": "https://drive.google.com/file/d/148ahz6l5c5OV3-VnLJ4sF5gJfLdoIxCt/view?usp=sharing&resourcekey=",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Truck/Truck_trans.txt",
+      "status": "downloaded_validated",
+      "bytes": 408,
+      "sha256": "865d280d993821b0aa75278316b64e99adaca47b5222da37cbe5ec3562434d1e"
+    },
+    {
+      "scene": "Truck",
+      "role": "crop",
+      "url": "https://drive.google.com/file/d/1syfQomvqAqV-5jKvhT2r6CIPZy9tQd5V/view?usp=sharing&resourcekey=",
+      "file": "/root/autodl-fs/dpgs/downloads/TNT/Truck/Truck.json",
+      "status": "downloaded_validated",
+      "bytes": 631,
+      "sha256": "6d3bb42f836f17668b053f64b5c14edd1f8acd23e76f93f61e7b3d4ec910a9b8"
+    }
+  ]
+}

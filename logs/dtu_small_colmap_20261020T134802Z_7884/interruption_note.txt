@@ -1,0 +1,1 @@
+Verified on 2026-10-22T01:58:51.754140+00:00: no tmux server or training processes remain; final scan55 model absent. Exact interruption time and cause unknown. New all-DTU campaign preserves the old run.

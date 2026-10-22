@@ -1,0 +1,11 @@
+{
+  "phase": "dtu_small_overlap_colmap_campaign",
+  "tmux_session": "dpgs-dtu-small-colmap",
+  "log_pointer": "logs/dtu_small_colmap.latest",
+  "progress_file": "repro/records/dtu_small_colmap_progress.json",
+  "completed_at_launch": [
+    24
+  ],
+  "current_at_update": 37,
+  "first_scene_cd": 1.284755487128521
+}

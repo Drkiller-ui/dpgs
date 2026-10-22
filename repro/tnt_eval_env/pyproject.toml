@@ -1,0 +1,19 @@
+[project]
+name = "dp-gs-tnt-legacy-evaluation"
+version = "0.1.0"
+requires-python = "==3.10.*"
+dependencies = [
+    "numpy==1.23.5",
+    "scipy==1.10.1",
+    "matplotlib==3.7.5",
+    "setuptools<81",
+    "wheel",
+    "notebook<7",
+    "open3d",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+open3d = { path = "wheels/open3d-0.9.0.0-cp310-cp310-linux_x86_64.whl" }

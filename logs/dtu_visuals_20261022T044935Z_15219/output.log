@@ -1,0 +1,62 @@
+Run directory: logs/dtu_visuals_20261022T044935Z_15219
+VISUALIZATION_START scan24
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan24/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan24 1/15
+VISUALIZATION_START scan37
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan37/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan37 2/15
+VISUALIZATION_START scan40
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan40/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan40 3/15
+VISUALIZATION_START scan55
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan55/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan55 4/15
+VISUALIZATION_START scan63
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan63/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan63 5/15
+VISUALIZATION_START scan65
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan65/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan65 6/15
+VISUALIZATION_START scan69
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan69/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan69 7/15
+VISUALIZATION_START scan83
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan83/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan83 8/15
+VISUALIZATION_START scan97
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan97/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan97 9/15
+VISUALIZATION_START scan105
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan105/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan105 10/15
+VISUALIZATION_START scan106
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan106/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan106 11/15
+VISUALIZATION_START scan110
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan110/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan110 12/15
+VISUALIZATION_START scan114
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan114/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan114 13/15
+VISUALIZATION_START scan118
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan118/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan118 14/15
+VISUALIZATION_START scan122
+Reading camera 1/3Reading camera 2/3Reading camera 3/3
+/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan122/dense/fused.ply
+load camera 0load camera 1load camera 2VISUALIZATION_COMPLETE scan122 15/15
+VISUALIZATIONS_DONE 15 scans, 45 views, 113.8s

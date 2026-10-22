@@ -1,0 +1,12 @@
+[
+  {
+    "path": "/autodl-fs/data/dpgs/downloads/DTU_sparse2.zip",
+    "bytes": 1194542544,
+    "sha256": "c0abcc8954d10e2bbff0fc7300515e3957a343f73f537ed4e8fec55f36b5f32c"
+  },
+  {
+    "path": "/root/autodl-tmp/DP-GS/Metric3D/weight/metric_depth_vit_large_800k.pth",
+    "bytes": 1647972663,
+    "sha256": "15328ffc42b528b95f188687418f6f03b3f123eb34ccdbd686c112abbea6d972"
+  }
+]
