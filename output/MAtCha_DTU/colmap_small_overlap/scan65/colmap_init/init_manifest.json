@@ -1,0 +1,21 @@
+{
+  "scan": 65,
+  "initialization": "COLMAP dense fused cloud, identical to DP-GS",
+  "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan65/dense/fused.ply",
+  "sha256": "b7c4b3316deeff86cdc8e88dc8ecc164da809392fdd3ec4211fbbc9ac685c553",
+  "points": 19499,
+  "all_xyz_and_rgb_identical_after_binary_roundtrip": true,
+  "initial_ply_identical_to_dpgs": true,
+  "camera_poses": "unchanged author COLMAP",
+  "input_resolution": [
+    777,
+    581
+  ],
+  "views": {
+    "0022.png": 19499,
+    "0025.png": 19499,
+    "0028.png": 19499
+  },
+  "reference_selection": "Existing dense points projected by fixed cameras; positive depth and image field of view only; no learned geometry or GT used",
+  "mast3r_executed": false
+}

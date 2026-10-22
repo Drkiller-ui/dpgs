@@ -1,0 +1,21 @@
+{
+  "input_resolution": [
+    777,
+    581
+  ],
+  "official_rectified_cropped_image_sizes": {
+    "0022.png": [
+      777,
+      581
+    ],
+    "0025.png": [
+      777,
+      581
+    ],
+    "0028.png": [
+      777,
+      581
+    ]
+  },
+  "note": "Native COLMAP input retained; no MASt3R preprocessing or geometry used"
+}

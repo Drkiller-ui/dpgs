@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-22T08:39:55.589391+00:00",
+  "inputs": {
+    "24": {
+      "identical_input_cloud": true,
+      "xyz_rgb_roundtrip_identical": true,
+      "max_camera_error": 0.0
+    },
+    "37": {
+      "identical_input_cloud": true,
+      "xyz_rgb_roundtrip_identical": true,
+      "max_camera_error": 0.0
+    },
+    "40": {
+      "identical_input_cloud": true,
+      "xyz_rgb_roundtrip_identical": true,
+      "max_camera_error": 0.0
+    },
+    "55": {
+      "identical_input_cloud": true,
+      "xyz_rgb_roundtrip_identical": true,
+      "max_camera_error": 0.0
+    },
+    "63": {
+      "identical_input_cloud": true,
+      "xyz_rgb_roundtrip_identical": true,
+      "max_camera_error": 0.0
+    },
+    "65": {
+      "identical_input_cloud": true,
+      "xyz_rgb_roundtrip_identical": true,
+      "max_camera_error": 0.0
+    },
+    "69": {
+      "identical_input_cloud": true,
+      "xyz_rgb_roundtrip_identical": true,
+      "max_camera_error": 0.0
+    }
+  },
+  "reference_depth_convention": "PyTorch3D PointsRasterizer retains camera-view z; points and cameras scaled together before alignment",
+  "foreground_mask_culling": false,
+  "obs_mask_and_plane_filtering": true,
+  "evaluation_call_matches_existing_dpgs": true,
+  "method_specific_mesh_processing": "MAtCha default tetrahedralization versus existing DP-GS TSDF and connected-component filtering",
+  "scope": "Current documented COLMAP input adaptation, not recovered unpublished author COLMAP baseline runner",
+  "training_and_metric_parameters_changed_by_audit": false
+}

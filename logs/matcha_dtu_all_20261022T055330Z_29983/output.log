@@ -1,0 +1,14 @@
+Run directory: logs/matcha_dtu_all_20261022T055330Z_29983
+MATCHA_STAGE scan24 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/refinement.log
+MATCHA_MODEL scan24 gaussians=778856 finite=True
+MATCHA_STAGE scan24 mesh log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/mesh.log
+MATCHA_STAGE scan24 evaluation log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/evaluation.log
+MATCHA_STAGE scan24 render_dpgs log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/render_dpgs.log
+MATCHA_STAGE scan24 render_matcha log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/render_matcha.log
+MATCHA_STAGE scan24 compose log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/compose.log
+MATCHA_STAGE scan24 summary log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/summary.log
+MATCHA_SCAN_COMPLETE scan24 completed=1/15 cd=1.2080148484977278
+MATCHA_STAGE scan37 sfm log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan37/sfm.log
+MATCHA_STAGE scan37 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan37/alignment.log
+MATCHA_STAGE scan37 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan37/refinement.log
+Terminated

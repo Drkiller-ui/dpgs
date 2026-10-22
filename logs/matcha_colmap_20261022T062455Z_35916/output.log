@@ -1,0 +1,170 @@
+Run directory: logs/matcha_colmap_20261022T062455Z_35916
+MATCHA_STAGE scan24 colmap_input log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan24/colmap_input.log
+MATCHA_STAGE scan24 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan24/alignment.log
+MATCHA_STAGE scan24 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan24/refinement.log
+MATCHA_MODEL scan24 gaussians=814162 finite=True
+MATCHA_STAGE scan24 mesh log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan24/mesh.log
+MATCHA_STAGE scan24 evaluation log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan24/evaluation.log
+MATCHA_STAGE scan24 render_dpgs log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan24/render_dpgs.log
+MATCHA_STAGE scan24 render_matcha log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan24/render_matcha.log
+MATCHA_STAGE scan24 compose log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan24/compose.log
+MATCHA_STAGE scan24 summary log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan24/summary.log
+MATCHA_SCAN_COMPLETE scan24 completed=1/15 cd=2.7366029223063792
+MATCHA_STAGE scan37 colmap_input log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan37/colmap_input.log
+MATCHA_STAGE scan37 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan37/alignment.log
+MATCHA_STAGE scan37 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan37/refinement.log
+MATCHA_MODEL scan37 gaussians=856523 finite=True
+MATCHA_STAGE scan37 mesh log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan37/mesh.log
+MATCHA_STAGE scan37 evaluation log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan37/evaluation.log
+MATCHA_STAGE scan37 render_dpgs log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan37/render_dpgs.log
+MATCHA_STAGE scan37 render_matcha log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan37/render_matcha.log
+MATCHA_STAGE scan37 compose log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan37/compose.log
+MATCHA_STAGE scan37 summary log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan37/summary.log
+MATCHA_SCAN_COMPLETE scan37 completed=2/15 cd=2.853109490103939
+MATCHA_STAGE scan40 colmap_input log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan40/colmap_input.log
+MATCHA_STAGE scan40 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan40/alignment.log
+MATCHA_STAGE scan40 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan40/refinement.log
+MATCHA_MODEL scan40 gaussians=795318 finite=True
+MATCHA_STAGE scan40 mesh log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan40/mesh.log
+MATCHA_STAGE scan40 evaluation log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan40/evaluation.log
+MATCHA_STAGE scan40 render_dpgs log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan40/render_dpgs.log
+MATCHA_STAGE scan40 render_matcha log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan40/render_matcha.log
+MATCHA_STAGE scan40 compose log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan40/compose.log
+MATCHA_STAGE scan40 summary log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan40/summary.log
+MATCHA_SCAN_COMPLETE scan40 completed=3/15 cd=2.894629124859957
+MATCHA_STAGE scan55 colmap_input log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/colmap_input.log
+MATCHA_STAGE scan55 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/alignment.log
+MATCHA_STAGE scan55 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/refinement.log
+MATCHA_MODEL scan55 gaussians=789601 finite=True
+MATCHA_STAGE scan55 mesh log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/mesh.log
+MATCHA_STAGE scan55 evaluation log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/evaluation.log
+MATCHA_STAGE scan55 render_dpgs log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/render_dpgs.log
+MATCHA_STAGE scan55 render_matcha log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/render_matcha.log
+MATCHA_STAGE scan55 compose log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/compose.log
+MATCHA_STAGE scan55 summary log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/summary.log
+MATCHA_SCAN_COMPLETE scan55 completed=4/15 cd=1.6635253304244866
+MATCHA_STAGE scan63 colmap_input log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan63/colmap_input.log
+MATCHA_STAGE scan63 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan63/alignment.log
+MATCHA_STAGE scan63 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan63/refinement.log
+MATCHA_MODEL scan63 gaussians=848293 finite=True
+MATCHA_STAGE scan63 mesh log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan63/mesh.log
+MATCHA_STAGE scan63 evaluation log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan63/evaluation.log
+MATCHA_STAGE scan63 render_dpgs log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan63/render_dpgs.log
+MATCHA_STAGE scan63 render_matcha log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan63/render_matcha.log
+MATCHA_STAGE scan63 compose log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan63/compose.log
+MATCHA_STAGE scan63 summary log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan63/summary.log
+MATCHA_SCAN_COMPLETE scan63 completed=5/15 cd=4.379041390125233
+MATCHA_STAGE scan65 colmap_input log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan65/colmap_input.log
+MATCHA_STAGE scan65 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan65/alignment.log
+MATCHA_STAGE scan65 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan65/refinement.log
+MATCHA_MODEL scan65 gaussians=737770 finite=True
+MATCHA_STAGE scan65 mesh log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan65/mesh.log
+MATCHA_STAGE scan65 evaluation log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan65/evaluation.log
+MATCHA_STAGE scan65 render_dpgs log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan65/render_dpgs.log
+MATCHA_STAGE scan65 render_matcha log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan65/render_matcha.log
+MATCHA_STAGE scan65 compose log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan65/compose.log
+MATCHA_STAGE scan65 summary log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan65/summary.log
+MATCHA_SCAN_COMPLETE scan65 completed=6/15 cd=3.49370396535254
+MATCHA_STAGE scan69 colmap_input log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan69/colmap_input.log
+MATCHA_STAGE scan69 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan69/alignment.log
+MATCHA_STAGE scan69 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan69/refinement.log
+MATCHA_MODEL scan69 gaussians=759896 finite=True
+MATCHA_STAGE scan69 mesh log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan69/mesh.log
+MATCHA_STAGE scan69 evaluation log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan69/evaluation.log
+MATCHA_STAGE scan69 render_dpgs log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan69/render_dpgs.log
+MATCHA_STAGE scan69 render_matcha log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan69/render_matcha.log
+MATCHA_STAGE scan69 compose log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan69/compose.log
+MATCHA_STAGE scan69 summary log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan69/summary.log
+MATCHA_SCAN_COMPLETE scan69 completed=7/15 cd=1.6050015596560374
+MATCHA_STAGE scan83 colmap_input log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan83/colmap_input.log
+MATCHA_STAGE scan83 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan83/alignment.log
+MATCHA_STAGE scan83 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan83/refinement.log
+MATCHA_MODEL scan83 gaussians=770780 finite=True
+MATCHA_STAGE scan83 mesh log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan83/mesh.log
+MATCHA_STAGE scan83 evaluation log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan83/evaluation.log
+MATCHA_STAGE scan83 render_dpgs log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan83/render_dpgs.log
+MATCHA_STAGE scan83 render_matcha log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan83/render_matcha.log
+MATCHA_STAGE scan83 compose log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan83/compose.log
+MATCHA_STAGE scan83 summary log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan83/summary.log
+MATCHA_SCAN_COMPLETE scan83 completed=8/15 cd=4.067926075775567
+MATCHA_STAGE scan97 colmap_input log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan97/colmap_input.log
+MATCHA_STAGE scan97 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan97/alignment.log
+MATCHA_STAGE scan97 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan97/refinement.log
+MATCHA_MODEL scan97 gaussians=842978 finite=True
+MATCHA_STAGE scan97 mesh log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan97/mesh.log
+MATCHA_STAGE scan97 evaluation log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan97/evaluation.log
+MATCHA_STAGE scan97 render_dpgs log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan97/render_dpgs.log
+MATCHA_STAGE scan97 render_matcha log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan97/render_matcha.log
+MATCHA_STAGE scan97 compose log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan97/compose.log
+MATCHA_STAGE scan97 summary log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan97/summary.log
+MATCHA_SCAN_COMPLETE scan97 completed=9/15 cd=3.876070610795174
+MATCHA_STAGE scan105 colmap_input log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan105/colmap_input.log
+MATCHA_STAGE scan105 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan105/alignment.log
+MATCHA_STAGE scan105 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan105/refinement.log
+MATCHA_MODEL scan105 gaussians=764981 finite=True
+MATCHA_STAGE scan105 mesh log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan105/mesh.log
+MATCHA_STAGE scan105 evaluation log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan105/evaluation.log
+MATCHA_STAGE scan105 render_dpgs log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan105/render_dpgs.log
+MATCHA_STAGE scan105 render_matcha log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan105/render_matcha.log
+MATCHA_STAGE scan105 compose log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan105/compose.log
+MATCHA_STAGE scan105 summary log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan105/summary.log
+MATCHA_SCAN_COMPLETE scan105 completed=10/15 cd=3.872895663212146
+MATCHA_STAGE scan106 colmap_input log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan106/colmap_input.log
+MATCHA_STAGE scan106 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan106/alignment.log
+MATCHA_STAGE scan106 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan106/refinement.log
+MATCHA_MODEL scan106 gaussians=777299 finite=True
+MATCHA_STAGE scan106 mesh log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan106/mesh.log
+MATCHA_STAGE scan106 evaluation log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan106/evaluation.log
+MATCHA_STAGE scan106 render_dpgs log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan106/render_dpgs.log
+MATCHA_STAGE scan106 render_matcha log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan106/render_matcha.log
+MATCHA_STAGE scan106 compose log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan106/compose.log
+MATCHA_STAGE scan106 summary log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan106/summary.log
+MATCHA_SCAN_COMPLETE scan106 completed=11/15 cd=2.6594734486872156
+MATCHA_STAGE scan110 colmap_input log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan110/colmap_input.log
+MATCHA_STAGE scan110 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan110/alignment.log
+MATCHA_STAGE scan110 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan110/refinement.log
+[INFO] Refined free gaussians will be saved to: 
+/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan110/free_gaussians
+[INFO] Running command:
+python 2d-gaussian-splatting/train_with_charts.py -s 
+/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan110/colmap_init -m 
+/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan110/free_gaussians --iterations 7000 
+--densify_until_iter 3500 --opacity_reset_interval 1000 --depth_ratio 0.5 --use_mip_filter  --normal_consistency_from 
+3500 --distortion_from 1500 --depthanythingv2_checkpoint_dir ./Depth-Anything-V2/checkpoints/ --depthanything_encoder 
+vitl --dense_regul default
+[INFO] Vanilla 3D Gaussian rasterization or Gaussian Surfel rasterization not available.
+[INFO] Gaustudio rasterization not available.
+Optimizing /root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan110/free_gaussians
+Randomly selected port: 207 [22/10 18:02:07]
+Output folder: /root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan110/free_gaussians [22/10 18:02:07]
+
+Reading camera 1/3
+Reading camera 2/3
+Reading camera 3/3 [22/10 18:02:07]
+Loading Training Cameras [22/10 18:02:07]
+Loading Test Cameras [22/10 18:02:07]
+Traceback (most recent call last):
+  File "/root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/train_with_charts.py", line 740, in <module>
+    training(
+  File "/root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/train_with_charts.py", line 76, in training
+    scene = Scene(dataset, gaussians, shuffle=False)
+  File "/root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/scene/__init__.py", line 83, in __init__
+    self.gaussians.create_from_pcd(scene_info.point_cloud, self.cameras_extent)
+  File "/root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/scene/gaussian_model.py", line 142, in create_from_pcd
+    fused_point_cloud = torch.tensor(np.asarray(pcd.points)).float().cuda()
+AttributeError: 'NoneType' object has no attribute 'points'
+Traceback (most recent call last):
+  File "/root/autodl-tmp/DP-GS/baselines/MAtCha/scripts/refine_free_gaussians.py", line 78, in <module>
+    subprocess.run(command, shell=True, check=True)
+  File "/root/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'python 2d-gaussian-splatting/train_with_charts.py -s /root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan110/colmap_init -m /root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan110/free_gaussians --iterations 7000 --densify_until_iter 3500 --opacity_reset_interval 1000 --depth_ratio 0.5 --use_mip_filter  --normal_consistency_from 3500 --distortion_from 1500 --depthanythingv2_checkpoint_dir ./Depth-Anything-V2/checkpoints/ --depthanything_encoder vitl --dense_regul default' returned non-zero exit status 1.
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/DP-GS/repro/run_matcha_dtu.py", line 158, in <module>
+    main()
+  File "/root/autodl-tmp/DP-GS/repro/run_matcha_dtu.py", line 125, in main
+    run(scan,'refinement',[sys.executable,'scripts/refine_free_gaussians.py','--mast3r_scene',sfm,'--output_path',free,'--config','default'])
+  File "/root/autodl-tmp/DP-GS/repro/run_matcha_dtu.py", line 104, in run
+    raise subprocess.CalledProcessError(proc.returncode, command)
+subprocess.CalledProcessError: Command '['/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python', 'scripts/refine_free_gaussians.py', '--mast3r_scene', PosixPath('/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan110/colmap_init'), '--output_path', PosixPath('/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan110/free_gaussians'), '--config', 'default']' returned non-zero exit status 1.

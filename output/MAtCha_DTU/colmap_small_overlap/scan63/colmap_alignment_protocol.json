@@ -1,0 +1,58 @@
+{
+  "initialization": "Same original COLMAP dense points as DP-GS; native COLMAP loader and DepthAnythingV2 charts",
+  "reference_grid": [
+    383,
+    512
+  ],
+  "valid_reference_pixels": [
+    12837,
+    13680,
+    12427
+  ],
+  "reference_point_raster_radius_pixels": 1.0,
+  "hole_filling": false,
+  "gt_geometry_used": false,
+  "mast3r_executed": false,
+  "alignment_config": {
+    "use_learnable_depth_encoding": true,
+    "learnable_depth_encoding_mode": "add",
+    "predict_in_disparity_space": false,
+    "use_learnable_confidence": true,
+    "use_meta_mlp": false,
+    "use_lora_mlp": false,
+    "lora_rank": 4,
+    "n_lora_layers": 2,
+    "use_multi_res_charts_encoding": true,
+    "n_iterations": 1000,
+    "encodings_lr": 0.01,
+    "mlp_lr": 0.001,
+    "confidence_lr": 0.001,
+    "lr_update_iters": [
+      1000
+    ],
+    "lr_update_factor": 0.1,
+    "use_gradient_loss": false,
+    "gradient_loss_weight": 50.0,
+    "use_hessian_loss": false,
+    "hessian_loss_weight": 100.0,
+    "use_normal_loss": true,
+    "normal_loss_weight": 4.0,
+    "use_curvature_loss": true,
+    "curvature_loss_weight": 1.0,
+    "use_matching_loss": true,
+    "matching_update_iters": null,
+    "matching_loss_weight": 5.0,
+    "matching_thr_factor": 0.05,
+    "use_confidence_in_matching_loss": false,
+    "use_reprojection_loss": false,
+    "reprojection_loss_weight": 2.0,
+    "reprojection_loss_power": 0.5,
+    "regularize_chart_encodings_norms": false,
+    "use_total_variation_on_depth_encodings": false,
+    "weight_encodings_with_confidence": false,
+    "chart_encodings_norm_loss_weight": 2.0,
+    "total_variation_on_depth_encodings_weight": 5.0
+  },
+  "coordinate_scale": 2.8370693647274536,
+  "note": "COLMAP cloud adapted to the native masked reference-depth API; default alignment losses and weights retained"
+}

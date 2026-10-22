@@ -1,0 +1,10 @@
+{
+  "scan": 24,
+  "iterations_completed": 7000,
+  "checkpoint_saved": false,
+  "loss_was_finite": true,
+  "cause": "Official training_report colormap uses FigureCanvasAgg.tostring_rgb removed in installed Matplotlib; failed before scene.save",
+  "remediation": "Pin official matplotlib==3.9.4 and repeat only refinement from same charts, no hyperparameter change",
+  "archive": "/autodl-fs/data/dpgs/output/MAtCha_DTU_interrupted/scan24_matplotlib_20261022T0552Z",
+  "at": "2026-10-22T05:53:06.102252+00:00"
+}

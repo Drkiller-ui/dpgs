@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-10-22T05:24:44.254773+00:00",
+  "repository": "https://github.com/Drkiller-ui/dpgs",
+  "branch": "main",
+  "commit": "f2f78bafecf44bccde554ea9421080fd38e16d44",
+  "files": 3033,
+  "videos": 15,
+  "comparison_boards": 15,
+  "mean_cd": 0.9368063056762345,
+  "specified_image_verified": "output/DTU_geometry/colmap_sfm_small_overlap/scan24/novel_0.47.png",
+  "specified_image_git_blob": "727d9e387334f3e23b4d0b6d1e7cd6fdb27fdc9c",
+  "models_meshes_and_arrays_excluded": true,
+  "publish_working_tree": "/autodl-fs/data/dpgs/publish/dpgs-20261022",
+  "original_workspace_git_history_preserved": true
+}

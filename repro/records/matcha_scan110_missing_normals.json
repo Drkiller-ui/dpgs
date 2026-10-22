@@ -1,0 +1,113 @@
+{
+  "at_utc": "2026-10-22T10:04:17.998456+00:00",
+  "failure": "scan110 original COLMAP PLY has XYZ/RGB/alpha but no normals; upstream fetchPly silently returned None",
+  "training_iterations_before_failure": 0,
+  "fix": "Optional missing normals get zero placeholders; GaussianModel.create_from_pcd does not consume normals; chart initialization and losses unchanged",
+  "checks": [
+    {
+      "scan": 24,
+      "points": 24593,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "c25053ebfd6aeab6ffd62c7c0e6309daadb000ed37961b7d42216d16f418b802"
+    },
+    {
+      "scan": 37,
+      "points": 32451,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "ee2ac2304cb02cd8a161e8873d9ca7651a136f1dc2ab3e8eae0c0c15bf17e0d5"
+    },
+    {
+      "scan": 40,
+      "points": 117324,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "5ca5e7c7a50935c45542fb9f19575b319b8ecab16cf53a73694e9958ede60652"
+    },
+    {
+      "scan": 55,
+      "points": 55825,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "15951a3afe52b65821e89fed59d01a3b5d1fa84f7c005444e9b48e9faaa44472"
+    },
+    {
+      "scan": 63,
+      "points": 16490,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "92ee67bfa2005d23ba68f31e611447e29ae9a17f0a36864b7f1658053499d0a9"
+    },
+    {
+      "scan": 65,
+      "points": 19499,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "b7c4b3316deeff86cdc8e88dc8ecc164da809392fdd3ec4211fbbc9ac685c553"
+    },
+    {
+      "scan": 69,
+      "points": 30081,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "623c26a7924d126b9e3f17d5e48fc1002a1ebcb33679a04c06cf727769ec66ad"
+    },
+    {
+      "scan": 83,
+      "points": 3471,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "9b976204609e835fca15dd450559a87378f757cf0cf61240067b845b19171a21"
+    },
+    {
+      "scan": 97,
+      "points": 13785,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "9b4fd591812faf3fed415f5e64cb83b65086a9ad5d2959e368017f704fa58498"
+    },
+    {
+      "scan": 105,
+      "points": 5811,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "49e9755962529d31345225a23677872381d98020b1a42b4a05ee13db5dd0ccc1"
+    },
+    {
+      "scan": 106,
+      "points": 45524,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "f591a0c14d52af9677d5009c2060d1d6013067b284dd37d3da26f0ecf7a529a3"
+    },
+    {
+      "scan": 110,
+      "points": 14876,
+      "normals_present": false,
+      "xyz_rgb_identical": true,
+      "source_sha256": "610bb1cd540adb6efac94ca0a25932ae374eca3ff44982db8cde35851addd901"
+    },
+    {
+      "scan": 114,
+      "points": 32454,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "46bb81a4293fc59cccac31ee400b79e66d778e94a323b62dbef540203eaff0f6"
+    },
+    {
+      "scan": 118,
+      "points": 40500,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "1ff6add155143fde075ae15edc132696c6588618fca474ed8d5f48867c654644"
+    },
+    {
+      "scan": 122,
+      "points": 42249,
+      "normals_present": true,
+      "xyz_rgb_identical": true,
+      "source_sha256": "6298f35b1c5bf24e493f74632da672aed6a0086ce31d451fa7fe81e11c6f931f"
+    }
+  ]
+}

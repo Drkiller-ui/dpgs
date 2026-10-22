@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/colmap_init', model_path='/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/free_gaussians', images='images', resolution=-1, white_background=False, data_device='cuda', eval=False, render_items=['RGB', 'Alpha', 'Normal', 'Depth', 'Edge', 'Curvature'])

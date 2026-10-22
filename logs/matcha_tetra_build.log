@@ -1,0 +1,15 @@
+[ 33%] Building CXX object CMakeFiles/tetranerf_cpp_extension.dir/src/triangulation.cpp.o
+[ 66%] Building CXX object CMakeFiles/tetranerf_cpp_extension.dir/src/py_binding.cpp.o
+[100%] Linking CXX shared module tetranerf/utils/extension/tetranerf_cpp_extension.cpython-310-x86_64-linux-gnu.so
+[100%] Built target tetranerf_cpp_extension
+Resolved 1 package in 299ms
+   Building tetra-nerf @ file:///root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/tetra-triangulation
+      Built tetra-nerf @ file:///root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/tetra-triangulation
+Prepared 1 package in 443ms
+Installed 1 package in 5ms
+ + tetra-nerf==0.1.1 (from file:///root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/tetra-triangulation)
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/tetranerf/utils/extension/__init__.py", line 1, in <module>
+    from . import tetranerf_cpp_extension as cpp
+ImportError: cannot import name 'tetranerf_cpp_extension' from partially initialized module 'tetranerf.utils.extension' (most likely due to a circular import) (/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/tetranerf/utils/extension/__init__.py)

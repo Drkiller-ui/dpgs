@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-10-22T08:26:43.442738+00:00",
+  "monitoring_requested": true,
+  "full_report_local": "2026-10-22 18:58 Asia/Shanghai",
+  "next_full_report_local": null,
+  "campaign": "logs/matcha_colmap.latest",
+  "monitor_session": 29814,
+  "complete_artifacts": 15,
+  "notes": "Keep supervising until all 15 finish; handle errors; preserve same COLMAP source and method settings; no autonomous hyperparameter tuning",
+  "last_report_utc": "2026-10-22T10:58:19.820418+00:00",
+  "status": "completed",
+  "completed_at_utc": "2026-10-22T11:20:29.895388+00:00",
+  "verification": "repro/records/matcha_completion.json"
+}

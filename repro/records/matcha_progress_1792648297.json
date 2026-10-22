@@ -1,0 +1,93 @@
+{
+  "method": "MAtCha",
+  "commit": "b119fd96e484fc81eb40623c1ea92ad3dbd3c21e",
+  "scans": [
+    24
+  ],
+  "views": [
+    22,
+    25,
+    28
+  ],
+  "resolution": [
+    777,
+    581
+  ],
+  "sfm": "Official posed configuration (MASt3R geometry, fixed author COLMAP cameras)",
+  "charts_alignment_iterations": 1000,
+  "refinement_iterations": 7000,
+  "mesh": "Official adaptive tetrahedralization, default config, downsample=0.5, interpolated views",
+  "evaluation": "Same original masks, culling, world coordinates, ObsMask, plane, sampling and CD as DP-GS",
+  "started_at": "2026-10-22T05:42:17.350579+00:00",
+  "stages": [
+    {
+      "scan": 24,
+      "stage": "sfm",
+      "command": [
+        "/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python",
+        "scripts/run_sfm.py",
+        "-s",
+        "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan24",
+        "-o",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/mast3r_sfm",
+        "--config",
+        "posed",
+        "--image_idx",
+        "0",
+        "1",
+        "2"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS/baselines/MAtCha",
+      "status": "completed",
+      "started_at": "2026-10-22T05:42:17.353590+00:00",
+      "exit_code": 0,
+      "seconds": 139.08601713180542
+    },
+    {
+      "scan": 24,
+      "stage": "alignment",
+      "command": [
+        "/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python",
+        "scripts/align_charts.py",
+        "-s",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/mast3r_sfm",
+        "-m",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/mast3r_sfm",
+        "-o",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/mast3r_sfm",
+        "--config",
+        "default"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS/baselines/MAtCha",
+      "status": "completed",
+      "started_at": "2026-10-22T05:44:36.458898+00:00",
+      "exit_code": 0,
+      "seconds": 78.75246739387512
+    },
+    {
+      "scan": 24,
+      "stage": "refinement",
+      "command": [
+        "/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python",
+        "scripts/refine_free_gaussians.py",
+        "--mast3r_scene",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/mast3r_sfm",
+        "--output_path",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/free_gaussians",
+        "--config",
+        "default"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS/baselines/MAtCha",
+      "status": "failed",
+      "started_at": "2026-10-22T05:45:55.227757+00:00",
+      "exit_code": 1,
+      "seconds": 341.8144209384918
+    }
+  ],
+  "current_scan": 24,
+  "current_stage": "refinement",
+  "updated_at": "2026-10-22T05:51:37.073396+00:00",
+  "completed": [],
+  "status": "failed",
+  "error": "CalledProcessError(1, ['/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python', 'scripts/refine_free_gaussians.py', '--mast3r_scene', PosixPath('/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/mast3r_sfm'), '--output_path', PosixPath('/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/free_gaussians'), '--config', 'default'])"
+}

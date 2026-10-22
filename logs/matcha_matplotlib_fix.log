@@ -1,0 +1,9 @@
+Using Python 3.10.20 environment at: baselines/MAtCha/.venv
+Resolved 1 package in 1.13s
+Downloading matplotlib (7.9MiB)
+ Downloaded matplotlib
+Prepared 1 package in 13.17s
+Uninstalled 1 package in 47ms
+Installed 1 package in 183ms
+ - matplotlib==3.10.9
+ + matplotlib==3.9.4

@@ -1,0 +1,10 @@
+{
+  "gaussians": 789601,
+  "all_gaussian_float_properties_finite": true,
+  "mesh_vertices": 4427602,
+  "mesh_faces": 8852231,
+  "all_mesh_vertices_finite": true,
+  "iteration": 7000,
+  "checkpoint": "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/free_gaussians/point_cloud/iteration_7000/point_cloud.ply",
+  "mesh": "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/colmap_small_overlap/scan55/tetra_meshes/tetra_mesh_binary_search_7.ply"
+}

@@ -1,0 +1,467 @@
+[
+  {
+    "scan": 24,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan24",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan24",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "ff27d8f516952d08b02ac266db3af7da2a9b8e6047db5e70a39f549af18d4e87"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "86e01993d123bbd49c65e6c669e4a98315397786da7dbcd0d7fe0f256a7789a4"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "a52f71210e6d5c8d29dc9b1df0eda4e36ecea8c0088a532418492573ee1b375f"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 37,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan37",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan37",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "3201306d4ec010852fd4dec15cf0b2cd773e11adff2405ddd254cda70826c724"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "657ee75587abbe64705763402ddd631d4c52e8c4b0f8bec345471caccfa9b215"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "960f8d79d213ab4e300bda3ad8cc66f7df940fadd8571d4344efabcfdd2f657f"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 40,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan40",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan40",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "b2acb1c6fbf85da13a1582da3aa0ec3baecf556480d03de6a72c03cb2749a41b"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "57875ff5d7bf430a94314234d417a2912adfc9644e855093aeb0c3291331d9ea"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "50d946951f8842e57855d86400701e59b021ffc734f500fb8c006623b0ba75f5"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 55,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan55",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan55",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "318545fd475e9914498c078cfcfb622ed1a1a6fc1ee9da97307e80e0a78467d9"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "0428763689fa334c47d6f43dc6ac59b453462bb03e03dc6107d16e3d6cc84a44"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "7536b0ec195acd5ff3a3ae38855533a4d02b5e98b118d1b93e405bd706149fb4"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 63,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan63",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan63",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "e3f8046586f9b25c7f96c4afef95dab19db952e2936575ac4e17d936bfb7bb0b"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "701972c783d04fc58f68e295b911fcb0f6f7e5c4769ab7e27c919497c4bb50ee"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "17fbe69ec5810475aa0d66f8d6ebb9b5a88289a63dc28206f5f2b56edd70d3a5"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 65,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan65",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan65",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "b6daa8461746d39199c746116f009b56b067e84490348678991f5718843ac455"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "a17af24b861216f6a452dfe4742a3b1c19679413ec6bab81cf911111ca64f22c"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "2ac69aa2fe90904f519567c7dc13ac88d7eef4474fc5d484e91f2e4dec2ef40f"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 69,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan69",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan69",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "6f12a037bfd46e799a504588331e0fd9d27f53268417ad7f06e03fe9fa20107d"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "25174759bae4c11b64910f7185b7211d817295641f2cf65523a6719559e66400"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "9942f1f0f701987235a7dbd6fbe609dcd0a9885318cffe1ce130eed6c989ba3d"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 83,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan83",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan83",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "75d96f4a8a2ebb1086674ca7c17157a7ec02a87e813bbe7662b31fa2319e8d64"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "14fda05915fad4b757b016ab4effcb2099acd21b2ddea0c119163a1407892fa9"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "6bfc414975a4bd4d46b33f97577b33653984c7b90c83198459e9ed85c46f606a"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 97,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan97",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan97",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "79c40ac848f49096716fc0cc23a450ee80d278cd642830fe5626b226bfb0cff3"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "7b778180af0df8329a3b40cf06444ecec62255325130d0becc55c614428bd41c"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "aa07475a06ddfab7f64d4680587203092657117a9cee183d148507b71e9fc8c6"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 105,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan105",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan105",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "c67be1c45335776e3781a0242305af195fdce4af69569855eee287dfeb7a3902"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "5f0d44d613efeb3bf75474b84bb7f2627f51de69eb47fb2bef4efbafc90449d3"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "ed8e24edc7c13cb5801e02cd657ccad51cf0daad1496927e614f02f503651e35"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 106,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan106",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan106",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "c0ea6da62caa1fcd7a7e3577824268eac31de97922785e9ca6cdb0a810935b81"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "59d78ab3b5b22e7658fc7cc2102590be5c968b3a11b5b1b552f9500404939c85"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "3d3ad8077a6967844799df95e484e11220ad3921ee4c437803c45baaaf0165a4"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 110,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan110",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan110",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "180064a9c59359d63d00d78648cd69dcfa231ad143402649e3b6014feb1e6b13"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "aee6c98feb479ed6d610a318e19b68bc89be8ac779fbd8430481c469332c4ef5"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "1e06face3f0d7f99ad106267ccc581b9c95d65f948a2f83bf6a14b2d0b4d50d4"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 114,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan114",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan114",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "f5c9289a00c4140ccfbae24c1821e35445698c84526cf6b664b551b510dea68d"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "dc045b33090bd324bb1908a5a0a0da43114d80af6ac91b4d4c8887d57dec75ff"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "b1a93c8429496b7dd06881c7d6de4889d9559fb5da9c26c30e10800eaa4c2a08"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 118,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan118",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan118",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "16acd0611f84516e065d92b3844e882b57734cdad8ee0006c61fdf36e8b0b562"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "28f2118c662da746a0236b997101e32cf8cf57fe0b779a6e2de9417d0ed4fcdb"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "1a57ee6b329267f1f38144e815e147f4fab301ea906fc4c16282695eb31a8465"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  },
+  {
+    "scan": 122,
+    "views": [
+      22,
+      25,
+      28
+    ],
+    "resolution": [
+      777,
+      581
+    ],
+    "source": "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan122",
+    "target": "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan122",
+    "training_rgb_matches_saved_dpgs_gt_raw": true,
+    "images": [
+      {
+        "name": "0022.png",
+        "sha256": "d210261f3612a550d377a3ea3dce0b9a41cdb936a1445b330fd264245d48abc4"
+      },
+      {
+        "name": "0025.png",
+        "sha256": "719b6349f578f93666892968d0e9407b30fed9b148c94dd6e5f1aab0506d3782"
+      },
+      {
+        "name": "0028.png",
+        "sha256": "95269607caea39218f3189de864c8328d260d801397c5e4f8f59ccd5621982e4"
+      }
+    ],
+    "poses": "Unmodified author COLMAP poses; intrinsics and observations scaled by 0.5",
+    "mask": "RGB only, same DP-GS training image pixels; original masks retained for identical CD evaluation"
+  }
+]

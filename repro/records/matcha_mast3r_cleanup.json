@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-22T06:16:54.183817+00:00",
+  "reason": "User explicitly requested unified COLMAP point cloud and deletion of existing MASt3R initialization",
+  "deleted": [
+    {
+      "path": "/autodl-fs/data/dpgs/output/MAtCha_DTU/posed_small_overlap/scan24/mast3r_sfm",
+      "bytes": 220143404
+    },
+    {
+      "path": "/autodl-fs/data/dpgs/output/MAtCha_DTU/posed_small_overlap/scan37/mast3r_sfm",
+      "bytes": 187229484
+    }
+  ],
+  "pretrained_weights_deleted": false,
+  "dpgs_results_deleted": false,
+  "new_protocol": "Same data/DTU/small_overlap/scan<ID>/dense/fused.ply as DP-GS"
+}

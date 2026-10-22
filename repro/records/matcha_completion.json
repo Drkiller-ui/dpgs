@@ -1,0 +1,240 @@
+{
+  "verified_at_utc": "2026-10-22T11:29:16.496438+00:00",
+  "status": "completed",
+  "scans": [
+    24,
+    37,
+    40,
+    55,
+    63,
+    65,
+    69,
+    83,
+    97,
+    105,
+    106,
+    110,
+    114,
+    118,
+    122
+  ],
+  "mean_cd_mm": {
+    "dpgs": 0.9368063056762341,
+    "matcha": 2.7644510979561803
+  },
+  "checks": [
+    {
+      "scan": 24,
+      "dpgs_cd": 1.284755487128521,
+      "matcha_cd": 2.7366029223063792,
+      "original_colmap_sha256": "c25053ebfd6aeab6ffd62c7c0e6309daadb000ed37961b7d42216d16f418b802",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 37,
+      "dpgs_cd": 1.8357423188122193,
+      "matcha_cd": 2.853109490103939,
+      "original_colmap_sha256": "ee2ac2304cb02cd8a161e8873d9ca7651a136f1dc2ab3e8eae0c0c15bf17e0d5",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 40,
+      "dpgs_cd": 1.554857421004587,
+      "matcha_cd": 2.894629124859957,
+      "original_colmap_sha256": "5ca5e7c7a50935c45542fb9f19575b319b8ecab16cf53a73694e9958ede60652",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 55,
+      "dpgs_cd": 0.684329062478036,
+      "matcha_cd": 1.6635253304244866,
+      "original_colmap_sha256": "15951a3afe52b65821e89fed59d01a3b5d1fa84f7c005444e9b48e9faaa44472",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 63,
+      "dpgs_cd": 0.7963137112419134,
+      "matcha_cd": 4.379041390125233,
+      "original_colmap_sha256": "92ee67bfa2005d23ba68f31e611447e29ae9a17f0a36864b7f1658053499d0a9",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 65,
+      "dpgs_cd": 1.2283556493158934,
+      "matcha_cd": 3.49370396535254,
+      "original_colmap_sha256": "b7c4b3316deeff86cdc8e88dc8ecc164da809392fdd3ec4211fbbc9ac685c553",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 69,
+      "dpgs_cd": 0.6086934138884827,
+      "matcha_cd": 1.6050015596560374,
+      "original_colmap_sha256": "623c26a7924d126b9e3f17d5e48fc1002a1ebcb33679a04c06cf727769ec66ad",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 83,
+      "dpgs_cd": 1.101205253180491,
+      "matcha_cd": 4.067926075775567,
+      "original_colmap_sha256": "9b976204609e835fca15dd450559a87378f757cf0cf61240067b845b19171a21",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 97,
+      "dpgs_cd": 0.80780451620503,
+      "matcha_cd": 3.876070610795174,
+      "original_colmap_sha256": "9b4fd591812faf3fed415f5e64cb83b65086a9ad5d2959e368017f704fa58498",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 105,
+      "dpgs_cd": 0.8238323599270428,
+      "matcha_cd": 3.872895663212146,
+      "original_colmap_sha256": "49e9755962529d31345225a23677872381d98020b1a42b4a05ee13db5dd0ccc1",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 106,
+      "dpgs_cd": 0.8031309514632854,
+      "matcha_cd": 2.6594734486872156,
+      "original_colmap_sha256": "f591a0c14d52af9677d5009c2060d1d6013067b284dd37d3da26f0ecf7a529a3",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 110,
+      "dpgs_cd": 0.5422628816640946,
+      "matcha_cd": 2.371730960786719,
+      "original_colmap_sha256": "610bb1cd540adb6efac94ca0a25932ae374eca3ff44982db8cde35851addd901",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 114,
+      "dpgs_cd": 0.42941710585562387,
+      "matcha_cd": 1.0622360607602546,
+      "original_colmap_sha256": "46bb81a4293fc59cccac31ee400b79e66d778e94a323b62dbef540203eaff0f6",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 118,
+      "dpgs_cd": 0.649453515518904,
+      "matcha_cd": 1.5890544833737623,
+      "original_colmap_sha256": "1ff6add155143fde075ae15edc132696c6588618fca474ed8d5f48867c654644",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    },
+    {
+      "scan": 122,
+      "dpgs_cd": 0.9019409374593914,
+      "matcha_cd": 2.341765383123278,
+      "original_colmap_sha256": "6298f35b1c5bf24e493f74632da672aed6a0086ce31d451fa7fe81e11c6f931f",
+      "camera_poses_identical": true,
+      "training_columns_pixels_verified": [
+        "Original RGB",
+        "MAtCha",
+        "DP-GS"
+      ],
+      "comparison_pngs_verified": 3,
+      "comparison_video_decoded_frames": 60
+    }
+  ],
+  "scope": "Same original COLMAP dense/fused.ply initialization, three RGB inputs and original calibration; no MASt3R",
+  "reproduction_status": "Local COLMAP adapter for pinned upstream MAtCha; the DP-GS paper authors modified MAtCha COLMAP entry point was not available. Results are for this documented setup, not claimed as an exact reproduction of their table.",
+  "recovered_failure_record": "repro/records/matcha_scan110_missing_normals.json"
+}

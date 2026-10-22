@@ -1,0 +1,164 @@
+Using Python 3.10.20 environment at: baselines/MAtCha/.venv
+Resolved 16 packages in 1.88s
+   Building fvcore==0.1.5.post20221221
+Downloading cmake (26.5MiB)
+      Built fvcore==0.1.5.post20221221
+ Downloaded cmake
+Prepared 4 packages in 2.00s
+Installed 4 packages in 1.41s
+ + cmake==3.31.10
+ + fvcore==0.1.5.post20221221
+ + tabulate==0.10.0
+ + yacs==0.1.8
+Using Python 3.10.20 environment at: baselines/MAtCha/.venv
+Resolved 2 packages in 3.00s
+   Building diff-surfel-rasterization @ file:///root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/diff-surfel-rasterization
+   Building simple-knn @ file:///root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/simple-knn
+      Built simple-knn @ file:///root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/simple-knn
+      Built diff-surfel-rasterization @ file:///root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/diff-surfel-rasterization
+Prepared 2 packages in 51.20s
+Uninstalled 1 package in 1ms
+Installed 2 packages in 53ms
+ + diff-surfel-rasterization==0.0.1 (from file:///root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/diff-surfel-rasterization)
+ - simple-knn==0.0.0 (from file:///root/autodl-tmp/DP-GS/submodules/simple-knn)
+ + simple-knn==0.0.0 (from file:///root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/simple-knn)
+running build_ext
+/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:424: UserWarning: There are no c++ version bounds defined for CUDA version 12.4
+  warnings.warn(f'There are no {compiler_name} version bounds defined for CUDA version {cuda_str_version}')
+building 'curope' extension
+creating /root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/build/temp.linux-x86_64-cpython-310
+Emitting ninja build file /root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/build/temp.linux-x86_64-cpython-310/build.ninja...
+Compiling objects...
+Using envvar MAX_JOBS (8) as the number of workers...
+[1/2] c++ -MMD -MF /root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/build/temp.linux-x86_64-cpython-310/curope.o.d -pthread -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include -I/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include/TH -I/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.4/include -I/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/include -I/root/.local/share/uv/python/cpython-3.10.20-linux-x86_64-gnu/include/python3.10 -c -c /root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/curope.cpp -o /root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/build/temp.linux-x86_64-cpython-310/curope.o -O3 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=curope -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++17
+[2/2] /usr/local/cuda-12.4/bin/nvcc --generate-dependencies-with-compile --dependency-output /root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/build/temp.linux-x86_64-cpython-310/kernels.o.d -I/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include -I/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include/TH -I/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include/THC -I/usr/local/cuda-12.4/include -I/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/include -I/root/.local/share/uv/python/cpython-3.10.20-linux-x86_64-gnu/include/python3.10 -c -c /root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/kernels.cu -o /root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/build/temp.linux-x86_64-cpython-310/kernels.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' -O3 --ptxas-options=-v --use_fast_math -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=curope -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_89,code=sm_89 -std=c++17
+ptxas info    : 3 bytes gmem, 24 bytes cmem[4]
+ptxas info    : Compiling entry function '_Z19rope_2d_cuda_kernelIN3c104HalfEEvN2at27GenericPackedTensorAccessorIT_Lm4ENS2_17RestrictPtrTraitsEiEEPKlff' for 'sm_89'
+ptxas info    : Function properties for _Z19rope_2d_cuda_kernelIN3c104HalfEEvN2at27GenericPackedTensorAccessorIT_Lm4ENS2_17RestrictPtrTraitsEiEEPKlff
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19rope_2d_cuda_kernelIfEvN2at27GenericPackedTensorAccessorIT_Lm4ENS0_17RestrictPtrTraitsEiEEPKlff' for 'sm_89'
+ptxas info    : Function properties for _Z19rope_2d_cuda_kernelIfEvN2at27GenericPackedTensorAccessorIT_Lm4ENS0_17RestrictPtrTraitsEiEEPKlff
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19rope_2d_cuda_kernelIdEvN2at27GenericPackedTensorAccessorIT_Lm4ENS0_17RestrictPtrTraitsEiEEPKlff' for 'sm_89'
+ptxas info    : Function properties for _Z19rope_2d_cuda_kernelIdEvN2at27GenericPackedTensorAccessorIT_Lm4ENS0_17RestrictPtrTraitsEiEEPKlff
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 408 bytes cmem[0], 8 bytes cmem[2]
+/root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/kernels.cu: In lambda function:
+/root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/kernels.cu:101:43: warning: ‘at::DeprecatedTypeProperties& at::Tensor::type() const’ is deprecated: Tensor.type() is deprecated. Instead use Tensor.options(), which in many cases (e.g. in a constructor) is a drop-in replacement. If you were using data from type(), that is now available from Tensor itself, so instead of tensor.type().scalar_type(), use tensor.scalar_type() instead and instead of tensor.type().backend() use tensor.device(). [-Wdeprecated-declarations]
+  101 |     AT_DISPATCH_FLOATING_TYPES_AND_HALF(tokens.type(), "rope_2d_cuda", ([&] {
+      |                              ~~~~~~~~~~~~~^~
+/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include/ATen/core/TensorBody.h:225:1: note: declared here
+  225 |   DeprecatedTypeProperties & type() const {
+      | ^ ~~
+/root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/kernels.cu:101:149: warning: ‘c10::ScalarType detail::scalar_type(const at::DeprecatedTypeProperties&)’ is deprecated: passing at::DeprecatedTypeProperties to an AT_DISPATCH macro is deprecated, pass an at::ScalarType instead [-Wdeprecated-declarations]
+  101 |     AT_DISPATCH_FLOATING_TYPES_AND_HALF(tokens.type(), "rope_2d_cuda", ([&] {
+      |                                                                                                                                                     ^         
+/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include/ATen/Dispatch.h:109:1: note: declared here
+  109 | inline at::ScalarType scalar_type(const at::DeprecatedTypeProperties& t) {
+      | ^~~~~~~~~~~
+creating build/lib.linux-x86_64-cpython-310
+c++ -pthread -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -shared /root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/build/temp.linux-x86_64-cpython-310/curope.o /root/autodl-tmp/DP-GS/baselines/MAtCha/mast3r/dust3r/croco/models/curope/build/temp.linux-x86_64-cpython-310/kernels.o -L/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/lib -L/usr/local/cuda-12.4/lib64 -L/root/.local/share/uv/python/cpython-3.10.20-linux-x86_64-gnu/lib -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda -o build/lib.linux-x86_64-cpython-310/curope.cpython-310-x86_64-linux-gnu.so
+copying build/lib.linux-x86_64-cpython-310/curope.cpython-310-x86_64-linux-gnu.so -> 
+-- The CXX compiler identification is GNU 11.4.0
+-- The CUDA compiler identification is NVIDIA 12.4.131 with host compiler GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /usr/local/cuda-12.4/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Using torch libraries: /root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/lib
+-- Using torch includes: /root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include;/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include/torch/csrc/api/include;/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include/TH;/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/include/THC
+-- Using CUDA toolkit: /usr/local/cuda-12.4
+-- Using CUDA architectures: 89
+CMake Warning at /usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALConfig.cmake:92 (message):
+  CGAL_DATA_DIR cannot be deduced, set the variable CGAL_DATA_DIR to set the
+  default value of CGAL::data_file_path()
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (find_package)
+
+
+-- Using header-only CGAL
+-- Targetting Unix Makefiles
+-- Using /usr/bin/c++ compiler.
+-- Found GMP: /usr/lib/x86_64-linux-gnu/libgmp.so
+-- Found MPFR: /usr/lib/x86_64-linux-gnu/libmpfr.so
+CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_SetupBoost.cmake:20 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_SetupCGALDependencies.cmake:47 (include)
+  /usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALConfig.cmake:153 (include)
+  CMakeLists.txt:16 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.48")
+-- Boost include dirs: /usr/include
+-- Boost libraries:    
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Using gcc version 4 or later. Adding -frounding-math
+CMake Warning (dev) at /root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/cmake/data/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(pybind11) is deprecated, call
+  FetchContent_MakeAvailable(pybind11) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(pybind11) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  CMakeLists.txt:27 (FetchContent_Populate)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at _deps/pybind11-src/CMakeLists.txt:8 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- pybind11 v2.9.2 
+CMake Warning (dev) at _deps/pybind11-src/tools/FindPythonLibsNew.cmake:98 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  _deps/pybind11-src/tools/pybind11Tools.cmake:50 (find_package)
+  _deps/pybind11-src/tools/pybind11Common.cmake:206 (include)
+  _deps/pybind11-src/CMakeLists.txt:200 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PythonInterp: /root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python (found version "3.10.20")
+-- Found PythonLibs: /root/.local/share/uv/python/cpython-3.10.20-linux-x86_64-gnu/lib/libpython3.10.so
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- Configuring done (17.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/tetra-triangulation
+[ 33%] Building CXX object CMakeFiles/tetranerf_cpp_extension.dir/src/triangulation.cpp.o
+[ 66%] Building CXX object CMakeFiles/tetranerf_cpp_extension.dir/src/py_binding.cpp.o
+In file included from /root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/tetra-triangulation/src/triangulation.cpp:1:
+/root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/tetra-triangulation/src/triangulation.h:1:10: fatal error: cuda_runtime.h: No such file or directory
+    1 | #include <cuda_runtime.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tetranerf_cpp_extension.dir/build.make:79: CMakeFiles/tetranerf_cpp_extension.dir/src/triangulation.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from /root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/tetra-triangulation/src/py_binding.cpp:8:
+/root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/submodules/tetra-triangulation/src/triangulation.h:1:10: fatal error: cuda_runtime.h: No such file or directory
+    1 | #include <cuda_runtime.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tetranerf_cpp_extension.dir/build.make:93: CMakeFiles/tetranerf_cpp_extension.dir/src/py_binding.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/tetranerf_cpp_extension.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

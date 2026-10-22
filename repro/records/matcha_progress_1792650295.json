@@ -1,0 +1,244 @@
+{
+  "method": "MAtCha",
+  "commit": "b119fd96e484fc81eb40623c1ea92ad3dbd3c21e",
+  "scans": [
+    24,
+    37,
+    40,
+    55,
+    63,
+    65,
+    69,
+    83,
+    97,
+    105,
+    106,
+    110,
+    114,
+    118,
+    122
+  ],
+  "views": [
+    22,
+    25,
+    28
+  ],
+  "input_resolution": [
+    777,
+    581
+  ],
+  "sfm": "Official posed configuration (MASt3R geometry, fixed author COLMAP cameras)",
+  "charts_alignment_iterations": 1000,
+  "refinement_iterations": 7000,
+  "mesh": "Official adaptive tetrahedralization, default config, downsample=0.5, interpolated views",
+  "evaluation": "Same original masks, culling, world coordinates, ObsMask, plane, sampling and CD as DP-GS",
+  "started_at": "2026-10-22T05:53:30.565764+00:00",
+  "stages": [
+    {
+      "scan": 24,
+      "stage": "refinement",
+      "command": [
+        "/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python",
+        "scripts/refine_free_gaussians.py",
+        "--mast3r_scene",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/mast3r_sfm",
+        "--output_path",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/free_gaussians",
+        "--config",
+        "default"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS/baselines/MAtCha",
+      "status": "completed",
+      "started_at": "2026-10-22T05:53:30.941675+00:00",
+      "exit_code": 0,
+      "seconds": 350.7054920196533
+    },
+    {
+      "scan": 24,
+      "stage": "mesh",
+      "command": [
+        "/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python",
+        "scripts/extract_tetra_mesh.py",
+        "-s",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/mast3r_sfm",
+        "-m",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/free_gaussians",
+        "-o",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/tetra_meshes",
+        "--config",
+        "default",
+        "--downsample_ratio",
+        "0.5",
+        "--interpolate_views"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS/baselines/MAtCha",
+      "status": "completed",
+      "started_at": "2026-10-22T05:59:22.356276+00:00",
+      "exit_code": 0,
+      "seconds": 66.55536389350891
+    },
+    {
+      "scan": 24,
+      "stage": "evaluation",
+      "command": [
+        "/root/autodl-tmp/DP-GS/.venv/bin/python",
+        "/root/autodl-tmp/DP-GS/repro/eval_dtu.py",
+        "--mesh",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/tetra_meshes/tetra_mesh_binary_search_7.ply",
+        "--scan",
+        "24",
+        "--scene",
+        "/root/autodl-tmp/DP-GS/data/DTU/small_overlap/scan24",
+        "--gt-root",
+        "/root/autodl-tmp/DP-GS/data/DTU_GT",
+        "--data-type",
+        "small_overlap"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS",
+      "status": "completed",
+      "started_at": "2026-10-22T06:01:13.996327+00:00",
+      "exit_code": 0,
+      "seconds": 496.6808123588562
+    },
+    {
+      "scan": 24,
+      "stage": "render_dpgs",
+      "command": [
+        "/root/autodl-tmp/DP-GS/.venv/bin/python",
+        "/root/autodl-tmp/DP-GS/repro/render_matcha_comparison.py",
+        "--scan",
+        "24",
+        "--method",
+        "dpgs"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS",
+      "status": "completed",
+      "started_at": "2026-10-22T06:09:30.709833+00:00",
+      "exit_code": 0,
+      "seconds": 13.201017379760742
+    },
+    {
+      "scan": 24,
+      "stage": "render_matcha",
+      "command": [
+        "/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python",
+        "/root/autodl-tmp/DP-GS/repro/render_matcha_comparison.py",
+        "--scan",
+        "24",
+        "--method",
+        "matcha"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS",
+      "status": "completed",
+      "started_at": "2026-10-22T06:09:43.970179+00:00",
+      "exit_code": 0,
+      "seconds": 20.183494806289673
+    },
+    {
+      "scan": 24,
+      "stage": "compose",
+      "command": [
+        "/root/autodl-tmp/DP-GS/.venv/bin/python",
+        "/root/autodl-tmp/DP-GS/repro/render_matcha_comparison.py",
+        "--scan",
+        "24",
+        "--method",
+        "compose"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS",
+      "status": "completed",
+      "started_at": "2026-10-22T06:10:04.195664+00:00",
+      "exit_code": 0,
+      "seconds": 8.021326541900635
+    },
+    {
+      "scan": 24,
+      "stage": "summary",
+      "command": [
+        "/root/autodl-tmp/DP-GS/.venv/bin/python",
+        "/root/autodl-tmp/DP-GS/repro/summarize_matcha.py"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS",
+      "status": "completed",
+      "started_at": "2026-10-22T06:10:12.271698+00:00",
+      "exit_code": 0,
+      "seconds": 0.8017838001251221
+    },
+    {
+      "scan": 37,
+      "stage": "sfm",
+      "command": [
+        "/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python",
+        "scripts/run_sfm.py",
+        "-s",
+        "/root/autodl-tmp/DP-GS/data/MAtCha_DTU/small_overlap/scan37",
+        "-o",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan37/mast3r_sfm",
+        "--config",
+        "posed",
+        "--image_idx",
+        "0",
+        "1",
+        "2"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS/baselines/MAtCha",
+      "status": "completed",
+      "started_at": "2026-10-22T06:10:13.137194+00:00",
+      "exit_code": 0,
+      "seconds": 104.38401794433594
+    },
+    {
+      "scan": 37,
+      "stage": "alignment",
+      "command": [
+        "/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python",
+        "scripts/align_charts.py",
+        "-s",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan37/mast3r_sfm",
+        "-m",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan37/mast3r_sfm",
+        "-o",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan37/mast3r_sfm",
+        "--config",
+        "default"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS/baselines/MAtCha",
+      "status": "completed",
+      "started_at": "2026-10-22T06:11:57.848888+00:00",
+      "exit_code": 0,
+      "seconds": 80.14550995826721
+    },
+    {
+      "scan": 37,
+      "stage": "refinement",
+      "command": [
+        "/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python",
+        "scripts/refine_free_gaussians.py",
+        "--mast3r_scene",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan37/mast3r_sfm",
+        "--output_path",
+        "/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan37/free_gaussians",
+        "--config",
+        "default"
+      ],
+      "cwd": "/root/autodl-tmp/DP-GS/baselines/MAtCha",
+      "status": "running",
+      "started_at": "2026-10-22T06:13:18.044843+00:00"
+    }
+  ],
+  "current_scan": 37,
+  "current_stage": "refinement",
+  "updated_at": "2026-10-22T06:13:18.044890+00:00",
+  "completed": [
+    {
+      "scan": 24,
+      "dpgs_cd": 1.284755487128521,
+      "matcha_cd": 1.2080148484977278,
+      "matcha_minus_dpgs": -0.07674063863079317,
+      "matcha_mean_d2s": 1.585782988111756,
+      "matcha_mean_s2d": 0.8302467088836997
+    }
+  ],
+  "status": "stopped_for_colmap_protocol",
+  "scope_note": "MASt3R initialization experimental branch excluded from unified COLMAP comparison"
+}

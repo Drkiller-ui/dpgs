@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-22T05:43:27.566945+00:00",
+  "action": "uv cache clean",
+  "reported_removed": "16.5 GiB",
+  "before": {
+    "used_percent": 94,
+    "available_gb": 3.3
+  },
+  "after": {
+    "used_percent": 61,
+    "available_gb": 20
+  },
+  "dpgs_artifacts_deleted": false,
+  "dpgs_and_matcha_imports_verified": true
+}

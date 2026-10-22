@@ -1,0 +1,41 @@
+{
+  "method": "MAtCha",
+  "commit": "b119fd96e484fc81eb40623c1ea92ad3dbd3c21e",
+  "scans": [
+    24,
+    37,
+    40,
+    55,
+    63,
+    65,
+    69,
+    83,
+    97,
+    105,
+    106,
+    110,
+    114,
+    118,
+    122
+  ],
+  "views": [
+    22,
+    25,
+    28
+  ],
+  "input_resolution": [
+    777,
+    581
+  ],
+  "sfm": "Official posed configuration (MASt3R geometry, fixed author COLMAP cameras)",
+  "charts_alignment_iterations": 1000,
+  "refinement_iterations": 7000,
+  "mesh": "Official adaptive tetrahedralization, default config, downsample=0.5, interpolated views",
+  "evaluation": "Same original masks, culling, world coordinates, ObsMask, plane, sampling and CD as DP-GS",
+  "started_at": "2026-10-22T05:51:37.523548+00:00",
+  "stages": [],
+  "status": "failed",
+  "error": "RuntimeError('Partial training found at /root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/free_gaussians; preserve and explicitly restart from initialization')",
+  "updated_at": "2026-10-22T05:51:37.951522+00:00",
+  "completed": []
+}

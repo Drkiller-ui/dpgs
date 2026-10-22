@@ -1,0 +1,1 @@
+python repro/run_matcha_dtu.py --scans 24 

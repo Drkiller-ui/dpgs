@@ -1,6 +1,21 @@
-# DP-GS：DTU COLMAP 复现与结果
+# DP-GS 与 MAtCha：DTU COLMAP 复现与结果
 
 基于 [hanl2010/DP-GS](https://github.com/hanl2010/DP-GS)，源码基准提交 `dc1ce835ea3c6bb7887333c50df7a13497a45c09`。保留上游许可证及第三方源码，原项目说明见 [UPSTREAM_README.md](UPSTREAM_README.md)。
+
+## 原图、MAtCha、DP-GS 并排对比
+
+已完成全部 15 个 DTU 场景。每行从左到右为 **原图、MAtCha、DP-GS**，从上到下为 **0022、0025、0028** 三张训练视角；主图使用完整 RGB，不加前景遮罩。
+
+![scan24：原图、MAtCha、DP-GS](output/MAtCha_comparison/scan24/training_rgb.png)
+
+**[查看全部 15 组并排对比图、逐场景 CD 与视频](output/MAtCha_comparison/README.md)** · [对比 CSV](output/dtu_matcha_vs_dpgs.csv) · [配置与验收说明](repro/MATCHA.md)
+
+| 方法 | 平均 CD ↓（mm，15/15） |
+|---|---:|
+| MAtCha 当前 COLMAP 适配版 | 2.764451 |
+| DP-GS | **0.936806** |
+
+两种方法使用同一份 COLMAP 点云、相机和三张输入 RGB。MAtCha 使用本地 COLMAP 适配入口，图表对齐 1000 步、细化 7000 步；DP-GS 训练 10000 步。以上结果对应记录的配置，不声称精确复现论文中的 MAtCha 表格分数。训练视角的拟合图与新视角效果分开展示；插值新视角无对应实拍原图。
 
 ## 本次实验
 

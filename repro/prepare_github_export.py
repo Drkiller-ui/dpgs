@@ -12,7 +12,12 @@ ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED_PARTS = {'.git', '.venv', '__pycache__', 'build', 'dist', '.publish'}
 EXCLUDED_SUFFIXES = {'.pyc', '.pyo', '.so', '.o', '.a', '.pth', '.pt', '.ckpt', '.safetensors',
                      '.ply', '.npy', '.npz', '.pem', '.key'}
-RESULT_SUFFIXES = {'.png', '.jpg', '.jpeg', '.gif', '.mp4', '.tif', '.tiff', '.html', '.json', '.csv', '.txt'}
+RESULT_SUFFIXES = {'.png', '.jpg', '.jpeg', '.gif', '.mp4', '.tif', '.tiff', '.html', '.md', '.json', '.csv', '.txt'}
+# Publish only the validated COLMAP campaigns. Failed/interrupted models and
+# exploratory MASt3R results remain on the server, outside the comparison.
+RESULT_ROOTS = ['output/DTU', 'output/DTU_visuals', 'output/DTU_geometry',
+                'output/MAtCha_DTU/colmap_small_overlap', 'output/MAtCha_comparison']
+RESULT_FILES = ['output/dtu_colmap_sfm_small_overlap.csv', 'output/dtu_matcha_vs_dpgs.csv']
 
 
 def allowed(path):
@@ -34,10 +39,15 @@ def collect():
         path = ROOT / name
         if path.is_file():
             candidates[path] = 'source'
-    for path in (ROOT / 'output').rglob('*'):
-        if path.is_file() and allowed(path):
-            if path.suffix.lower() in RESULT_SUFFIXES or path.name == 'cfg_args' or path.name.startswith('events.out.tfevents.'):
-                candidates[path] = 'results_and_training_logs'
+    for directory in RESULT_ROOTS:
+        for path in (ROOT / directory).rglob('*'):
+            if path.is_file() and allowed(path):
+                if path.suffix.lower() in RESULT_SUFFIXES or path.name == 'cfg_args' or path.name.startswith('events.out.tfevents.'):
+                    candidates[path] = 'results_and_training_logs'
+    for name in RESULT_FILES:
+        path=ROOT/name
+        if path.is_file():
+            candidates[path]='results_and_training_logs'
     for path in (ROOT / 'logs').rglob('*'):
         if path.is_file() and not path.name.endswith('.lock'):
             candidates[path] = 'logs'
@@ -87,7 +97,7 @@ def main():
               'upstream_commit': 'dc1ce835ea3c6bb7887333c50df7a13497a45c09',
               'excluded': ['datasets', 'pretrained weights', 'trained Gaussian and appearance models',
                            'meshes and error point clouds', 'raw NPY/NPZ arrays', 'environments and build caches',
-                           'original Git object database'],
+                           'original Git object database', 'failed/interrupted and exploratory result directories'],
               'credential_pattern_scan_passed': True,
               'inventory': inventory}
     target = destination / 'repro/records/publish_inventory.json'

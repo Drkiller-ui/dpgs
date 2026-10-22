@@ -1,9 +1,9 @@
 {
-  "prepared_at": "2026-10-22T05:17:28.740771+00:00",
+  "prepared_at": "2026-10-22T11:31:57.596361+00:00",
   "repository": "https://github.com/Drkiller-ui/dpgs",
-  "destination": "/autodl-fs/data/dpgs/publish/dpgs-20261022",
-  "files": 3032,
-  "bytes": 581032951,
+  "destination": "/autodl-fs/data/dpgs/publish/matcha-export-20261022",
+  "files": 3676,
+  "bytes": 1522535780,
   "upstream_commit": "dc1ce835ea3c6bb7887333c50df7a13497a45c09",
   "excluded": [
     "datasets",
@@ -12,15 +12,16 @@
     "meshes and error point clouds",
     "raw NPY/NPZ arrays",
     "environments and build caches",
-    "original Git object database"
+    "original Git object database",
+    "failed/interrupted and exploratory result directories"
   ],
   "credential_pattern_scan_passed": true,
   "inventory": [
     {
       "path": ".gitignore",
       "kind": "source",
-      "bytes": 480,
-      "sha256": "a5ab374eae01b13c93df2cac094d0b2372babd4bd148605bc9823e82a88ee339"
+      "bytes": 554,
+      "sha256": "196ca8ae8c24160e6eb873a3437d645ca559f2b5fd17378548121ffc0e78c24f"
     },
     {
       "path": ".python-version",
@@ -1513,8 +1514,8 @@
     {
       "path": "README.md",
       "kind": "source",
-      "bytes": 4675,
-      "sha256": "aca5b1c3237a5567e3166e966d68c053e49eb47cca69b8a7c8c849ffc8196406"
+      "bytes": 5701,
+      "sha256": "cf98db1d93de66a450e6cff849a92d5a113a68ae41ef545106a59a6a7f94eb65"
     },
     {
       "path": "UPSTREAM_README.md",
@@ -2061,6 +2062,330 @@
       "kind": "logs",
       "bytes": 10,
       "sha256": "d3be030801b90ea8057d3997d9845c7f850cc7b784450645d5ec2811cc927d7a"
+    },
+    {
+      "path": "logs/matcha_cache_cleanup.log",
+      "kind": "logs",
+      "bytes": 80,
+      "sha256": "17b04cbf4caeb19a2f5126c5d0960427652bcfd934cf4282359adac1237157e4"
+    },
+    {
+      "path": "logs/matcha_colmap.latest",
+      "kind": "logs",
+      "bytes": 42,
+      "sha256": "78fe23172a4b8c24ab60a36ee9b2293fa09bb90f49d2ba9a6e1668ba9be6068c"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T062455Z_35916/command.txt",
+      "kind": "logs",
+      "bytes": 32,
+      "sha256": "fe026baf3d4ea34b29b30079ec500c3d60d67f0b893bf6a863abcf31489f1815"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T062455Z_35916/exit_code",
+      "kind": "logs",
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T062455Z_35916/finished_at",
+      "kind": "logs",
+      "bytes": 21,
+      "sha256": "bf6b8781daf416472b159b2328d663ad9c7a8e6c0fbf25bcdd091a08d0e4db5f"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T062455Z_35916/gpu-monitor.log",
+      "kind": "logs",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T062455Z_35916/gpu.csv",
+      "kind": "logs",
+      "bytes": 1086011,
+      "sha256": "3526900cf5c7e15f97cf6d3c661e34fa9a06cefac6ebdb4641cd194052470236"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T062455Z_35916/output.log",
+      "kind": "logs",
+      "bytes": 17178,
+      "sha256": "4928c71c1db915e129ce801476ffd9d28e8957d7a48eb6dbc8e49842301627e8"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T062455Z_35916/pid",
+      "kind": "logs",
+      "bytes": 6,
+      "sha256": "932b20858d3e744fd57cfaf0d95014a85869a4c40b166a2fc2a7c654f9553f24"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T062455Z_35916/started_at",
+      "kind": "logs",
+      "bytes": 21,
+      "sha256": "18782ed083d0d8aaf7df6bc850e1520591670d8ed47ef66781ccaf2cd65c2bca"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T062455Z_35916/status",
+      "kind": "logs",
+      "bytes": 7,
+      "sha256": "6da5b18878e110928643ebcc38dbb7552cf3a296eea56493e23edc2b93eecff8"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T100440Z_57329/command.txt",
+      "kind": "logs",
+      "bytes": 32,
+      "sha256": "fe026baf3d4ea34b29b30079ec500c3d60d67f0b893bf6a863abcf31489f1815"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T100440Z_57329/exit_code",
+      "kind": "logs",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T100440Z_57329/finished_at",
+      "kind": "logs",
+      "bytes": 21,
+      "sha256": "651e35a68b49d5129640ebcde4a555c1219a0f9616cee9511902d001bec935cc"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T100440Z_57329/gpu-monitor.log",
+      "kind": "logs",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T100440Z_57329/gpu.csv",
+      "kind": "logs",
+      "bytes": 373468,
+      "sha256": "c4ef8f2ebb29310a3c427a7a6d8f93656d7d57b9ea7e861995a1e97b1c8c9540"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T100440Z_57329/output.log",
+      "kind": "logs",
+      "bytes": 7087,
+      "sha256": "34583644794d95e4ab758c9d2fc9a809805b9935139cc2e1c30af28202ed370e"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T100440Z_57329/pid",
+      "kind": "logs",
+      "bytes": 6,
+      "sha256": "1b94a13f0614d2a7d0bfd09f736d0c9b3c9b39bede9c9dd09676af1001cdb5ae"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T100440Z_57329/started_at",
+      "kind": "logs",
+      "bytes": 21,
+      "sha256": "36362bcf3bb05f7b3bbc17e84e6063c3d5efc30dd7ed6fa5fc109389eb7ffb55"
+    },
+    {
+      "path": "logs/matcha_colmap_20261022T100440Z_57329/status",
+      "kind": "logs",
+      "bytes": 10,
+      "sha256": "d3be030801b90ea8057d3997d9845c7f850cc7b784450645d5ec2811cc927d7a"
+    },
+    {
+      "path": "logs/matcha_depth_download.log",
+      "kind": "logs",
+      "bytes": 15486,
+      "sha256": "8ca05243c29621f9deb5cf54a4d0e50809034617d0abd23502a9738f5866ebea"
+    },
+    {
+      "path": "logs/matcha_dtu.latest",
+      "kind": "logs",
+      "bytes": 39,
+      "sha256": "e66bc18df083185101fcbe19819b430c3103f909880bd2f22123905a7754ac97"
+    },
+    {
+      "path": "logs/matcha_dtu_20261022T054217Z_26380/command.txt",
+      "kind": "logs",
+      "bytes": 43,
+      "sha256": "967ef62518d45cbcbb28ccd588c95d7435049acec5fd73f3de94eedab951ffa1"
+    },
+    {
+      "path": "logs/matcha_dtu_20261022T054217Z_26380/exit_code",
+      "kind": "logs",
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "logs/matcha_dtu_20261022T054217Z_26380/finished_at",
+      "kind": "logs",
+      "bytes": 21,
+      "sha256": "d3cde67d25488c92167b6607aa6f764d75d2e7c9e119bc1d77a006eecb94e4ae"
+    },
+    {
+      "path": "logs/matcha_dtu_20261022T054217Z_26380/gpu-monitor.log",
+      "kind": "logs",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/matcha_dtu_20261022T054217Z_26380/gpu.csv",
+      "kind": "logs",
+      "bytes": 47255,
+      "sha256": "4e5ec4c3ae79b539d3af42768b91cec1f8cdb242ed289a78349949bc22a28932"
+    },
+    {
+      "path": "logs/matcha_dtu_20261022T054217Z_26380/output.log",
+      "kind": "logs",
+      "bytes": 12078,
+      "sha256": "d0622ef6162f0aef908ddeb78ec0271d071c0a59a4894859c97e3cdd480f1f7e"
+    },
+    {
+      "path": "logs/matcha_dtu_20261022T054217Z_26380/pid",
+      "kind": "logs",
+      "bytes": 6,
+      "sha256": "2db30d8f8f5832515cc9c2a8d545fb24758302132a31f79d4770d30455b467f2"
+    },
+    {
+      "path": "logs/matcha_dtu_20261022T054217Z_26380/started_at",
+      "kind": "logs",
+      "bytes": 21,
+      "sha256": "c36bc548aff87ebd010ea61be1adf00ad666adc6b557ee8138c14994b05cd2ac"
+    },
+    {
+      "path": "logs/matcha_dtu_20261022T054217Z_26380/status",
+      "kind": "logs",
+      "bytes": 7,
+      "sha256": "6da5b18878e110928643ebcc38dbb7552cf3a296eea56493e23edc2b93eecff8"
+    },
+    {
+      "path": "logs/matcha_dtu_all.latest",
+      "kind": "logs",
+      "bytes": 43,
+      "sha256": "cc7fb0265d8b9fa60c733da0959dce8667cf3595f861c737f57183156d510b9b"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055137Z_29590/command.txt",
+      "kind": "logs",
+      "bytes": 32,
+      "sha256": "fe026baf3d4ea34b29b30079ec500c3d60d67f0b893bf6a863abcf31489f1815"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055137Z_29590/exit_code",
+      "kind": "logs",
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055137Z_29590/finished_at",
+      "kind": "logs",
+      "bytes": 21,
+      "sha256": "e96094e7ca7a80cca343a51aa14ea63bec92fc546002caf7039a8560e4599c6e"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055137Z_29590/gpu-monitor.log",
+      "kind": "logs",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055137Z_29590/gpu.csv",
+      "kind": "logs",
+      "bytes": 164,
+      "sha256": "f8cf236ab7ed8c089cc8350d2c5e7e0e46f9b6771a03716fe0a398aa563bd57f"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055137Z_29590/output.log",
+      "kind": "logs",
+      "bytes": 547,
+      "sha256": "2bf44a6932986f8e234d67833ee9049e70a9b3ebfc9e65ef08748c21fd4ee556"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055137Z_29590/pid",
+      "kind": "logs",
+      "bytes": 6,
+      "sha256": "9d23e1f177e678e9eada0d46767c027dc7f712773d4228a8fff5aa193738bfb9"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055137Z_29590/started_at",
+      "kind": "logs",
+      "bytes": 21,
+      "sha256": "d3cde67d25488c92167b6607aa6f764d75d2e7c9e119bc1d77a006eecb94e4ae"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055137Z_29590/status",
+      "kind": "logs",
+      "bytes": 7,
+      "sha256": "6da5b18878e110928643ebcc38dbb7552cf3a296eea56493e23edc2b93eecff8"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055330Z_29983/command.txt",
+      "kind": "logs",
+      "bytes": 32,
+      "sha256": "fe026baf3d4ea34b29b30079ec500c3d60d67f0b893bf6a863abcf31489f1815"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055330Z_29983/exit_code",
+      "kind": "logs",
+      "bytes": 4,
+      "sha256": "9d9b18720961e9b4689fd763b85e7b6f36160ccd3a8a1c9ddc5103bb0f66c396"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055330Z_29983/finished_at",
+      "kind": "logs",
+      "bytes": 21,
+      "sha256": "c7ce41b66c494383a88853291f802dea7978d27394fbdee2c9227177fca650e1"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055330Z_29983/gpu-monitor.log",
+      "kind": "logs",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055330Z_29983/gpu.csv",
+      "kind": "logs",
+      "bytes": 116366,
+      "sha256": "e42c35921f39282c105643de65fa5d460af93b82900fd66b53e594f16557a39e"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055330Z_29983/output.log",
+      "kind": "logs",
+      "bytes": 1331,
+      "sha256": "abebffc18070a926822810b8b5c0538b0c40b8268c94f89cafca4935950ade4d"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055330Z_29983/pid",
+      "kind": "logs",
+      "bytes": 6,
+      "sha256": "7bb233b23ab704d1febc0c8eb8773a33f6c362d0924ca51d99b21d6f36383c2d"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055330Z_29983/started_at",
+      "kind": "logs",
+      "bytes": 21,
+      "sha256": "4bc04aece908af310dcaadf842f61925cc4a05f0cc677c984417ea898aa3cb9a"
+    },
+    {
+      "path": "logs/matcha_dtu_all_20261022T055330Z_29983/status",
+      "kind": "logs",
+      "bytes": 7,
+      "sha256": "6da5b18878e110928643ebcc38dbb7552cf3a296eea56493e23edc2b93eecff8"
+    },
+    {
+      "path": "logs/matcha_env_install.log",
+      "kind": "logs",
+      "bytes": 5064,
+      "sha256": "546e609ecca75413cf78886123e88603ff44daabe75bac2a0f1e16ae01b8f1fe"
+    },
+    {
+      "path": "logs/matcha_matplotlib_fix.log",
+      "kind": "logs",
+      "bytes": 274,
+      "sha256": "3a9b0d4ee61e686c7d29d272116f9e6e6f76895e69057dfeb11276bc41f412e4"
+    },
+    {
+      "path": "logs/matcha_native_build.log",
+      "kind": "logs",
+      "bytes": 15178,
+      "sha256": "b72a1e795cc185d65a412779aaf8fcd37316f1d372191a7671457814538d797f"
+    },
+    {
+      "path": "logs/matcha_tetra_build.log",
+      "kind": "logs",
+      "bytes": 1337,
+      "sha256": "ab9c163bffce8a6922f55faa81b6c08f9470b86f3e899b16dbef92af070ea94c"
     },
     {
       "path": "logs/mirror-warm.latest",
@@ -5267,96 +5592,6 @@
       "sha256": "b0ae9e48bb4d7c64a8f33f2dd51a502c56080596b4d6724027c7c2dfc66b0d00"
     },
     {
-      "path": "output/DTU_interrupted/scan55_colmap_sfm_small_overlap_20261022T020423829513Z/cameras.json",
-      "kind": "results_and_training_logs",
-      "bytes": 1171,
-      "sha256": "a50d563725b46fc5de34055b6ef7198ccd9ea039c7735adda1aa49478f71db5c"
-    },
-    {
-      "path": "output/DTU_interrupted/scan55_colmap_sfm_small_overlap_20261022T020423829513Z/cfg_args",
-      "kind": "results_and_training_logs",
-      "bytes": 1989,
-      "sha256": "d3510d8a3e8a493d81150c53442de6ac2e69722f4ec6d99a0faf5f25a3ca9ac5"
-    },
-    {
-      "path": "output/DTU_interrupted/scan55_colmap_sfm_small_overlap_20261022T020423829513Z/events.out.tfevents.1792505600.gpuhub-container-vvn8dtvu5t-0f17ee6c.15314.0",
-      "kind": "results_and_training_logs",
-      "bytes": 8957518,
-      "sha256": "6a771075a8a3aedcd91c443d289a88324d537ac9c7109dea9db041c5cf82e782"
-    },
-    {
-      "path": "output/DTU_interrupted/scan55_colmap_sfm_small_overlap_20261022T020423829513Z/multi_view.json",
-      "kind": "results_and_training_logs",
-      "bytes": 139,
-      "sha256": "fb23511a622718a5304e0b298a677d7c8d74f5a4735f0999d0bf1213be7d7902"
-    },
-    {
-      "path": "output/DTU_interrupted/scan55_colmap_sfm_small_overlap_20261022T020423829513Z/repro_interruption.json",
-      "kind": "results_and_training_logs",
-      "bytes": 235,
-      "sha256": "bbe5bef797e6ad1607b8791e50a9a4eb6f02d18ffe3ac69a4d9d8d00f5fb5a73"
-    },
-    {
-      "path": "output/DTU_invalid/scan83_colmap_sfm_small_overlap_20261022T030743Z/cameras.json",
-      "kind": "results_and_training_logs",
-      "bytes": 1169,
-      "sha256": "747a07622670804d8882b1697991fdc023662e06c330519de87270073ecdaf7e"
-    },
-    {
-      "path": "output/DTU_invalid/scan83_colmap_sfm_small_overlap_20261022T030743Z/cfg_args",
-      "kind": "results_and_training_logs",
-      "bytes": 1989,
-      "sha256": "488720e17d72c029baa7f6ff2d862b6e552859a52b06da5cff433d7032fcd10f"
-    },
-    {
-      "path": "output/DTU_invalid/scan83_colmap_sfm_small_overlap_20261022T030743Z/events.out.tfevents.1792637555.gpuhub-container-vvn8dtvu5t-0f17ee6c.7921.0",
-      "kind": "results_and_training_logs",
-      "bytes": 8382996,
-      "sha256": "0272920df977936ff9ebd287c19526079d3e61245842510c11bc899adb1f3c2b"
-    },
-    {
-      "path": "output/DTU_invalid/scan83_colmap_sfm_small_overlap_20261022T030743Z/multi_view.json",
-      "kind": "results_and_training_logs",
-      "bytes": 139,
-      "sha256": "ae701613136194ad4bd44413fda569afafec88adafdea2355bb523c157bf169e"
-    },
-    {
-      "path": "output/DTU_invalid/scan83_colmap_sfm_small_overlap_20261022T030743Z/repro_eval_record.json",
-      "kind": "results_and_training_logs",
-      "bytes": 1017,
-      "sha256": "e588fa25662f5d3806f368fa3d485ddefefd238c182c563669f093e1902e52d3"
-    },
-    {
-      "path": "output/DTU_invalid/scan83_colmap_sfm_small_overlap_20261022T030743Z/repro_invalid_model.json",
-      "kind": "results_and_training_logs",
-      "bytes": 600,
-      "sha256": "0af6f711ccfa9a8ad23f7f1ecb11dc8c8eade595a13e2d3a02cb8ba47f5dd536"
-    },
-    {
-      "path": "output/DTU_invalid/scan83_colmap_sfm_small_overlap_20261022T030743Z/repro_mesh_record.json",
-      "kind": "results_and_training_logs",
-      "bytes": 1022,
-      "sha256": "212dae5497c9aa34ceebef790ac6e8559f033effbfdfd0970dca7019afdb8466"
-    },
-    {
-      "path": "output/DTU_invalid/scan83_colmap_sfm_small_overlap_20261022T030743Z/repro_prepare_record.json",
-      "kind": "results_and_training_logs",
-      "bytes": 470,
-      "sha256": "5da94307e668d8ef73b63508d6c2a31fd550c5743ab7894b2058eaf071304efc"
-    },
-    {
-      "path": "output/DTU_invalid/scan83_colmap_sfm_small_overlap_20261022T030743Z/repro_train_record.json",
-      "kind": "results_and_training_logs",
-      "bytes": 1112,
-      "sha256": "29236cfbcba8b5524d16ba3d7f6d055b8eac28f83ddafb050cef82aa1a7fc124"
-    },
-    {
-      "path": "output/DTU_invalid/scan83_colmap_sfm_small_overlap_20261022T030743Z/train/ours_10000/results.json",
-      "kind": "results_and_training_logs",
-      "bytes": 99,
-      "sha256": "8d4ef1ba40edddb115ea75eac4c3c7b8e44220b777e33a5faa72377f2f0dcb3c"
-    },
-    {
       "path": "output/DTU_visuals/colmap_sfm_small_overlap/index.html",
       "kind": "results_and_training_logs",
       "bytes": 9300,
@@ -7985,10 +8220,3460 @@
       "sha256": "4c7ed44ff838508a759ce5c8cac6399352507f7d77b97b8b5df24dccbe8b4cb9"
     },
     {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan105/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan105/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1814,
+      "sha256": "cf11c25027d8940f6c42737e0699b4d478829728e0b55c69c918dc7cb7dea67a"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan105/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 672650,
+      "sha256": "c67be1c45335776e3781a0242305af195fdce4af69569855eee287dfeb7a3902"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan105/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 687387,
+      "sha256": "5f0d44d613efeb3bf75474b84bb7f2627f51de69eb47fb2bef4efbafc90449d3"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan105/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 644995,
+      "sha256": "ed8e24edc7c13cb5801e02cd657ccad51cf0daad1496927e614f02f503651e35"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan105/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 725,
+      "sha256": "aabb2d2fd86bfb5bf3f653a5aa61a58b98056e13b6e72a8c2480d01cc1a4aaa5"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan105/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1167,
+      "sha256": "4bbe5fddda7fa0a0c4fc0fc706753f15041f2ff166227e08dccf0f14bae164b8"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan105/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 377,
+      "sha256": "04d0365949fb4d1723884bd37c15d74fa9f8e3b5e41e67a2e4a1fec40f25b206"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan105/free_gaussians/events.out.tfevents.1792661019.gpuhub-container-vvn8dtvu5t-0f17ee6c.53203.0",
+      "kind": "results_and_training_logs",
+      "bytes": 16566093,
+      "sha256": "b7bd6630e5b4897a74febc0872ae23347e8e571db884d748a301c73100c65070"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan105/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 457,
+      "sha256": "e1dffc49ad3b763f5954c09943cfa57051f32a41cdc354d00d06a2e2c8842e3a"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan105/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan105/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 98,
+      "sha256": "f79d8ffe844c8dbad215586c6b1a32e22970184e84d70fe60187c7f9a5976395"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan106/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan106/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1817,
+      "sha256": "0ced3b5ba2a75de33844c782aba8e6e2257babb68a49a6300c997d8da30d5885"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan106/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 671589,
+      "sha256": "c0ea6da62caa1fcd7a7e3577824268eac31de97922785e9ca6cdb0a810935b81"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan106/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 645432,
+      "sha256": "59d78ab3b5b22e7658fc7cc2102590be5c968b3a11b5b1b552f9500404939c85"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan106/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 624646,
+      "sha256": "3d3ad8077a6967844799df95e484e11220ad3921ee4c437803c45baaaf0165a4"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan106/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 729,
+      "sha256": "84161fcf9bc3c1f63417fa4f714f39bae97c4cbb02f971b87f551321cc075c9d"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan106/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1172,
+      "sha256": "1ac09e62b30a6731396d38b410dff982de66ebe2cfbf125fb24cbc657c4d62dd"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan106/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 377,
+      "sha256": "59f1f6d9f318b877763e1f7ef398ee4e9f3a2c5706d67c5d906611c4c945e8bf"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan106/free_gaussians/events.out.tfevents.1792662213.gpuhub-container-vvn8dtvu5t-0f17ee6c.55265.0",
+      "kind": "results_and_training_logs",
+      "bytes": 16043470,
+      "sha256": "aaee6fc2635e369429d5fc4e1253b40ee0095eca87c1dc15b67b4093c6d22f82"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan106/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 457,
+      "sha256": "1e2b23cdc286df815d946c4db284f4ca6f036a3a22422148159be9edc6cbf8c3"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan106/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan106/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 100,
+      "sha256": "3bee955e38acdf1700b85d6e35fd7748284cd870e4d4cdcdda67a4fdf7abc0af"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan110/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan110/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1817,
+      "sha256": "287212626777c6ac3d53932768533986197f9799f0b8a1207a3dfeac4a65ad47"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan110/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 624684,
+      "sha256": "180064a9c59359d63d00d78648cd69dcfa231ad143402649e3b6014feb1e6b13"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan110/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 646761,
+      "sha256": "aee6c98feb479ed6d610a318e19b68bc89be8ac779fbd8430481c469332c4ef5"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan110/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 614380,
+      "sha256": "1e06face3f0d7f99ad106267ccc581b9c95d65f948a2f83bf6a14b2d0b4d50d4"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan110/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 729,
+      "sha256": "2a97360e8203c62b33859ec2bc21dbe333ccd98b33d4c29f82d65e885592e85f"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan110/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1174,
+      "sha256": "a3e6736ff854b3f74e732a211c88f9ebf910db96dd8a813738a64390ef6bed62"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan110/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 377,
+      "sha256": "83931a7f471f13b807801c24a331744f9491f046812129ad4c2c9441c786108f"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan110/free_gaussians/events.out.tfevents.1792663518.gpuhub-container-vvn8dtvu5t-0f17ee6c.57549.0",
+      "kind": "results_and_training_logs",
+      "bytes": 15886716,
+      "sha256": "c7e6e95ac3ac0b2f758a44baa96faa33c7689b1bff65d0f0596c9241f00563c0"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan110/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 457,
+      "sha256": "cd0a1c10e12f832a3c33eef9dc2c5d7b7375cc7dfdc64b949803994074bd3b10"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan110/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan110/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 98,
+      "sha256": "f63e3aa824f8695fac1fb61366ea3d9503700d6d75c44ac7fa2e2f62d107a327"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan114/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan114/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1817,
+      "sha256": "5b92e2c784208b2b0fe812e91a9f6f8a4975a7443e181f7775019b48c6a3b9f5"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan114/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 697799,
+      "sha256": "f5c9289a00c4140ccfbae24c1821e35445698c84526cf6b664b551b510dea68d"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan114/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 717179,
+      "sha256": "dc045b33090bd324bb1908a5a0a0da43114d80af6ac91b4d4c8887d57dec75ff"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan114/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 678859,
+      "sha256": "b1a93c8429496b7dd06881c7d6de4889d9559fb5da9c26c30e10800eaa4c2a08"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan114/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 729,
+      "sha256": "0603afbfcd87e7008b28abad92a4fdb9219d5b561cdc07d88ed42e5993440140"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan114/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1174,
+      "sha256": "b4381ee1a1f5ee3ff00d7f0c83896a59fcd1b05e738a61d4209ec4c67393243d"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan114/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 377,
+      "sha256": "54acd1c0e8bcb4a69fc00448518f05a8b4bca8c8f4bcdfa367ecdb3f4a4c9ba2"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan114/free_gaussians/events.out.tfevents.1792664637.gpuhub-container-vvn8dtvu5t-0f17ee6c.59542.0",
+      "kind": "results_and_training_logs",
+      "bytes": 16434791,
+      "sha256": "9e0fc38d5d380de4b9524e404c6a47813253897aa449113f3ef402c85124f1ee"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan114/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 457,
+      "sha256": "cdccca8678817f6dcdde32ef60952c8e7592d04fb9d2ccce792164d690e14c39"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan114/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan114/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 100,
+      "sha256": "30adb8e3157f1695d1dd18937d104cc335c2e47fa214aed267f76cf654db5843"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan118/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan118/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1817,
+      "sha256": "d6afb735eaf0086b760cc6fc498464edf45871532105d09f07791f10b196fb9e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan118/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 638530,
+      "sha256": "16acd0611f84516e065d92b3844e882b57734cdad8ee0006c61fdf36e8b0b562"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan118/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 652557,
+      "sha256": "28f2118c662da746a0236b997101e32cf8cf57fe0b779a6e2de9417d0ed4fcdb"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan118/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 626535,
+      "sha256": "1a57ee6b329267f1f38144e815e147f4fab301ea906fc4c16282695eb31a8465"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan118/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 729,
+      "sha256": "6445180287b7170c5048b744348a2ca90dc4730877bb124e8d1e48d1fef568a1"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan118/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1175,
+      "sha256": "494a8f985f6321c02ebd51537b9afbd71fc91ba7660eb62470a74d3c19a7a621"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan118/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 377,
+      "sha256": "7f41c1392c17c3bd9fa382f7bdea70ef7a40d258a638f5a941161b6636c2eae1"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan118/free_gaussians/events.out.tfevents.1792665754.gpuhub-container-vvn8dtvu5t-0f17ee6c.61204.0",
+      "kind": "results_and_training_logs",
+      "bytes": 16058914,
+      "sha256": "745aac543352d16fa243e6e6d3cac5ca2deea750eb6245c0b5569c15a8990259"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan118/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 457,
+      "sha256": "865436a02ba1caaed4d859a7729fd532e9abb40ba26fb1280e9e116b6bb86c15"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan118/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan118/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 99,
+      "sha256": "2ff3e4225685d3487a73caf6903b26050bf350ec28cfa015db699ea22a8e07bf"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan122/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan122/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1818,
+      "sha256": "7aa0086c043b2fad04fbaa26d72740e2434b6ae3693c7ef0b1f4ec8116c216d2"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan122/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 622143,
+      "sha256": "d210261f3612a550d377a3ea3dce0b9a41cdb936a1445b330fd264245d48abc4"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan122/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 643961,
+      "sha256": "719b6349f578f93666892968d0e9407b30fed9b148c94dd6e5f1aab0506d3782"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan122/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 626960,
+      "sha256": "95269607caea39218f3189de864c8328d260d801397c5e4f8f59ccd5621982e4"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan122/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 729,
+      "sha256": "6a062b08627560aa9e80b9423859f83c65e73aeb1e90ff460985ac8d63225989"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan122/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1172,
+      "sha256": "e617c37b7e7d08b142f3f27978ac67f7165d6f45544c6c628c492826fdebfdc0"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan122/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 377,
+      "sha256": "2084a8c71326b672621f7684c503241b6a9f2a550195c8fe5699e9bc7b515bc6"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan122/free_gaussians/events.out.tfevents.1792666893.gpuhub-container-vvn8dtvu5t-0f17ee6c.62881.0",
+      "kind": "results_and_training_logs",
+      "bytes": 15819935,
+      "sha256": "c279cef791eedb29f29908cc826f8d76b97b0e607ee087b4fed3ee1ca1604ab7"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan122/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 457,
+      "sha256": "3ef03f220c82f0edf52e0f0abde23ba68fde07ef13f9eb3bb84905b6bfc2513d"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan122/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan122/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 99,
+      "sha256": "10ac0f8a8c40793fdab82959e711f0456b398a56e7c6db8981cd562fea2ea106"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan24/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan24/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1817,
+      "sha256": "78a7825af88363577f7d745384f0e24cbc5217459af5553947a5598a726dec7f"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan24/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 717846,
+      "sha256": "ff27d8f516952d08b02ac266db3af7da2a9b8e6047db5e70a39f549af18d4e87"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan24/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 686749,
+      "sha256": "86e01993d123bbd49c65e6c669e4a98315397786da7dbcd0d7fe0f256a7789a4"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan24/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 579245,
+      "sha256": "a52f71210e6d5c8d29dc9b1df0eda4e36ecea8c0088a532418492573ee1b375f"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan24/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 727,
+      "sha256": "870eb15393c05dece81d8b9aaa6438371da08da629eec52ca5180192d08041f6"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan24/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1179,
+      "sha256": "2d84dbc6f7dd26f66042b380bd15ce19a9e01aec08d4ce415c11495dfa4e25e0"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan24/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 375,
+      "sha256": "55c2d8ef4f624c9c0dab59840bc3baabe97e5e769cac0ef1f3e11dc8ce24223c"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan24/free_gaussians/events.out.tfevents.1792650379.gpuhub-container-vvn8dtvu5t-0f17ee6c.36323.0",
+      "kind": "results_and_training_logs",
+      "bytes": 16468988,
+      "sha256": "4ac9d0bcd2aa7cbf6b6162d4a61d43762f2203d99f59d4972d56398d97394bc5"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan24/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 455,
+      "sha256": "efd4b7c69b9d3c6b0b775465f20125428eade37a78aa4f71704e71d6a9e0a271"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan24/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan24/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 99,
+      "sha256": "847f5450c951060ca50c5a6a9e8f5e909fa38e137382948d219ecb7c2b9fa30e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan37/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan37/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1816,
+      "sha256": "785f3392ec84f578e77c12e2286d1bd0a11e26cc28a21e6306f0126d5fbcb0a3"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan37/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 532439,
+      "sha256": "3201306d4ec010852fd4dec15cf0b2cd773e11adff2405ddd254cda70826c724"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan37/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 543820,
+      "sha256": "657ee75587abbe64705763402ddd631d4c52e8c4b0f8bec345471caccfa9b215"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan37/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 561714,
+      "sha256": "960f8d79d213ab4e300bda3ad8cc66f7df940fadd8571d4344efabcfdd2f657f"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan37/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 727,
+      "sha256": "e5e5f3432051cbd0a9b338bed8c0122b0fcc094f7dce4ada3227db914c298ba6"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan37/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1167,
+      "sha256": "fc1becef9559615e894683d3c9f21d4824448d180d60ae98f55d9f1d695f4d0a"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan37/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 375,
+      "sha256": "984d7894bbb7580bf8bc58bce2a39e83ff0450507640541975bf9f5e3970af62"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan37/free_gaussians/events.out.tfevents.1792651547.gpuhub-container-vvn8dtvu5t-0f17ee6c.38406.0",
+      "kind": "results_and_training_logs",
+      "bytes": 15579636,
+      "sha256": "9b3415dae59c6434839d1ceb794e4fe7a55513079af23ba298e107ef1a413c0d"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan37/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 455,
+      "sha256": "fd450ab6cdb6e661ec07199c88c6de98b886a4b6d68333fd706724d895bbe697"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan37/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan37/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 98,
+      "sha256": "853990985e366311a28f130bbd2d94a4f31d572461381356a28c1a8208ac6355"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan40/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan40/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1817,
+      "sha256": "1687f43a0c2dd80a5db97de11267f5499df38baec2205a4ce9e777551b5ec7e8"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan40/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 678075,
+      "sha256": "b2acb1c6fbf85da13a1582da3aa0ec3baecf556480d03de6a72c03cb2749a41b"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan40/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 663904,
+      "sha256": "57875ff5d7bf430a94314234d417a2912adfc9644e855093aeb0c3291331d9ea"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan40/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 641177,
+      "sha256": "50d946951f8842e57855d86400701e59b021ffc734f500fb8c006623b0ba75f5"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan40/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 731,
+      "sha256": "14ec9104af627aca7eb732c177f6df271f2495f2dc0510ea215f843104023c3d"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan40/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1178,
+      "sha256": "c63c2632dfa09fddfe2f395c6d7bc3a2e1878895de24a1b491a95bedbf225bb3"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan40/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 375,
+      "sha256": "d78eb5b106b80e52133de1140812191a55f74f0c02cd56222438203bccb47eaf"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan40/free_gaussians/events.out.tfevents.1792652778.gpuhub-container-vvn8dtvu5t-0f17ee6c.40073.0",
+      "kind": "results_and_training_logs",
+      "bytes": 16259306,
+      "sha256": "b0732ba3accef420dd3e1f0e73b560095e21dce076fffa4c75f3b0a425b56911"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan40/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 455,
+      "sha256": "b03be5e328905f7ac1d8444bc3c162cc27034db5436db82943314cb70e87a311"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan40/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan40/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 98,
+      "sha256": "5c7acb26e9e89cd51c35111d30f11a3aa2c4c77b3a5cda00cc5148e1a7caa982"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan55/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan55/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1818,
+      "sha256": "b7aa67e00243223dae9ae3faab04bb4b96745cedebc5ebccd983e3cc724322a8"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan55/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 811134,
+      "sha256": "318545fd475e9914498c078cfcfb622ed1a1a6fc1ee9da97307e80e0a78467d9"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan55/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 839691,
+      "sha256": "0428763689fa334c47d6f43dc6ac59b453462bb03e03dc6107d16e3d6cc84a44"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan55/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 808253,
+      "sha256": "7536b0ec195acd5ff3a3ae38855533a4d02b5e98b118d1b93e405bd706149fb4"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan55/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 727,
+      "sha256": "97e05eedd2bc5acd017884c379d5eec780b9ee8f1140fb81b92240833ba0679a"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan55/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1171,
+      "sha256": "01f65b60d91fb86841c3e8b4d216c18997250c350cf130c11b59789fab61d80a"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan55/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 375,
+      "sha256": "d50d5ae9643a1925803213230ba6e42c911e3ae1f15535d6cac805f765944b11"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan55/free_gaussians/events.out.tfevents.1792654022.gpuhub-container-vvn8dtvu5t-0f17ee6c.41741.0",
+      "kind": "results_and_training_logs",
+      "bytes": 17963130,
+      "sha256": "2326ba166ed62203da094ef57fbdc68fb6ec5454d565bf779d2174ee206064aa"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan55/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 455,
+      "sha256": "f9dfac93032b6f8901d7f284b9f2d804d62f91e83635cca9c3c7a6d16d423599"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan55/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan55/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 97,
+      "sha256": "854dafedee9c3ee317c6424039555d00e2b378612877696f2858add181d355b8"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan63/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan63/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1818,
+      "sha256": "54d1f68a8cc67dd26a6a548111b189f86449cf8ff381deed40fbb4ab1bdc29b3"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan63/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 389598,
+      "sha256": "e3f8046586f9b25c7f96c4afef95dab19db952e2936575ac4e17d936bfb7bb0b"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan63/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 317215,
+      "sha256": "701972c783d04fc58f68e295b911fcb0f6f7e5c4769ab7e27c919497c4bb50ee"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan63/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 369750,
+      "sha256": "17fbe69ec5810475aa0d66f8d6ebb9b5a88289a63dc28206f5f2b56edd70d3a5"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan63/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 727,
+      "sha256": "da64232473c6793ee39afe6bc9b080de74c236332d31b206fbd73faf130f8afc"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan63/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1170,
+      "sha256": "e2635f86e08ac841575eec0418b7c18bf96f1f9330f6803fccdf44b70f18e8e9"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan63/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 375,
+      "sha256": "4cdbef10197b70f166a030f79f6404261f2f2c1d7f2435ebfb9cf6d0f06a122a"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan63/free_gaussians/events.out.tfevents.1792655190.gpuhub-container-vvn8dtvu5t-0f17ee6c.43354.0",
+      "kind": "results_and_training_logs",
+      "bytes": 12272670,
+      "sha256": "4f1c10c5b5ada1f93917d20bb3e1e2be7722f5d13fa9d94f7bb94ac83ed1929e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan63/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 455,
+      "sha256": "f6b4b0c232d23c9b4abb586ff3bdc814d1ad63658a29721ac7ff4fea85a725a0"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan63/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan63/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 97,
+      "sha256": "e83d28950c289c39e36c7e12c596d40b71f9a472fa588a330ddad218dc34fd75"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan65/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan65/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1818,
+      "sha256": "caa6fcfe0b79ef7310369580c89e07060140d0437d47c137065842c4a9d53f66"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan65/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 632254,
+      "sha256": "b6daa8461746d39199c746116f009b56b067e84490348678991f5718843ac455"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan65/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 647138,
+      "sha256": "a17af24b861216f6a452dfe4742a3b1c19679413ec6bab81cf911111ca64f22c"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan65/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 612079,
+      "sha256": "2ac69aa2fe90904f519567c7dc13ac88d7eef4474fc5d484e91f2e4dec2ef40f"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan65/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 727,
+      "sha256": "6a81b49cd528582b4d6944937a43d74cab1dabb3ea9acf413fe39e3927f01d63"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan65/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1172,
+      "sha256": "de80bfe651fe81406495456760a8eca424968971cdd3fa44975b293d42a50db9"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan65/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 375,
+      "sha256": "bc96bc9c3e3b3d587b2ba207fd1acbb1d5e7b4abf008e75a1220dd29d5c76e08"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan65/free_gaussians/events.out.tfevents.1792656478.gpuhub-container-vvn8dtvu5t-0f17ee6c.46236.0",
+      "kind": "results_and_training_logs",
+      "bytes": 16068174,
+      "sha256": "3b45a1ebb7d58c04b8db3526ca7944458e3cbf6937ccf75a7eb4acc615219d22"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan65/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 455,
+      "sha256": "efd646f745878de4b18c75b77e014bde8a89664aa81aa997fe695f32eb46fc17"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan65/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan65/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 96,
+      "sha256": "5934a1ef160a3cef0c85333635f6ca4a49e459e84583176395b503f305933586"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan69/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan69/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1818,
+      "sha256": "8ae4dc95a24d41941279d8e32ed619933829cc45193de12af3af08bb2f5b501f"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan69/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 675402,
+      "sha256": "6f12a037bfd46e799a504588331e0fd9d27f53268417ad7f06e03fe9fa20107d"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan69/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 685255,
+      "sha256": "25174759bae4c11b64910f7185b7211d817295641f2cf65523a6719559e66400"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan69/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 650426,
+      "sha256": "9942f1f0f701987235a7dbd6fbe609dcd0a9885318cffe1ce130eed6c989ba3d"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan69/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 727,
+      "sha256": "bd05ca5f92b9b515eb8ff021ead299ce684ccfd455daf0ce0d64697a14cb50da"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan69/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1168,
+      "sha256": "35104ef692ae10fca50370bd2302182b6659094bb82034d7da4d412f5bbb4b25"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan69/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 375,
+      "sha256": "74b8ffce9c4fc9a35ba93a83a3294bc2a797f12b25175c97bc1174df4db7569b"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan69/free_gaussians/events.out.tfevents.1792657652.gpuhub-container-vvn8dtvu5t-0f17ee6c.48176.0",
+      "kind": "results_and_training_logs",
+      "bytes": 16845191,
+      "sha256": "b084ce85b3e5ae8cf54bd3186bd85fd28ec92a8069f469a3f84dbda0e749f9a1"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan69/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 455,
+      "sha256": "6ab6b049da8c2c12d69a8b88b780cfe4596ec0156103ac41ef491a294e46aa52"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan69/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan69/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 99,
+      "sha256": "6def8648bed38ec1986f1dca66778564d4c9d25f745ee450d5e42f9ecfc58d71"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan83/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan83/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1815,
+      "sha256": "520579e998671a8dd2087db6c7a9314e6ac4a11ccbf912ebfbd8fb86b64c7ce6"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan83/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 635175,
+      "sha256": "75d96f4a8a2ebb1086674ca7c17157a7ec02a87e813bbe7662b31fa2319e8d64"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan83/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 647384,
+      "sha256": "14fda05915fad4b757b016ab4effcb2099acd21b2ddea0c119163a1407892fa9"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan83/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 607957,
+      "sha256": "6bfc414975a4bd4d46b33f97577b33653984c7b90c83198459e9ed85c46f606a"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan83/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 723,
+      "sha256": "0f0ae44794aee282f3237e1109b099dc844f124f8a8be9f9f17b8416c8e26dd0"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan83/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1169,
+      "sha256": "46b16a968b120bc5a798897b0a92858128e79ecda6e6139d19ebb5c228ab516c"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan83/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 375,
+      "sha256": "5630c3579d10a99ad5f75969f8ab90add2b04762842e048dd03c447132c7c0aa"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan83/free_gaussians/events.out.tfevents.1792658814.gpuhub-container-vvn8dtvu5t-0f17ee6c.49881.0",
+      "kind": "results_and_training_logs",
+      "bytes": 15940849,
+      "sha256": "7dbb60bda2727fec3abd402ab738120a90e59944a7a000b8e5445885cfde255c"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan83/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 455,
+      "sha256": "4e0c3a70400e073d142275702ba6b42bcdab324a3569454651b959c38e2569a9"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan83/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan83/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 98,
+      "sha256": "8fc526bc8df13970db020593ce09b2bdccbe262b48f1c657664d6dfa591b91d8"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan97/calibration_check.json",
+      "kind": "results_and_training_logs",
+      "bytes": 257,
+      "sha256": "f218bc43dbcb50092e2639698a405607e81c4fea4466a8d0689e93dba3ea0fad"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan97/colmap_alignment_protocol.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1817,
+      "sha256": "822f4589596849b6cff16169272b476b4acd32f5b7bc15c5e91b982781365712"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan97/colmap_init/images/0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 687947,
+      "sha256": "79c40ac848f49096716fc0cc23a450ee80d278cd642830fe5626b226bfb0cff3"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan97/colmap_init/images/0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 708596,
+      "sha256": "7b778180af0df8329a3b40cf06444ecec62255325130d0becc55c614428bd41c"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan97/colmap_init/images/0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 646504,
+      "sha256": "aa07475a06ddfab7f64d4680587203092657117a9cee183d148507b71e9fc8c6"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan97/colmap_init/init_manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 727,
+      "sha256": "2862afe1b904d2ff2c82c31b2d5f376f5ad098804de8acd531dd544bea5ca25e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan97/free_gaussians/cameras.json",
+      "kind": "results_and_training_logs",
+      "bytes": 1176,
+      "sha256": "5b1724f0c17d00b0b1d94a9e1d30a2e83675f61d89771388d1465fe9a678dd1b"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan97/free_gaussians/cfg_args",
+      "kind": "results_and_training_logs",
+      "bytes": 375,
+      "sha256": "e9bfca24a1efbff15e9a8fa3aabd44275e98c74b72c23991f68166ac7ac86269"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan97/free_gaussians/events.out.tfevents.1792659931.gpuhub-container-vvn8dtvu5t-0f17ee6c.51581.0",
+      "kind": "results_and_training_logs",
+      "bytes": 16343347,
+      "sha256": "aa3bfd291185297c3fdf40a601cc43f7dfd585221417f455e28872f085507996"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan97/integrity.json",
+      "kind": "results_and_training_logs",
+      "bytes": 455,
+      "sha256": "affe14e2be106f18136e82ef01eed9596ea7e6c941049f7200bdf6a69c301c7c"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan97/preprocessing.json",
+      "kind": "results_and_training_logs",
+      "bytes": 320,
+      "sha256": "f4942bd244a3952a936c362cf409f2693d83a9fd3d49329d012abec7314b9a1e"
+    },
+    {
+      "path": "output/MAtCha_DTU/colmap_small_overlap/scan97/tetra_meshes/results.json",
+      "kind": "results_and_training_logs",
+      "bytes": 96,
+      "sha256": "53153276a67209f8a5f6671d3791e8d1847cf06c6faf0bcbc9a54548fb2bf1b4"
+    },
+    {
+      "path": "output/MAtCha_comparison/README.md",
+      "kind": "results_and_training_logs",
+      "bytes": 6220,
+      "sha256": "f07c931a3c3bb57ad3ae778e240bdc475912d327521ef97d1cbb397845e8c22c"
+    },
+    {
+      "path": "output/MAtCha_comparison/cd_comparison.png",
+      "kind": "results_and_training_logs",
+      "bytes": 47841,
+      "sha256": "78d815ce80d7bdb988b0119075f7026b59f3e9493dade91ee50e919200da8b9b"
+    },
+    {
+      "path": "output/MAtCha_comparison/index.html",
+      "kind": "results_and_training_logs",
+      "bytes": 12432,
+      "sha256": "011d3ca1375981c36f538c2379b8419eba2b2b8b3bbc22da9da1933b27c4a6d6"
+    },
+    {
+      "path": "output/MAtCha_comparison/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 4625,
+      "sha256": "52a7c21c42322628d8fa18e41cc8b4ab45b0e7223b6d1ff9d9edc5080b9de079"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 13496932,
+      "sha256": "5292d8cf7a16b09b67d052806e148ebf5c321d888b0b59959c74ee806a8df60a"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39439,
+      "sha256": "a41c926fff756f44a129af55d8170624e6e59dc6c7210332aee29904dfbfd3e8"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 4932402,
+      "sha256": "195b2932219517cb655825ca1de7b67c97ef38de0a8ca07dc79283bef6ffffa5"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 165439,
+      "sha256": "7b557970508209c03ee94df8803d485029f0dcb42076f04b03cf68f2ec6c0c8d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 389033,
+      "sha256": "468d7c5a9c368538ab34e799c38d1a24b7a2b4ace0a56a8a86c5b7548b1929ab"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 169571,
+      "sha256": "a4732dfd1c3bbd1ff9f98708b47e908e39dcd6e56f71cde37372e611ae58b55c"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 411962,
+      "sha256": "d06a2b4f140313752981ded56509c080deb4af3b0ce4381178a3d7ca81bc6a68"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 154165,
+      "sha256": "d61649605e6ef34ec5f05ad836f3cfa2d9a7d3d8f4297c92ceb5758057a37c21"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 367504,
+      "sha256": "3c95cb5b82f1f155f477593d3a8c29f3be77d06085933657411b9496f9f85ae5"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 534312,
+      "sha256": "ae019cdd6b8cf84f940353eef843f464250ac17d8ca68767283ca738459d9256"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 575836,
+      "sha256": "ee308249fde5bc803d176f1c16976a332a75d036597f09fe5e3291dcb8aea1d1"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 482955,
+      "sha256": "223d333390f0831bb49f6ff56271e2f73a16ba1657709b089be79c9c7740e032"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39474,
+      "sha256": "30c086cf547aac848a80b767ebf27b5a2fa4b02c7c4435c504425a7eb121a1e1"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 8359024,
+      "sha256": "4b4b760a69ae83b6a83ca3ab1789d9be014d5e94277c18631fc96c4ecc7c2852"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 314102,
+      "sha256": "352ae24c4129cab0fdd1730dd580e19da9d9f591474c7f48d089f3d99b3c9185"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 449851,
+      "sha256": "738b1d9de885eb2eb21444dd555fc8a860269ef27f4ace1dfc1e6285ad61abf7"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 316927,
+      "sha256": "6ebcb65041a038cd4b71460514275963a78ebab4660ead38929a1ee6ff8556d4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 465061,
+      "sha256": "4e2bcf6eecd1d15e781b7e8569594163cbaedeb0c9e2586409e283d73fa83bba"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 301852,
+      "sha256": "b4605b52d9d13d570093563a29820a8a0dc51334a92d6a0bcf3dba9ff4a270c8"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 448630,
+      "sha256": "4196e98eb6137612993da4a4e9cde742a485e46d2593ff22c0a1e54560f141db"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 658029,
+      "sha256": "d8cb3e1cfe84bcebeea18c3f8a62e5a9101afa6f47c446a9119691f5c0c30949"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 659639,
+      "sha256": "7ca6d18e2f304f9e6d5b2bf9c09753ad794c36b8835a0b4c685e31a6966313ba"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 633675,
+      "sha256": "1397ac38da5b29cfae509a55907fd2a375a55aef1c5b5e2c7c3629299a9d1c2d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4288669,
+      "sha256": "8a48322ea4ad4c517576b903f88e62465fd6ae2dfb052dccf8d8bcf161e50046"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 2699108,
+      "sha256": "8f2cefd3b5be4d5a3bf5334b9906cfd15b7d5b993052d5fcea0e588f0199370e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan105/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 5212065,
+      "sha256": "0653539c4a0a5b9f76e2785de583f43f14142c136f91f195571ccc5cc6df298a"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 12519232,
+      "sha256": "b611b3f49742ae9731147793a5a841eb88b04639a4e8592ab006faad375575e2"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39543,
+      "sha256": "a57860ab872bbef0de0696fe4f5583c905390be7c934bb0bb734998814f74693"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 4504305,
+      "sha256": "f81bd87a86a69e16aa7cd81b787c5945e1e1135a6c230556aa3dc6efd7d18a29"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 173832,
+      "sha256": "4e4fcf5ef3dccb9741a4cc73243db1d1b69db11787b752a62c17d3346e6894f4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 372477,
+      "sha256": "cdd61be617589fe1bdbb1f14e748f016cf3d4ad956d39957421d898d75430a8b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 164537,
+      "sha256": "7530b12ff2259aaf21f5a3bcb9733adc04a312e1a5286f377ab7f77f1ab72543"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 362574,
+      "sha256": "4cca648439c328218eca59a3aa67d33643accd8d73b706ba1b6f70f45e27b9e7"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 153547,
+      "sha256": "4102579b87cf192b4bcdb531f48a7b6fbd61699748606dc458e5832f53978a07"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 343901,
+      "sha256": "71cb9e649eb7929f6c6ee9f0a7c75689cd53b12e17d4da1a1b94ff26800c7e3d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 523592,
+      "sha256": "a3652a161b37dfbdef230616c5799bb7a8a08aa34c81c521e8f473e456132304"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 502529,
+      "sha256": "d92f43aaaf43bc981b04c45dbe6e7e7acb479783322306cd58e2c1c199795e47"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 470049,
+      "sha256": "df87ee7eaa6bed71bb51dddaf8bad56982d2d86fc77eeeba5df7ed4bba3d5923"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39578,
+      "sha256": "cbc0ada76353e7e01348976af53db776021879645cbe68d786517537602403de"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 7677935,
+      "sha256": "e702fc1f3877bb489f25c52caabe857a6c6f4ce8db152eed8ce4eda089061682"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 306160,
+      "sha256": "6068b3abf64caa42ec73f9b29f55a5a90c3ddddde25f01d6ba2fd6dd33d33bd7"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 432354,
+      "sha256": "29246cf4b081ffc78626ea868d08155944077898f5c7667db8e815f7e60f8ad6"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 301006,
+      "sha256": "fd40bd12a01d3056d6bae52d6eb9840dcc71e48ac0a2f3d5ca5fcc242edb62ed"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 428603,
+      "sha256": "95367af2b00d5afd4e9e1cb6086c2a30d861468931a70b510ebb957e7b4076fa"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 292872,
+      "sha256": "fa4daecf45ab4ffbdbf70edc874894dd32fabc2f5bb432a0051e7d2482f236da"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 417416,
+      "sha256": "72de4da0d0add6d157bc9013ae075eb1b6d68b611c342185a1bb4338534c8a19"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 653803,
+      "sha256": "92a8f8497ccdfa61e211f1ffe89c035dfbfbc9ee22340e114e6070db270640fc"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 613341,
+      "sha256": "7bcc32741acb4dfb5f3a5c1d257b30f06ac8d420bb4b817f8f55a9db1f1fffec"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 613875,
+      "sha256": "ccffb737fbde2eb659ec220a8006cf097310f3dd3188ca65f812a14f59c939c4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4074313,
+      "sha256": "3c7b343e5233c85a57a306baaf3bb8f05836b8de744f4b02c83ece960162c483"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 2940342,
+      "sha256": "cc9b092fdbdaa3dfdb8f871bda91b369db09e348f4bbaf726d4a06bf9553702c"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan106/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4871126,
+      "sha256": "5911f52e394d86ed409dc8f9d16abe279f31da74ea8fd07ebe9540e63faec33e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 12775135,
+      "sha256": "5a098009bdb101cba4b31e5a899986487ff9a278b24167ee194da53ffd3d874b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39465,
+      "sha256": "dba341cea7d7d5298042f06cf4dda527c440e0fcdd6b745811263d96a34ffadf"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 4732317,
+      "sha256": "0252472f1c6c15a3e6ce825ce5ca4dc966898c7056c74ac3830a7dc882707d6a"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 154802,
+      "sha256": "fad4093824fb63cb44f237a0394f627f771691b82936cd5de03e3fd46df28caa"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 333665,
+      "sha256": "099bcae4d53875035f6b078220f3606266a4878580a690d9bb96d2c1a689a4ac"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 151501,
+      "sha256": "16127e679485e9b93bfc1931fd44d700d5e8a745da278dfc79155512e698f819"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 345910,
+      "sha256": "23dbe48a9a00bff7bb070347527b5cc5a655a1792332ad2f4e7f20b0eb2f68a8"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 148243,
+      "sha256": "843bde8c878322d50dae2d3803e32712abb90fe70024832b2eed3ec712cc3458"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 326455,
+      "sha256": "957ce491c19a1684e9430fa7380619b1e64ba5a01fcf67efb4cc57016fc51c4b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 457846,
+      "sha256": "07e5deb0ce3e43078625a95c449ae54ec868657f75193122c17ec5deedcafb30"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 483321,
+      "sha256": "ed070547ffcae57d23e9e92ea9ee7d05447f9bceb2eb3f0eff7db28e2dc08c03"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 435271,
+      "sha256": "5fd76b1fa3912a501df2ecda41124aa290b5422db24f3259bd5274818e99a8ce"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39500,
+      "sha256": "f781dfa820aa57f5bdaeade482306150dd97472398e4d9193762a06ae51a74ae"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 7993326,
+      "sha256": "444fab803225021d59e72020cbef6cbbea8e5d9766d54bb88bcf6898dd1685b2"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 303612,
+      "sha256": "d81e99f50e40b667f63155c2a8ae82cd275ad35d3f66ce9cc94163a3f0f3be5b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 412566,
+      "sha256": "7d1cae60b7e58ddeea8076e93e1afd64ec149697c6e3f1103f83a7e44a803cb6"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 304603,
+      "sha256": "9fb34fc1ea07bbef3a7460059f9f6d5bbdf042e671353284d30afa0ebbf23894"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 429684,
+      "sha256": "f8ae8158462dd04869f529823b1e2fffb9fda4a7cf19afd241c5c12161779bfd"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 294547,
+      "sha256": "a42e87c140db51b74beeed49e3b0180debacf8fa915020a5b712efa27aed9856"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 415700,
+      "sha256": "7696405da6d864e21cd47dad6743dda9659d73e91a9a0092b1b23e6a54fcaf5a"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 606700,
+      "sha256": "ab886f578db3cfd0966b11835c5c4611c8d5ee0de9579ff2f12df79c32ae9ed8"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 625890,
+      "sha256": "ca4260ea941f25ded23cd4618c7b450fdbff25da9ab8d878cebaf510861d550a"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 596944,
+      "sha256": "a7c66554484efa6a517920aaff0cb1fc71c26cd7b9188cf83640a0f692b66139"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 3926975,
+      "sha256": "5627e426ae88cda869fce93fadbb7eccaefc1a6f99f8cd167567d56f7bb4608b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 2398009,
+      "sha256": "f2f63d5c90f1aafa50c3e433d0703d6a0bad661d06918818484eef49213335f5"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan110/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4672964,
+      "sha256": "63d1ac2a50a7b36be0720c055c16c376a31d70de0aec913d4cf8a4e8a9c723f1"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 12553181,
+      "sha256": "45d1c707590bec765cfb5913c84c61a87607e94d55c8c1383e20edb91ea2442f"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39477,
+      "sha256": "f6cd98adc0e146e71556ea2fb6c49135dc1db98489ca1dbbdc610f836f055c9b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 4966817,
+      "sha256": "14da9862a79aa85142a5d40b7746bb34f808b6c6226e56281a76786ce2b89e98"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 169407,
+      "sha256": "00cf8e9ef43c961505eebeff628d04f241d3b386a2cf94c83f6df3aea65a3034"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 410009,
+      "sha256": "8c9fc15168db1def9f3eb6d2b92ba98737bcd66e8c2cc130622614c952ec0eb0"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 169828,
+      "sha256": "9700bb45cfd281b4ea610ec36002dc6739907f798a9cdb138fc64641afe2564f"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 426500,
+      "sha256": "aa31d8c25db35fa72eac8dbffb528300e46b9dd8d4d9be47ca48c0669d8b9644"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 158952,
+      "sha256": "3fe4e96f4750f2efadb1b091a651a9c9a85a47930446c7a87b9a4cc520420832"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 404822,
+      "sha256": "d860760bf68ac95facaa35df799b4362dc2160e68949393f1c5a47cd9d99d0da"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 556026,
+      "sha256": "033894a12e1edc22b478c40ad1748e8a44cc9dfa2bee8fa4d0aaa2673334ed73"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 597075,
+      "sha256": "8c28bb704ab66fc5948d20b545045429781f28265fec3104e2f972c7e4dcc5ac"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 528334,
+      "sha256": "c1b1964d54e5b4db65bf3ae0329a870aeac71986d4ea650ae8a45c74ec5073c8"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39512,
+      "sha256": "d2ec07d25e7dc118b9a6b6b5daef98ea7de18e66ea35686a5c9c11dc59208b6c"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 7643401,
+      "sha256": "c03812eadd2197a427c9850af030c2e511bf998265f1336fec07122357129110"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 285157,
+      "sha256": "02b36b6f7b09fdffe97b44cc77407dac29dbe22437c793f93f2f819244891e29"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 458935,
+      "sha256": "c4c1a8c4ca4ed29236628e18f286220e7f50802e8d8c4c18d6aae72afca7e1d4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 286956,
+      "sha256": "6eb6751dd4f9fa660490fffdf1d1dce764956af7f0b55ab467c3efc5e9b022dd"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 481750,
+      "sha256": "9060c47e40d7576b02134ba445821be35c5dae71be247af1ba7aff2672aa63a8"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 279924,
+      "sha256": "908dee0caaa27373f9c4242469b0c60138f9cd159441ce0394fcc4f6a92bb9af"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 465564,
+      "sha256": "496c4593ff6b198df1e3eb9bb27f76a3f44ab206f3d2454776151998d0dd1c57"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 679988,
+      "sha256": "7872eed78780beb819e49aa65da5c43139c39b8399ae084cb78174993f40dcda"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 696816,
+      "sha256": "7b9222e9719e85e54664e1e7b169c26f2121fe42edc1ba5d4d5fcf81974c8bac"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 668197,
+      "sha256": "33598fa5101f4a0ff95ed5b40b51d229d14c7c75f34fb4bf7fbdd4c5b5227b7e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4281847,
+      "sha256": "d2f6f8679fd8a89032a782f0e35c1f33e03b48a2ae400307f7b9e088933dd304"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 3454192,
+      "sha256": "f08192cac9c94d0d183ea82e1bf1cd3f0e00c2217c70a07c6a898c8719071386"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan114/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 5403800,
+      "sha256": "6ac242a7440880a959976b31157ef2177733aa73768004390a0e4a8f0969b7db"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 12323614,
+      "sha256": "df8d4e940de59aafa502e6d84f6635bb8eb90211cf7984a4afca33c6704a6255"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39512,
+      "sha256": "cde1b52e37497fc2657d66f3971dac8c139d5abcfcae3f85809763ad122100ef"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 4592752,
+      "sha256": "a2b7f2cc181a97c155522763d134eecf71b3ccb0a80cf918d45ad7607e8f5c34"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 164009,
+      "sha256": "5106630f9b5e298d282eb1d97f23290b532029fccde53e92268e349f5301ea44"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 365410,
+      "sha256": "d99db3e6c247bb06c57047c24928687b2e6de146b0740e8919c3ecd3d1754ae4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 163870,
+      "sha256": "3bf8dbe6d517848d66edca3c6a332b37a49e8aaf2eb982b47f96a35799a0172e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 374264,
+      "sha256": "b3767cc7e6d7cfa752b8b2aeb89f519c1a9fd18ecc87e8694be22e02734b6a7d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 173159,
+      "sha256": "dc059e9d9cf6a4403e189921cdc201ba850cee81ddc37188cb1b5d86d9f218cb"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 363298,
+      "sha256": "4313c34b38db82dc5bea362b8b6586732e0eb5c8b6802ebc6bcd2d03ba7a16b7"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 489055,
+      "sha256": "40573ea8af82341d105a677d7a1dc9a33b9e719d823aa299d257f15916dc5191"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 519546,
+      "sha256": "7732bba3dc5ec672351b72efc4740b9e778c8e4951b2428cadcd22de1a904b90"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 463867,
+      "sha256": "49b185a7c678376021ee1c4e0cfd349659702ca4edbb53e51274310484e7fbb5"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39547,
+      "sha256": "1a17866e3c2b21a01ea3d38e3a5fb581ae3dc3d17e3d5353860faae9b8404872"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 7587036,
+      "sha256": "d50810e9bcc8bd1ac0179bc84a5b1b5cc65c6519d437a482d34b8496bd242b9d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 295499,
+      "sha256": "be8a72d6cf5169ea22fd7272a632b5521392a553ea49e9c16fdf5d7de0302d77"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 416791,
+      "sha256": "d01c167c300d7950a75a51db0725a49d4d4209ffa1b40eae3880dc8b719774b6"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 293453,
+      "sha256": "dc7600e058b8ebbdda4c19b19a9b41c98ca16564d9c018ffb8ad4a8620511c60"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 430930,
+      "sha256": "4e1720ee054ca0a67e18e574a734270ab6fce30536a2e55e7e0821e3e2eed92d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 290815,
+      "sha256": "fe23a23c1d97dc6824542811fff6a705ef25e0815448536823d9b140fe97b80a"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 423128,
+      "sha256": "60896ba6b8f7c015097d7f195ba8ccec2570292bf2e877350af3cceea0b8fe12"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 625485,
+      "sha256": "5efd3b0c863ff6096b08a758ccdf69b2de0be4bb43a14e274d1c2464b493cbf4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 624775,
+      "sha256": "2bceb21bc8dd105bf49e4e67a11679d258ca88843e6512b1428589a2eb62debe"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 615570,
+      "sha256": "dfefc7127214adc90ba5ec5afe24e4ded8461161f48928cd7dc94b68c15dba17"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4084383,
+      "sha256": "1894b5f920a001e82d838c65ea47fc8d27385ff02b777b00137e537e010e41b8"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 2529654,
+      "sha256": "5bbc02ca6ddc3308aab7ac99aeac3e2317e265527e51c3c8919ceac181def33f"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan118/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4782343,
+      "sha256": "d22972b7dcac4d7d841782ebf6625f4d6b67286d3f759098bffb788701d88d65"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 11918123,
+      "sha256": "10d4e2613de359cdba71dc5d95184f2930819064d7971abfcfaabf9077729e6d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39479,
+      "sha256": "33d9dd803661b3cb77e543d8578908fb7f03229ea417fb83cff5f7c28b5a8496"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 3957764,
+      "sha256": "bd5ad3f2a396071dfebbc5bf2b89c7a77e3b7018dca6194ad1b999a4a8d8ee47"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 123271,
+      "sha256": "e6199fd98298396f463bc9d2a2f6a7b4683c3268e04087b0f020861ce8bb6fa6"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 329957,
+      "sha256": "b3709f7c9d16152a82fb4b6c4dcacfc8ef2becc3d1d53bb20fd5ce5c4a77c32e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 123851,
+      "sha256": "612f0507c3d3b6441aa3d0571edc5537c560a56c3ab01bec6c432b8d30ebeb08"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 352848,
+      "sha256": "daf87f6b4f3025eb8c11313577973ac24c423311e904e7a194dbc5f7cc6c79cf"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 126652,
+      "sha256": "88a800a16ddcf53f3436bcebbf40751e2236642b46efadac9ed469d331363b99"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 343763,
+      "sha256": "ebba47f2916d33173f533c03f1fd696c24c65c652514b3c1bce5e0aed0a3a81e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 455738,
+      "sha256": "e61c63403539c2d164e8d40e9b5ada0451d10433ce4263af7c62f24aae7e14d3"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 490093,
+      "sha256": "534f46b6d7a53b2aeda5abf9bf159e81f1c53e4470ab5e4edbce85d777369c7d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 452213,
+      "sha256": "b70f1eccd4ef1e9e848d77be3ebcc41faaf0ec5ba169e140438beb478a69feee"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39514,
+      "sha256": "4fa1609e1ad6cba0480f27b5b893e4969348f61da98ffa44c2ed78d8471aeaa9"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 7738816,
+      "sha256": "80940de50d61590e3c124053c6d19494c654ae75e75d7a266f3835643e67a7e7"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 296617,
+      "sha256": "1cfd183d8683b3a4f7ec67af95fffa3d0eee8be7e95f6cfe89d2b8b5050af08d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 408488,
+      "sha256": "9de9a4be76725cdbb2973af1c99614092043a4cf64a85993a538638cb1d932c7"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 294944,
+      "sha256": "d461dcca4e2bb4636fd4c618dccca193ec8d832a6be4e0cbd4abfce1d4e8db66"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 426307,
+      "sha256": "70c7438f53ada3ee0387b6ad74fb1049f0882bfb6d827ce205c4140b08695fe4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 291013,
+      "sha256": "bb86995578aa18cf3fe71a9a0bf5ef82437d6f1c776e85f08e4ab9f563521811"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 418281,
+      "sha256": "3874b47dacf0187bdd8189a8ae86f5ff824d527093592da0bb6c665a7da2879a"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 605921,
+      "sha256": "ffa53fc54653d918d6bf9541af595ab926f4d704443003deb37614c4fe45fd65"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 616843,
+      "sha256": "b2809fb03adff9b472d25ab816341489e57911d6fc71d254309ddef8e2ca23ed"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 610776,
+      "sha256": "7ddd6aae271e554d352e21a1dfeff44830779ae602cae111cb548658329c9fe2"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 3849267,
+      "sha256": "55b8571e848f40c17a5cb634598de807b60b120a2baf2b26b0c2079bf95b3a2f"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 2041322,
+      "sha256": "75d997d72bd0ee27a465d821af577052ea80d90bf6ee837bdef71f659ccd2653"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan122/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4680134,
+      "sha256": "3b8448a7a8c866327b92d01fe39686e8bb9c2f30bb32f26d651dc3aa664eca4f"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 16756511,
+      "sha256": "90eb21dc0e7c26eb248a0bcfd323a9c85dad2aa435d054067303d7aa711a1a59"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39456,
+      "sha256": "715fb38807ba4386fe7e4da2530fcae7edd91fd84b6b6a5bd0d89d02dafaff39"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 7618411,
+      "sha256": "ce5490a6cfb83a034049e67416bf8c1b61f68ad80893237a87a87046c5769e8b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 312347,
+      "sha256": "4a68c48fa6085917ebc43d113f6d02b2496a8791c1ca0da7e46b9ab843167d40"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 526259,
+      "sha256": "f016586fff9b8cd23822fc4d6469a846fd2385e0303679748ce9045eec3fd920"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 295468,
+      "sha256": "2b990555a912faf590a947a4c3febce4986a7b01c3f97d3e26acfe75261cc23f"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 465114,
+      "sha256": "b0b8a84bc094dd73eb8a5a5042e8799df67798ce1c60bda644d20c9af7c5ed12"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 229527,
+      "sha256": "aa788b8c26e1f6a9f0e90262eb546bfdb9866bbbf7a5e5065d8f0dfd71c919e2"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 374452,
+      "sha256": "7d51fd8e063b2786c49742d5995566e75e9a3fe52b00716140cc06b4e3fa150e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 652694,
+      "sha256": "64ba2bc3497ee79543e741c863a0aa9bcbe9671940c2ef92b60d47dfced09294"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 633215,
+      "sha256": "6580fbb775b101ca41ecd9b7aac3cc99267b72b2a0ca023d3eaddaca29fd6c00"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 471246,
+      "sha256": "2ab154b5c5b659267822cdeb641eccbace162f2a00e0ddd5a650991098922ef7"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39491,
+      "sha256": "1c74e2f68f3955fc4e049352c26c08f8b8be93166248effb64ab449204d4154c"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 9019949,
+      "sha256": "b8079e6fdfe04c50e0abacb244125b1663cc9162d6a7d5bf52b96dffea057fab"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 329882,
+      "sha256": "2b8f8e35e9de3a4e935c72b4ac5da756dd7a755da2f7124625c412ac559bc158"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 535789,
+      "sha256": "399a240367fe988d70d996f2f95be07d694319ca20d3b04ca59c53e795dbb60c"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 319462,
+      "sha256": "9df9f8dd5e1d2bf5d5f82d8bc4b83212d6559c8435c0c4356c2d973be701b699"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 490199,
+      "sha256": "611c92e947763ec8b37dea03be3a1069e87101a7cff3344a13af0deffa28fe31"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 296521,
+      "sha256": "1e37566f97db6d92a9972c13ea15a6558ec33f6bb4e36f6d74ca767d41db4dd7"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 432855,
+      "sha256": "9688b66c09e864fa27f677956c02e3fb47cdfc1274c465b2ae6bdf6f75964707"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 710374,
+      "sha256": "301a82959ba5b6b76db9964aa5262b40316e4f77176b3a1db5fa4332aba23a69"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 672678,
+      "sha256": "aa0ea58d5e40292c973eefb6b94e8fbb2954747f4a8ac505a3ded07b5075d9e8"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 570155,
+      "sha256": "e846c6fef592fc07b8461cbe6e9a98362771d816d56f0fdf74e53850b0c0ba12"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4945755,
+      "sha256": "cfa1af387c0839d2831979907c72305536c9fecc10d94b0041b6bc04db45ae8e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 5143671,
+      "sha256": "d678fb2bb338f485e04bb6e7bee7167f2d21d7226ec61aa1bbc90e4fbd27014e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan24/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 5485881,
+      "sha256": "880b1990fb42b4e8029877a0deddedf4be84611ba63a6f9a5f05c5c95e2eefef"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 14368936,
+      "sha256": "be3e00558996cf25b9b4afa8cf44c4d06118a3a05ade7ffb29161d4f9a46c7eb"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39432,
+      "sha256": "046d0d442a91e06f1dcffe421b425aed82416e38d4154953c2d87ba37280a4e9"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 5834795,
+      "sha256": "4b03680f53cc88674c992173de0171f5ec9577d81e7344a60091abdab94a896b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 164880,
+      "sha256": "f03fd612aeb6de7ddd1d17b9aa18116f1f159e5788e2e70b6a2ff8be297836db"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 298431,
+      "sha256": "1abf6b42523b37f9829a8e024d36d07137f98da453c1a6c6c97cc80b84458aa0"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 191139,
+      "sha256": "0c0ce78d45056268e6db629f5f545c1c36f1ae10812b6aedd6fb75be9f748563"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 318959,
+      "sha256": "198ff03cc195c918b2d8b031d0bd8489548f163f3fdef40fdd0b85aacd6b3ff4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 178501,
+      "sha256": "df5a200023597aed2cd850deb308e7553ed81f779cc9e76ca0a8e008d0fa1bb3"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 317713,
+      "sha256": "de761cfe269ca1bdb8f4982f185420a076b0579eeed6d8239ccbb24d2934a93c"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 427587,
+      "sha256": "0d0b4ef0ed7785bb3819fe0f2390d8d6471417c423a84d3752f37bf50540306f"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 461958,
+      "sha256": "481c1b7d628f702cd14fbd8ccaf929a5c6c077f8bc5d29cea25665f0d07fb278"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 396828,
+      "sha256": "d88349b4acc4483955652a5746b0c61fc3fd4f63dde9e30a0ede6956dff84297"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39467,
+      "sha256": "30bba54a0c89b37ea6a75d134c1de299565ba251600b612a5c78b59c75809684"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 8470034,
+      "sha256": "f37939ab377c3b75090fe5566c98457f60f91b382354bf31947f88444eb4c900"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 315754,
+      "sha256": "733a654e7acc7e47ec914d43ce20a7e6d6f9aabde7b1ce393cf6e672e1d549ca"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 373374,
+      "sha256": "af50fdfa63f12feb45c0bb4d11add4429a2cd4b4122395534299e0256e9eff7e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 324836,
+      "sha256": "86da3f4301105e88ce2cf6770e3929d52564feb93f19caf1888ce5b2a16edcfa"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 372627,
+      "sha256": "c38b69f917a79c076fc0dfb1c17add40bdfd5db411fe8b53d07b92d3aef4717f"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 312324,
+      "sha256": "ff75b87aaa20d878f9eee15bb53f00b1a8fa7aa60c0abe7942a8ea0890527226"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 404212,
+      "sha256": "7645c6cb458d91cfd04c8791085d5ab2243a3cab5502bc84645eda1c8b3e9464"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 519878,
+      "sha256": "149b37ca2d776954ff1b27d7c5125a85981dbee5e812362322bbae4c584cf363"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 522635,
+      "sha256": "290392ed5fb9077b4bb8b4659fb4276ed7fa1ebca0395ad198d6a41ef09234d0"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 549413,
+      "sha256": "1cef3ce2834485d23296f1560993d3496873988a1a2afb1dc3a584f708d80131"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 3881341,
+      "sha256": "c77df5eb02e99f095244b607226525282c0ff427f2e97b2aa097a4f932bb7c3b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 3538010,
+      "sha256": "2699f282b347d31ce651a73b7bca46fb55ed577d218991b83317ff59b5d7a6b5"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan37/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4417771,
+      "sha256": "ca43d6e2672e7e2efd3a43235878a027173a0603deff57b99bb1a2e1e7e82773"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 15690336,
+      "sha256": "be1ed7eb6aedb5bbf7a1d86fbd4fa19c63ae7d22cc81ed707847df95b9a491eb"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39488,
+      "sha256": "ee8091275359e01776eaa33f2b85b30c0eb2d4a407d994e850f8539e9756ef07"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 6752062,
+      "sha256": "8aa9ed088f79a4649d6775bd67a2343690b0398338b76ed7792819c1798a8154"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 187696,
+      "sha256": "23782fade181f5f4c490ce56c771cc666b854c438ba89f303d6378cb93ec2df4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 479599,
+      "sha256": "1d1f5f2b1a3125c7aebd53ac328729516be234082e8b85a93417645ec389f4f0"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 207520,
+      "sha256": "3099f3ba03253bcdb90896b408e6775d75c47587c5c1e390edbf1a696a2c2601"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 432008,
+      "sha256": "a233988a555a6c2c7409b59ea1f89698a097618e83a69645a57e2ce9020587a3"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 219019,
+      "sha256": "b0f3c25d4ec183b74453cd3d4bf532c318d92a317b23f6d228078d5475342557"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 453715,
+      "sha256": "41891a57adeb973d6000f200d40ef28df31ac0323ac4ce1a7f584eb69a889cbf"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 607714,
+      "sha256": "2d3bd5c0bab32dcf2d1e32df068a342c9081a11a504a6ecf83a61bdac8956d81"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 602884,
+      "sha256": "0106556a8608a70bc16fb51fdc669d5aa4fabed141fd5017cb07e947c5a73c74"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 553118,
+      "sha256": "39b4b620c9627e2eb5116fd9e47be1d940e51f4ce83fd002d789e0c21c0a0dfd"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39523,
+      "sha256": "09cb5b9a3c8f439bef4972b970f2e30073c9cdb4afcf61ebb6bad05ad8a90933"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 8634584,
+      "sha256": "5ba394990ea9aa403f04d120258a90d59680c5bc18d1cebdf5b272009ff8e9d6"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 284154,
+      "sha256": "d81799814586b0ca756f236d3788d48d161d8f24e7dab3752661295a72b54306"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 455957,
+      "sha256": "34ab3f179da7cd49624071af83f13949fef720e20b2171a9c85abad9b19bc5cf"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 310130,
+      "sha256": "882aa9da0d41910db26651a8f4abb03dd6ab42adda687f047ee814acd52a59c6"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 452037,
+      "sha256": "5b4291c72ed528f28cd02458a92aa649601a6cbf484a14720412f25c41611883"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 312708,
+      "sha256": "93080cc5c45c2b80e51cd551dd4cfbaf211a62ab87d528660609d6d120347b54"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 456666,
+      "sha256": "2e4708f778f214a3e4c9ad3f84a8eec3869127b42fbc97b512479785f54e616f"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 652961,
+      "sha256": "578c0b6d062bf12d0a7237dec113ec36b51d350e5102d848acb003945a0f17c4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 627001,
+      "sha256": "b06518c7773f85c05a3e11ab7010889b925eae97e7d456eab4867e6b8c9c24c5"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 627649,
+      "sha256": "dd9ce7160c064ff25ce694dfa230e85adf954fb9893d35425b1f6f602966c997"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4539865,
+      "sha256": "4583cb8d1d69d6953245d0b185a8f96335d5e9d7860da959b0bfee7258329f7f"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 5087850,
+      "sha256": "a270e39c2b38b81df70874019fbc8eb05a76a7e5307974c4f7cde22efed68fd3"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan40/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 5574189,
+      "sha256": "487f0f0c19d7f50a11a3f5ceeaf40c1c2b5ca289c71427cc42d717bda366e478"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 15507263,
+      "sha256": "85659ac5fe0bfbddd0a902570e5e670432820d465e3a89b31d2699555c0dc155"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39414,
+      "sha256": "8d5f3258aa37a41f7364d8d508d12ca778cc91652b64577a8bc35cd221f9f636"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 6388796,
+      "sha256": "e17eb8f314cfd638e494587ee8d7fa242f72339d79bfd948b2bf911902951afc"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 151665,
+      "sha256": "d61da3e36705efd96e9e268ad7c60e41e898d2bf115086215a2000cdd380e30d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 514714,
+      "sha256": "99c91f560d5c763a8ab1f93066d48562205f31234532f9ee35acaad43d9c5887"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 155607,
+      "sha256": "329072f0e7fbf2e8982cd0a71b28c8b0bafa5e42244a05774543b331ed1d88ec"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 539380,
+      "sha256": "e3087f315cfcb96c26e5c4e385421eb77da8a154890e36b1f4e2a10830bf7c3e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 160285,
+      "sha256": "4872886608c78e332caa4c26417f017639eb57bbc6cf9bd49fe44e70da473fb3"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 516950,
+      "sha256": "8336afbb5a91590a49d888341b20ce65b57de93fb1a7e8097388fc75ad623017"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 707972,
+      "sha256": "a0f3952bb3bb70bcb945b0bed9027b59cce57ddf60fbc287407a27d75367f604"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 759603,
+      "sha256": "26ae542aa5ac20872f506b345dd8aa02435bb7b7d167e5e62453652287892496"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 685741,
+      "sha256": "fe55d0416a417c82e20733ce587adcec79b20ff5f79a402ff4264fd07c39f042"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39449,
+      "sha256": "31369ce5687ee696391c9a29c047d06bcf86a715458ae1d237f88f78f3a762ca"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 8880600,
+      "sha256": "d8dc37e2c7fef4c78639c1420d7c9e6109d6b1a8e6d7c83fdda4963cbb31e559"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 274276,
+      "sha256": "d617c0060cf47303c87fe5052f4e5fce4d70df0ef942e7851a76f04e604d0549"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 539564,
+      "sha256": "417c462f3a1d2c6d05fd46029d03970025cf7121cee8f962eecfab74c7f4287d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 299591,
+      "sha256": "b1ef6fdfdfceaccb1fcd9ac18dcf51997f7bb1052cb911080047a0ab81d2766e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 568074,
+      "sha256": "03dd23b2339ed8030b23a585760ccd6643a7cdd336c84a463084b0de1051b076"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 290161,
+      "sha256": "2f1abf1e7c14941d5efe7faa1682d0710c72d61a1cba2c9f666a7034a7aa79f0"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 532579,
+      "sha256": "dd88bcf282a62f22860d8e321fee8770831998e8d2769d901b8960ad064a7fa3"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 797643,
+      "sha256": "e4c43faa82ec0ca039586afb681df9d07fa5a40d95503c613bc44e1840a681a9"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 816490,
+      "sha256": "081afc05b34e5d839857c844cdbc3d520d06fa399f769f5ade5902ed91fca21e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 794445,
+      "sha256": "f45e49bb686f6cd7cbff6f59b1b7345121c1e0e5c2e189cd6d269ba5cee2d69b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4835906,
+      "sha256": "ddb3d69b39dd0651418d811af4c36e9473c2bfd70b0a5117da14e047b2642b80"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 3700450,
+      "sha256": "327f3c5667fbd23ec51c6e5bd04c9ddafb024bdc8c061a414f69d5c4443791d9"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan55/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 6748503,
+      "sha256": "f0a03891fe38a375d588a87bc90ee92b3bfc34fe2a4be64015005c0d25983e91"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 9908860,
+      "sha256": "f0f7ced689ad82ea37846fcadb1b82e63adf66c95acedcac6284af99ff59f3a9"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39527,
+      "sha256": "98535fe2fb5d2cfa0eca00d345f4c6f3f89a2c3e942545f71e6990b2560b45ff"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 3638930,
+      "sha256": "72d76f4a8e658b2ed24a4f14db200bf909631c218d618ec7c35d88845ba08273"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 140468,
+      "sha256": "6efd289f4d17cdd0def2dd00f66176df1a73f2db1b1eba4d1ec8eb273635d9e2"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 252592,
+      "sha256": "d13401aa4c22e45c935f20e066a66bdc1778b8ba013d657a795987863bfd22e2"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 131066,
+      "sha256": "e22aa91e8b324414b4d9f55a14d33e3c40ec0b5fec9942c7f2381c8d4a8f4665"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 205146,
+      "sha256": "734603e3c808d026fc5603d36c7915e9e4ba56b2bedef1b0fd3e435351bf2521"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 130470,
+      "sha256": "332c76f0e975fc64bd561632e96f4ab1fb4c757f594823f7a58ca2184394fc78"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 228254,
+      "sha256": "0b4f631debce40a3901b9e01c0d89393fc50b654d31fd71f561fddc63fd43e5c"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 296321,
+      "sha256": "05cd9e5db421491143ed31d5761d370e991500cd2a2dd8d74083e74f91b702e3"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 268821,
+      "sha256": "fe255f2fac429bfc681d119650361959671b0bed8fb3ce2e9be17243f84fdf5b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 236525,
+      "sha256": "3b2a19318fd2033cf77ccef7d6a316f6eceaf484f16450523de5b31480e1c2fe"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39562,
+      "sha256": "c5b60d4625051b56df06e13f78da0c0892e97244d1b0527975d2068c87149103"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 5945536,
+      "sha256": "1917f763300ea19e6bc5037af61550d01d1aeb12159653f7bd5a091883ae9e50"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 285374,
+      "sha256": "f0bb440fb14da7aa42c41f7fa9b76ef53bb582ffc24b9d83b31803eca04c9519"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 302646,
+      "sha256": "296b6587adcc1ce959349813f91e85bc7142a2a474de4ac22ed0e98024f8fd27"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 276079,
+      "sha256": "4912a81ff21c177c3d158d72dff925ee879ce7159b8f1c366886fb8e30e24d6e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 226853,
+      "sha256": "930f9f581a6aa59ebfaeb6275134f4315e8cc9ebdf91b6b9b2ab4c83fb550645"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 262659,
+      "sha256": "556afcd33f4853a3fdf963d56037b493d904520aab7b1593241537fbfde250c0"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 265126,
+      "sha256": "0142b4b739cc16bd1c780e92ef3e6de591cdd0ef703d1d90da17a2a93523a9ab"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 381814,
+      "sha256": "8fed9d32bce3a0a76f535228c312c5a37c3bf8ab8006c25227292e0ab6302eae"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 300242,
+      "sha256": "805955df39c2f75c4a827851fbacc764703a94d0046f694c6e995b1d19b40e4c"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 357167,
+      "sha256": "01f8bbc2adb6ae9d73addb6d744c09e6c1bd2c4a5291c664be28b3d4c10743d9"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 2978984,
+      "sha256": "0463358812a504d950353201e3f7df6d0104fd3b365bab6f1f6548a18d37d96e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 1865257,
+      "sha256": "a4165cc82b8737be17ab5c0e22180b034516a0aa27e356a292b3e751fdb4fefb"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan63/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 2735431,
+      "sha256": "b14ee8d37909a3b9a33a986216db11d9a1c35a52156b7fa01c9c6426c8994d4a"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 13392600,
+      "sha256": "8b3a54186579b0f0b448cb648d3b9b1f660cc025cd1abe367e1057b6542e86a3"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39421,
+      "sha256": "2ec36a397f1663736acaa6e5ff7e3fb9ac8704a604eb7673bffe435a85d8cd55"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 5205362,
+      "sha256": "247e4e1bc33fe5c72b236d39c57bc160a4280aba4e06757b6acf635c281988aa"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 155378,
+      "sha256": "6dd6c168dca7d106fbd7a4a354fb2205fe66c20ba14ebaa5b59386a63fcdfd43"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 376050,
+      "sha256": "28ed55eb363567b9dff906da7dbfd12d98ebd052e62c7499fa33906756790574"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 141023,
+      "sha256": "3c35aeebaca6c57a9eafbf70ea757d4b6f0f828dacf29620b5d29c31caad93e9"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 393057,
+      "sha256": "5354fea8d1738480f5a2861279ec38813ab3155f526c23d1f35a5889f357f8d5"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 129406,
+      "sha256": "51e9c195902267a9ceec301d2ba8da01bf5e8a3eda4aabec014abb145ebe6ed5"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 356669,
+      "sha256": "c1db95d84d217a8bce4781a7825e6fe75bc4697c1cc85be35d6563994c9002f8"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 513136,
+      "sha256": "23c6c9a3a6910f2b13436ed307424717d6294900d9b68b3841d95f7adbd95609"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 550815,
+      "sha256": "34a22281946d0e9f3e781be8385b19119e997b07127ba7bc37bf5a211e14048e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 472702,
+      "sha256": "aa50cdbe66b7ba89df8fc57150c0b960d77be8f9b15edeb934cdd7c181a37834"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39456,
+      "sha256": "ccbcf716b05ea146bd8573fc21f1541623a6c4b89769136d000434d008d28d3c"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 8099565,
+      "sha256": "baf463b08166536ee171b04751f5079c0d2800730a407bae72c1a8d71fc4da6a"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 309131,
+      "sha256": "01096a9aad022594094f8e77c3c325967bacdd5c1c5ed73acd46bf8c4c19a13e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 426148,
+      "sha256": "26ff36b1d9d694e9fad4d624a62f13ac3624b2e5887ac854a1823047f4d1eb96"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 315590,
+      "sha256": "0bc3837c7076cf56c3f28456e500826a3b682095adf4ed14bc3e16366be8a5bf"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 438271,
+      "sha256": "667f80b5b4d8b04c3219f1059de7b1332116c36ec43ee59f72285faa04695b3a"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 310545,
+      "sha256": "9c6d4084d43e18f0ba0bc1d1632a0fee372ebb1c923228ed47fd6310e33edba4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 418245,
+      "sha256": "264ff2d7bb188b8a85a7c5ec36dfb3b4953805e42e77ea5a899c57fbbceccdf4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 606276,
+      "sha256": "3e0fe71099796d3d39efb778b0e4b78ff27752d481be770f899bcd82ff1ba299"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 627556,
+      "sha256": "8940443aecdec35fa757503fba8218c7daaeb2c2decc64a8a491c23dc28874b1"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 595223,
+      "sha256": "108096304dbd0c79523fbbda84ad1b488566d328a55093911f08dcf8cdcb92c8"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4105736,
+      "sha256": "5430fee4cf64924c5dbc0a666340d6d99224a51b8df1dc3b928cbc1883dea1b7"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 1875803,
+      "sha256": "b30918912bc6c3f07da87fe29bfd140bb1cd9de5cc979569b8b414770d13f15e"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan65/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4970971,
+      "sha256": "ee5ccd96817a082ada24ace2eb05ddc2ecf182b1ec41eef727d0fec0d9344c2f"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 11692689,
+      "sha256": "edf90e5740899eb80a51bcdd5a61dc4086b5389450597733e881ea3c04b4cf04"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39391,
+      "sha256": "dbd6ecec536a78b03230cda5ecb06d8662cb62fde471c980872ee3ecba914b51"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 5744045,
+      "sha256": "517a626e07be97e1bfe30aa6ea18be7e105b4282b609930b628e4cd4f5d0360d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 224628,
+      "sha256": "5d8a2bd9e0e72cd10427e708fd783333f22b4fd6003667a98fcff0182750d3e9"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 414170,
+      "sha256": "8b3f3dfc851f298923c24b89f68ec5a6938e004d2431e9ec0892014ca06bf7f1"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 219340,
+      "sha256": "3f50258a141ae1a024f3d8cf51632801769faa30de4373de427df5416dae0430"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 421123,
+      "sha256": "a453b2e94b56c4e96a6590524d6b61cf3040cca93462b18699b771e1e22e24ec"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 193643,
+      "sha256": "6b8cd56f49c2f54dfb6123062f7e5ca2926021d916ec61b21dc991fdc9b29b68"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 392847,
+      "sha256": "85877740ad8d70ecd7152893ca11d29ae709c93a978595ada9f9662deff35f1b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 569388,
+      "sha256": "fa609c2f4de0806e108c718e036d5088fd11cd3d60c6a6c7fa6e684085af8914"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 581589,
+      "sha256": "2c8b28f6919b71fc72cd22ab6067c7d5188885a16b9e227b03f44dd8a863c7ba"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 518261,
+      "sha256": "ec8d0bbd6736f1488401c0223c06042e97190ece7937146d777b0ad4740ea685"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39426,
+      "sha256": "1b336e8f5870f5ded31e307e996f679eab446cba120ddc608d04c38a10db93a3"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 5747913,
+      "sha256": "a7d3c5e4c69866ff7c97deb767f18beb28d3f6a63f0fdc9366f5ffa3a260c851"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 241427,
+      "sha256": "42abe15ffc16ce3d2de926a3c1a2a018129e2ba267dded5a5bc16e6acf9e0764"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 441602,
+      "sha256": "09947b8e0cee847a41a605cd3d34d2c2666c951e8020b3df1c96d58a88c5b9e3"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 191136,
+      "sha256": "2328f14cadf9e957e12184adfbf7a2969278482539a6e0cf7cea6d655f327d52"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 463788,
+      "sha256": "ac072a27770672dc00fff42770f70e03292a3277dd87a4196a8765ba5bb37875"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 119246,
+      "sha256": "2f753760c59ad74d43e518daf493b90bb71a6f7b1ab9cdead9aa106a2591b3b5"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 436075,
+      "sha256": "9ebf954e647c1acf72fe4eceb5c128977ce6bbb42fa45ed3c26cabb4c3f746a8"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 660413,
+      "sha256": "3b18d36d5b239af33a65f969fba1441ca78a6d6c25f885cc9b57aab3c10818f7"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 667254,
+      "sha256": "6c9df6debe8d82117ce41b70ef508f43c1f968fe049d461163a19c62738a07f2"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 634172,
+      "sha256": "e92ea4a02df17d54ce164a00d13e77389a76aff7128efeef903a173e8ed66f3d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4058688,
+      "sha256": "1c0ded3327b6546f54a025d7023966bda78ca61d670cf146e0259cd34a02ffd7"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 3117282,
+      "sha256": "9338454820a7bbb8ff486386b20febc1afbed5e5ff233782b5dacfaf24daa3ac"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan69/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 5188072,
+      "sha256": "5341309a85edb4d4a3c12c9ecfeb1bea85e043b1554efcb3f79ee53197229975"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 12540360,
+      "sha256": "bf34b4c723807746ee5e4735f5028702b227a402ee1015d87ba7315470c16058"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39414,
+      "sha256": "248296ab176d80b13f86b2d869b1bff13a14e5a8405e6a11731e7282c0983b40"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 4216444,
+      "sha256": "da662393960c7c06e8280884f457441532142fabb7a4b7b9fb5bc4785567f141"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 120808,
+      "sha256": "db1385788cc1fd43367968d687ba060416b452f25c0d33bc5f52226aff7f9ea2"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 355109,
+      "sha256": "ca4c12bfaccff2d0cc06a92fbdebc98da179cfcd27899fcc20f60ce48d822b93"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 114835,
+      "sha256": "36878bde95c3bf1d3643d6ab3886d9aa8f595c33f8f2cd43d550ec8ac249f4d5"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 363514,
+      "sha256": "0442bf2a77b008f8fc9939f14d16b1f94061c19de91fcc9044a07846186b24a1"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 105621,
+      "sha256": "aa2f55d1fbf19ed5da8c876fe66fd7a8f76a9336067d146ef2e24e0070db3319"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 341979,
+      "sha256": "217243e26db100b85ed12888c4e1b68b8f5d236f63289bbb9fc4d2f6cc1a3559"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 476370,
+      "sha256": "728e056638600590e9d0fcbd1401b15803e4b5c4d15e0497cbe4d666c147f0d0"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 504119,
+      "sha256": "4a88bc6400818c01efe6e5fbb43819fb233fc770faae4046a6ab2c3ea2cedc60"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 421935,
+      "sha256": "378b7e23b27efa92050bb47f3f69885175d0ac34fb2a1641ae973b923bdde8d5"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39449,
+      "sha256": "11fc3b04e894baaafa80cd6193cb8c8c9cc1294330218de25b37c4bca3c5c567"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 8152566,
+      "sha256": "c787f60fd14e736814c9241040beca00c67f15f88210bf005fccc8270964c781"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 304015,
+      "sha256": "012ebce7bd27d005976e5f54dd8fc7a667dd901fc61004d228803e3fee0da5eb"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 436512,
+      "sha256": "f3d52b15dfae213ba2e60a006b17050c2950e625ac573a121b1487a53143fd4d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 308334,
+      "sha256": "780291a6e38188dbdde0391a7c537def2b92e78dcc60c9ca4e59771d2c954c44"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 441612,
+      "sha256": "c171b2dedb024ea29d3b1358b88bccab7945fd8532739f750363b766312b25f3"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 289695,
+      "sha256": "59bedcc9a7bec7a1e234926a7c9d844cac989ed120c8e82fbed56e8387d35d5b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 419522,
+      "sha256": "be8fb9e118d7ef63d2673e89acee340f23fd70fcc2ae895cb88966372bd95efc"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 621105,
+      "sha256": "a877048e036a057df435bfe23c079bf3baa8cbf0c366302956909b47dd05cf97"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 628383,
+      "sha256": "e715092593c43c3ab03bd408bf94b341e5a5d6257c381b30aa1fcdd10359e251"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 592005,
+      "sha256": "bb9b1fe65abd493fdde7fa8367d26decb2d15d397029c258204e12e63b4a6025"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 3941810,
+      "sha256": "d44d910c8d7ddc928f54b1c26334d2734881a687d3424672da35d018e964c0dc"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 1461039,
+      "sha256": "25f6a686a9393102dc48dd3ee0763fa2b5e6a00801d101465615a983258af8df"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan83/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4750430,
+      "sha256": "c7d1db6cce9c8209b4c66fe1482568ef35953f48f6d976578c81b286676c9968"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/comparison_motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 13923258,
+      "sha256": "51607babb0c5091e317f83afb5b5bda6661f84fe4adc5ca71c3ed6810e226604"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/dpgs/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39371,
+      "sha256": "41c8f6eaa4871df57018eee13c23f3b762df5e72744d2cc4e3da4093514e5154"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/dpgs/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 5319862,
+      "sha256": "49306e4adf41bf75e873e2362a66833a07695b87b3e8dd587ff753d1484a2f19"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/dpgs/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 189275,
+      "sha256": "b4c64c3951ca595c21d5fc05e0333c81701c40d9edf01a9629c79d2878740591"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/dpgs/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 406751,
+      "sha256": "a976c9e97be9b8f5d2c0a1da2a646a33bbe57b90d901992bb777da34cd5ad1b0"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/dpgs/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 180645,
+      "sha256": "905a3d48c3d01445a511e3bd7aad379a8b0b99ae353d716fbbdfbc26ff239964"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/dpgs/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 421583,
+      "sha256": "917e7a8d741b8fcd3b2003e8dc6b595a144fa575649457cffac8f7b20530ea5d"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/dpgs/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 163545,
+      "sha256": "efcfecdc717206eec8bebcd90904f2ba581d840313d143553b90a164324065ce"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/dpgs/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 376702,
+      "sha256": "3c106d9021adf6602559dce8e6a80bdd45ffef5c57afb0c66cdf80ca8938cade"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/dpgs/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 562332,
+      "sha256": "460d3fc4e4695e688df9f21441a57696922275b70a3ff8a94b230eb111803b3b"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/dpgs/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 590180,
+      "sha256": "ac55c72e534dd7f4400f6659ebceab1b9c07120fc572ee9dee265f614ce120cf"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/dpgs/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 483907,
+      "sha256": "aaefefe04937aaf437f10623ba6bbb483dc75ef68b09255ee8c42a5710450ab0"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/matcha/manifest.json",
+      "kind": "results_and_training_logs",
+      "bytes": 39406,
+      "sha256": "66a27bc2d4709bcbc0611792c15b7b1c327ee2725e1fc5b2978ba3065fb00cfa"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/matcha/motion.mp4",
+      "kind": "results_and_training_logs",
+      "bytes": 8346135,
+      "sha256": "1cc43ddff84fa462f420442a09cbf6bc312ce5302164afbce9f026bb0216dfb6"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/matcha/novel_0_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 299361,
+      "sha256": "4ba0d38b7253b52052be1ece9e927d739e834ec59d1169357086f3d9373282a0"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/matcha/novel_0_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 460355,
+      "sha256": "e2befb806b687c8ca6a4eae4a99e01541f6c8c0f3fce51f4d045d290dca00ab7"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/matcha/novel_1_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 311699,
+      "sha256": "6d922997a4a1d4ffbd8c2cbadbdcbcd4464cb6107b5ce1f86cbcc546246fdbdd"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/matcha/novel_1_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 481469,
+      "sha256": "703942274e3dcecd44437391b289d11006668b2f2ad190c4dde3b4c7e13a5093"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/matcha/novel_2_clay.png",
+      "kind": "results_and_training_logs",
+      "bytes": 300093,
+      "sha256": "37179019b6140348531d884b52c2be359c108c97ad28d3f39828b44074b9dec1"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/matcha/novel_2_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 461732,
+      "sha256": "1adf24c80044bb207e2e14de3d9167bb46cd90b5202fae5ccc38363991e47f02"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/matcha/train_0022.png",
+      "kind": "results_and_training_logs",
+      "bytes": 675675,
+      "sha256": "a7e11b8ed2dd5f81bcfa363a90e40bbe00c7e9698cc8da2b0a39daf0d919b15a"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/matcha/train_0025.png",
+      "kind": "results_and_training_logs",
+      "bytes": 688974,
+      "sha256": "9d69b6d7af5006578cacdcf7d8d3b710a64c077dbc63770b78354b29dbf7c4ab"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/matcha/train_0028.png",
+      "kind": "results_and_training_logs",
+      "bytes": 637851,
+      "sha256": "439248c7d2b91546e5d0961c752903e31cf2761037c37f4ced90779d192d81e4"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/novel_rgb_mesh.png",
+      "kind": "results_and_training_logs",
+      "bytes": 4355917,
+      "sha256": "fa3707daa878fbf7701e72b54f1906a0db4782fe524ec42cf93fa019a0545eef"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/training_foreground.png",
+      "kind": "results_and_training_logs",
+      "bytes": 2941406,
+      "sha256": "55473c92632c25cb47ace2760faf6a0622050416122de27aae9dcb2575ef59c9"
+    },
+    {
+      "path": "output/MAtCha_comparison/scan97/training_rgb.png",
+      "kind": "results_and_training_logs",
+      "bytes": 5291260,
+      "sha256": "d5d008cd6b4c360bc86864c5ad630e916cae4b9c8d7b2cc5faf9cf5f03cbbcca"
+    },
+    {
       "path": "output/dtu_colmap_sfm_small_overlap.csv",
       "kind": "results_and_training_logs",
       "bytes": 942,
       "sha256": "105cb477503627336e5c5a0bdbe5043c7b339c4cb0e55c11cfab4f44900970ea"
+    },
+    {
+      "path": "output/dtu_matcha_vs_dpgs.csv",
+      "kind": "results_and_training_logs",
+      "bytes": 1525,
+      "sha256": "ba6579c2826f84788b91cea2950562dc297f92c3c37ee49fa56b1b3ad46e9665"
     },
     {
       "path": "pyproject.toml",
@@ -8001,6 +11686,12 @@
       "kind": "source",
       "bytes": 5770,
       "sha256": "b1cd9781be469d337ea160ebbc092b3edd8cd1d731ac15a574cff1c63db588a7"
+    },
+    {
+      "path": "repro/MATCHA.md",
+      "kind": "source_and_records",
+      "bytes": 5655,
+      "sha256": "5f8af9198a384beb07706ebf358319dfe43c08cc589b4a0cf25b1d9cfd85af8d"
     },
     {
       "path": "repro/README.md",
@@ -8025,6 +11716,12 @@
       "kind": "source_and_records",
       "bytes": 11916,
       "sha256": "b07bd8191c98fbac5f71c43c34ed03e4b88dcd13bba1f1d4e45527b247dec132"
+    },
+    {
+      "path": "repro/align_matcha_colmap.py",
+      "kind": "source_and_records",
+      "bytes": 3725,
+      "sha256": "c56cef736ca767d265e34394d59f2d296dd49536bcd5c7c375f729b0d1ed6fea"
     },
     {
       "path": "repro/build_study_pdf.py",
@@ -8081,10 +11778,22 @@
       "sha256": "f6e3a71e03642bc8d5841cf9608c5da26bbaf9fdd383f6346205b9cadecb5b08"
     },
     {
+      "path": "repro/matcha_env.sh",
+      "kind": "source_and_records",
+      "bytes": 372,
+      "sha256": "db54d3b2a9826001d2a39e7682027112ee20dfa1ba59cf63cbc7da122aaf5ed2"
+    },
+    {
       "path": "repro/package_source.py",
       "kind": "source_and_records",
       "bytes": 967,
       "sha256": "ee9a4e6aab70af58a0cb2d5814c4f32d6712a2418b7a7627aa09803d211d5b5b"
+    },
+    {
+      "path": "repro/patch_matcha.py",
+      "kind": "source_and_records",
+      "bytes": 3503,
+      "sha256": "2c0d4bbac4176901aedc78acd1c07973aa343b1eae4c430d6e595a2f674f8066"
     },
     {
       "path": "repro/patch_metric3d.py",
@@ -8095,8 +11804,14 @@
     {
       "path": "repro/prepare_github_export.py",
       "kind": "source_and_records",
-      "bytes": 5043,
-      "sha256": "b13bcd86f33e4d88b1997f1b59cd23f154f686ce95b6202de83a5aadba003c83"
+      "bytes": 5701,
+      "sha256": "d759d97d359733746dd99ea70e6396902dcc08064ff5b3d31069f0ac985cd738"
+    },
+    {
+      "path": "repro/prepare_matcha_colmap.py",
+      "kind": "source_and_records",
+      "bytes": 3896,
+      "sha256": "c8d3bc2079aa6d279dd682fd1ac6e782014dbb6ae0d6b4d76db0a68b88dcadc6"
     },
     {
       "path": "repro/records/assets_integrity.json",
@@ -8183,6 +11898,12 @@
       "sha256": "186d38b9383043dc80c9c3e65bc4d84359c13d28a82a6b978eba0a853a801ae0"
     },
     {
+      "path": "repro/records/github_publish.json",
+      "kind": "source_and_records",
+      "bytes": 622,
+      "sha256": "7720cfe7122461b64676b5d11b6c1e4628a4a78231d8110d7218e037ea50b2bd"
+    },
+    {
       "path": "repro/records/installed.txt",
       "kind": "source_and_records",
       "bytes": 3349,
@@ -8211,6 +11932,102 @@
       "kind": "source_and_records",
       "bytes": 240,
       "sha256": "499d7156963a0605128da67e43c5079bcac6d5b275bd4591ab0aa19d0d047983"
+    },
+    {
+      "path": "repro/records/matcha_base_requirements.txt",
+      "kind": "source_and_records",
+      "bytes": 3371,
+      "sha256": "fe1fb96437ded5eb465f1ee51ec2db99f56f344f63aad8da8555f733c9537c32"
+    },
+    {
+      "path": "repro/records/matcha_completion.json",
+      "kind": "source_and_records",
+      "bytes": 7329,
+      "sha256": "999733ffedd97a0056f81c8e40460a24a1a1fb730725de2b7587193966781710"
+    },
+    {
+      "path": "repro/records/matcha_environment.txt",
+      "kind": "source_and_records",
+      "bytes": 3717,
+      "sha256": "46aab070bdcc1db9bf41b82544a09d2a7d85cec234cbe6f9c8b490724e76e354"
+    },
+    {
+      "path": "repro/records/matcha_inputs.json",
+      "kind": "source_and_records",
+      "bytes": 14045,
+      "sha256": "ae7623c3cd57c04fed5c1228bdc46a4bdbecdbbe152fea6ed492c0e79439b341"
+    },
+    {
+      "path": "repro/records/matcha_local.patch",
+      "kind": "source_and_records",
+      "bytes": 6772,
+      "sha256": "64a52b07a89b71cc2aa7738b096859c2a26acecd7f23aa1eacb0641dbeb13fab"
+    },
+    {
+      "path": "repro/records/matcha_mast3r_cleanup.json",
+      "kind": "source_and_records",
+      "bytes": 599,
+      "sha256": "7e392242cd8c1e3c0ffadbee1848a84960d6e65581d46e56cf0d44fbd14514f4"
+    },
+    {
+      "path": "repro/records/matcha_monitor.jsonl",
+      "kind": "source_and_records",
+      "bytes": 112937,
+      "sha256": "c6f4891d1c4add525872beb34d81bc856ca5086ea675837702d4aab82c05bb0b"
+    },
+    {
+      "path": "repro/records/matcha_monitor_control.json",
+      "kind": "source_and_records",
+      "bytes": 623,
+      "sha256": "95761b50e645f95907d982fabe1e80df87b9a61f190e72290f7471a185e39fd7"
+    },
+    {
+      "path": "repro/records/matcha_progress.json",
+      "kind": "source_and_records",
+      "bytes": 27981,
+      "sha256": "f2300e6a90479e567799d315c844473d33fbf859e4a7e5acfd227a2613bf4f60"
+    },
+    {
+      "path": "repro/records/matcha_progress_1792648297.json",
+      "kind": "source_and_records",
+      "bytes": 3228,
+      "sha256": "0a5cf0648bfcda573fe68f8185937cac41f179eeb7d7e0ced2385199ab401e4a"
+    },
+    {
+      "path": "repro/records/matcha_progress_1792648410.json",
+      "kind": "source_and_records",
+      "bytes": 1034,
+      "sha256": "f018d13aa67e5a269a87c7857760fb913606272de5dfbd0e658af12a4025091a"
+    },
+    {
+      "path": "repro/records/matcha_progress_1792650295.json",
+      "kind": "source_and_records",
+      "bytes": 7281,
+      "sha256": "af65c7fff006d709d8f74f1ae53f84eb8b0b087da1df084fbd05c315baa53631"
+    },
+    {
+      "path": "repro/records/matcha_progress_1792663480.json",
+      "kind": "source_and_records",
+      "bytes": 61456,
+      "sha256": "2fb24e244473b1f6064114e3f4e6b6821a6001d820c909a2424c3164b19700c5"
+    },
+    {
+      "path": "repro/records/matcha_protocol_audit.json",
+      "kind": "source_and_records",
+      "bytes": 1538,
+      "sha256": "c86f564578a553ad7ae6377a7159fdaacfb7eb24bb29f02bcb8e592217ed3561"
+    },
+    {
+      "path": "repro/records/matcha_scan110_missing_normals.json",
+      "kind": "source_and_records",
+      "bytes": 3515,
+      "sha256": "03d1ae337470661e5adaea1e574c211e0a97b3ab81836fb5242779f993d04202"
+    },
+    {
+      "path": "repro/records/matcha_scan24_logging_failure.json",
+      "kind": "source_and_records",
+      "bytes": 509,
+      "sha256": "e4ffb7dc9482f1340390f03a97fd0934255655e24ae6b1357d97688c0af2afe9"
     },
     {
       "path": "repro/records/metric3d_weight_validation.json",
@@ -8465,6 +12282,12 @@
       "sha256": "7617ff14b5e3cbf847d381b69d974fec550795c97891f60c63dce6978a72053f"
     },
     {
+      "path": "repro/records/storage_cleanup_matcha.json",
+      "kind": "source_and_records",
+      "bytes": 321,
+      "sha256": "9a2cf8c70db002dc5e0fd8f87d6958f029bef4a1ec9c38245d204e803fb01cdd"
+    },
+    {
       "path": "repro/records/tnt_asset_downloads.json",
       "kind": "source_and_records",
       "bytes": 3368,
@@ -8537,6 +12360,12 @@
       "sha256": "e78b9470a24b1888d6b2834961b215ec8cdc39b5ba5cbee0ced2a29c0daa9a80"
     },
     {
+      "path": "repro/render_matcha_comparison.py",
+      "kind": "source_and_records",
+      "bytes": 10303,
+      "sha256": "c89fe37b0cf9ec5f764f011af221eecbcb54a743087390e2e6d6ddf35eec62f7"
+    },
+    {
       "path": "repro/report_dtu_campaign.py",
       "kind": "source_and_records",
       "bytes": 3262,
@@ -8573,10 +12402,22 @@
       "sha256": "538b6e494d9488a8393478a5a29a74233e25d19babde44d7755f918c76f4a358"
     },
     {
+      "path": "repro/run_matcha_dtu.py",
+      "kind": "source_and_records",
+      "bytes": 8730,
+      "sha256": "8a1d83df9eb9586ecce0ab5e934b0f7ea2a41ee995eb613bf54bbb08fba3b64d"
+    },
+    {
       "path": "repro/run_tnt.py",
       "kind": "source_and_records",
       "bytes": 3557,
       "sha256": "b477e9f092d7f0f81e48198eeff31b5c9f6a29e088881ce8992bdc6bde82cfcb"
+    },
+    {
+      "path": "repro/setup_matcha_native.sh",
+      "kind": "source_and_records",
+      "bytes": 1340,
+      "sha256": "a75255bc981b9399194682a48a703f268d257acb235f10daa4944220b9943e16"
     },
     {
       "path": "repro/setup_uv.sh",
@@ -8591,10 +12432,22 @@
       "sha256": "5ec32f60f2acf439b717065c3095187f5df9e2e18b50393ff44f4520ae7e68ca"
     },
     {
+      "path": "repro/stage_matcha_dtu.py",
+      "kind": "source_and_records",
+      "bytes": 3212,
+      "sha256": "55beca359e10059f308ec0504d6d81998e8d0e8b91880694ebc448fa0c61e373"
+    },
+    {
       "path": "repro/summarize_dtu.py",
       "kind": "source_and_records",
       "bytes": 1781,
       "sha256": "dd9ef717340e15b40585aca9cab2f33f97919c758453408202d5172aa9ef5adf"
+    },
+    {
+      "path": "repro/summarize_matcha.py",
+      "kind": "source_and_records",
+      "bytes": 7011,
+      "sha256": "735e12264cd971163a64b1232ebf09950ea4948e85fcc383967f9fa1c1c08fc0"
     },
     {
       "path": "repro/tnt_eval_env/README.md",
@@ -8633,10 +12486,22 @@
       "sha256": "5646d4a1cb50004c9588bd25bd8dc1dc2457d9d36feeda1939f9fc3a321a9643"
     },
     {
+      "path": "repro/verify_matcha_results.py",
+      "kind": "source_and_records",
+      "bytes": 6130,
+      "sha256": "acd6f78f2886feb41f8eb05d9ca17b34c10623f26e939dd44ac9a10e66619d62"
+    },
+    {
       "path": "repro/watch_dtu.py",
       "kind": "source_and_records",
       "bytes": 3665,
       "sha256": "08664962cb20a0c14d267f97b011eec4557f468aebefd1d7937953f1eae6e071"
+    },
+    {
+      "path": "repro/watch_matcha.py",
+      "kind": "source_and_records",
+      "bytes": 1904,
+      "sha256": "389a26c7213ab6129300c17baaecac0c18d1874a215ad4d6c3453ac56b43f5d9"
     },
     {
       "path": "requirements.txt",

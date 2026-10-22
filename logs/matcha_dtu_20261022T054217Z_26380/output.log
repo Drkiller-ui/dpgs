@@ -1,0 +1,71 @@
+Run directory: logs/matcha_dtu_20261022T054217Z_26380
+MATCHA_STAGE scan24 sfm log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/sfm.log
+MATCHA_STAGE scan24 alignment log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/alignment.log
+MATCHA_STAGE scan24 refinement log=/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/refinement.log
+p_curvature=0.00026, aniso=0.00000]
+Training progress:  97%|█████████▋| 6810/7000 [05:23<00:09, 20.19it/s, Loss=0.00153, distort=0.00000, normal=0.00120, Points=778922, p_depth=0.00033, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  97%|█████████▋| 6820/7000 [05:23<00:08, 20.24it/s, Loss=0.00153, distort=0.00000, normal=0.00120, Points=778922, p_depth=0.00033, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  97%|█████████▋| 6820/7000 [05:24<00:08, 20.24it/s, Loss=0.00140, distort=0.00000, normal=0.00118, Points=778922, p_depth=0.00039, p_normal=0.00030, p_curvature=0.00027, aniso=0.00000]
+Training progress:  98%|█████████▊| 6830/7000 [05:24<00:08, 20.35it/s, Loss=0.00140, distort=0.00000, normal=0.00118, Points=778922, p_depth=0.00039, p_normal=0.00030, p_curvature=0.00027, aniso=0.00000]
+Training progress:  98%|█████████▊| 6830/7000 [05:24<00:08, 20.35it/s, Loss=0.00180, distort=0.00000, normal=0.00121, Points=778922, p_depth=0.00032, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  98%|█████████▊| 6840/7000 [05:24<00:07, 20.15it/s, Loss=0.00180, distort=0.00000, normal=0.00121, Points=778922, p_depth=0.00032, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  98%|█████████▊| 6840/7000 [05:25<00:07, 20.15it/s, Loss=0.00161, distort=0.00000, normal=0.00120, Points=778922, p_depth=0.00034, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  98%|█████████▊| 6850/7000 [05:25<00:07, 20.14it/s, Loss=0.00161, distort=0.00000, normal=0.00120, Points=778922, p_depth=0.00034, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  98%|█████████▊| 6850/7000 [05:25<00:07, 20.14it/s, Loss=0.00153, distort=0.00000, normal=0.00121, Points=778922, p_depth=0.00030, p_normal=0.00027, p_curvature=0.00026, aniso=0.00000]
+Training progress:  98%|█████████▊| 6860/7000 [05:25<00:06, 20.26it/s, Loss=0.00153, distort=0.00000, normal=0.00121, Points=778922, p_depth=0.00030, p_normal=0.00027, p_curvature=0.00026, aniso=0.00000]
+Training progress:  98%|█████████▊| 6860/7000 [05:26<00:06, 20.26it/s, Loss=0.00166, distort=0.00000, normal=0.00120, Points=778922, p_depth=0.00034, p_normal=0.00029, p_curvature=0.00026, aniso=0.00000]
+Training progress:  98%|█████████▊| 6870/7000 [05:26<00:06, 20.64it/s, Loss=0.00166, distort=0.00000, normal=0.00120, Points=778922, p_depth=0.00034, p_normal=0.00029, p_curvature=0.00026, aniso=0.00000]
+Training progress:  98%|█████████▊| 6870/7000 [05:26<00:06, 20.64it/s, Loss=0.00159, distort=0.00000, normal=0.00120, Points=778922, p_depth=0.00034, p_normal=0.00027, p_curvature=0.00026, aniso=0.00000]
+Training progress:  98%|█████████▊| 6880/7000 [05:26<00:05, 20.94it/s, Loss=0.00159, distort=0.00000, normal=0.00120, Points=778922, p_depth=0.00034, p_normal=0.00027, p_curvature=0.00026, aniso=0.00000]
+Training progress:  98%|█████████▊| 6880/7000 [05:27<00:05, 20.94it/s, Loss=0.00180, distort=0.00000, normal=0.00119, Points=778922, p_depth=0.00037, p_normal=0.00030, p_curvature=0.00027, aniso=0.00000]
+Training progress:  98%|█████████▊| 6890/7000 [05:27<00:05, 21.19it/s, Loss=0.00180, distort=0.00000, normal=0.00119, Points=778922, p_depth=0.00037, p_normal=0.00030, p_curvature=0.00027, aniso=0.00000]
+Training progress:  98%|█████████▊| 6890/7000 [05:27<00:05, 21.19it/s, Loss=0.00183, distort=0.00000, normal=0.00121, Points=778922, p_depth=0.00033, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  99%|█████████▊| 6900/7000 [05:27<00:04, 21.33it/s, Loss=0.00183, distort=0.00000, normal=0.00121, Points=778922, p_depth=0.00033, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  99%|█████████▊| 6900/7000 [05:28<00:04, 21.33it/s, Loss=0.00168, distort=0.00000, normal=0.00122, Points=778922, p_depth=0.00029, p_normal=0.00027, p_curvature=0.00026, aniso=0.00000]
+Training progress:  99%|█████████▊| 6910/7000 [05:28<00:04, 21.24it/s, Loss=0.00168, distort=0.00000, normal=0.00122, Points=778922, p_depth=0.00029, p_normal=0.00027, p_curvature=0.00026, aniso=0.00000]
+Training progress:  99%|█████████▊| 6910/7000 [05:28<00:04, 21.24it/s, Loss=0.00151, distort=0.00000, normal=0.00118, Points=778922, p_depth=0.00038, p_normal=0.00030, p_curvature=0.00027, aniso=0.00000]
+Training progress:  99%|█████████▉| 6920/7000 [05:28<00:03, 21.15it/s, Loss=0.00151, distort=0.00000, normal=0.00118, Points=778922, p_depth=0.00038, p_normal=0.00030, p_curvature=0.00027, aniso=0.00000]
+Training progress:  99%|█████████▉| 6920/7000 [05:29<00:03, 21.15it/s, Loss=0.00182, distort=0.00000, normal=0.00120, Points=778922, p_depth=0.00035, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  99%|█████████▉| 6930/7000 [05:29<00:03, 21.24it/s, Loss=0.00182, distort=0.00000, normal=0.00120, Points=778922, p_depth=0.00035, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  99%|█████████▉| 6930/7000 [05:29<00:03, 21.24it/s, Loss=0.00171, distort=0.00000, normal=0.00121, Points=778922, p_depth=0.00032, p_normal=0.00026, p_curvature=0.00026, aniso=0.00000]
+Training progress:  99%|█████████▉| 6940/7000 [05:29<00:02, 21.28it/s, Loss=0.00171, distort=0.00000, normal=0.00121, Points=778922, p_depth=0.00032, p_normal=0.00026, p_curvature=0.00026, aniso=0.00000]
+Training progress:  99%|█████████▉| 6940/7000 [05:30<00:02, 21.28it/s, Loss=0.00164, distort=0.00000, normal=0.00119, Points=778922, p_depth=0.00036, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  99%|█████████▉| 6950/7000 [05:30<00:02, 20.97it/s, Loss=0.00164, distort=0.00000, normal=0.00119, Points=778922, p_depth=0.00036, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  99%|█████████▉| 6950/7000 [05:30<00:02, 20.97it/s, Loss=0.00170, distort=0.00000, normal=0.00120, Points=778922, p_depth=0.00033, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  99%|█████████▉| 6960/7000 [05:30<00:01, 20.63it/s, Loss=0.00170, distort=0.00000, normal=0.00120, Points=778922, p_depth=0.00033, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress:  99%|█████████▉| 6960/7000 [05:31<00:01, 20.63it/s, Loss=0.00153, distort=0.00000, normal=0.00118, Points=778922, p_depth=0.00038, p_normal=0.00030, p_curvature=0.00027, aniso=0.00000]
+Training progress: 100%|█████████▉| 6970/7000 [05:31<00:01, 20.47it/s, Loss=0.00153, distort=0.00000, normal=0.00118, Points=778922, p_depth=0.00038, p_normal=0.00030, p_curvature=0.00027, aniso=0.00000]
+Training progress: 100%|█████████▉| 6970/7000 [05:31<00:01, 20.47it/s, Loss=0.00173, distort=0.00000, normal=0.00119, Points=778922, p_depth=0.00035, p_normal=0.00029, p_curvature=0.00027, aniso=0.00000]
+Training progress: 100%|█████████▉| 6980/7000 [05:31<00:00, 20.43it/s, Loss=0.00173, distort=0.00000, normal=0.00119, Points=778922, p_depth=0.00035, p_normal=0.00029, p_curvature=0.00027, aniso=0.00000]
+Training progress: 100%|█████████▉| 6980/7000 [05:32<00:00, 20.43it/s, Loss=0.00197, distort=0.00000, normal=0.00119, Points=778922, p_depth=0.00037, p_normal=0.00029, p_curvature=0.00027, aniso=0.00000]
+Training progress: 100%|█████████▉| 6990/7000 [05:32<00:00, 20.44it/s, Loss=0.00197, distort=0.00000, normal=0.00119, Points=778922, p_depth=0.00037, p_normal=0.00029, p_curvature=0.00027, aniso=0.00000]
+Training progress: 100%|█████████▉| 6990/7000 [05:32<00:00, 20.44it/s, Loss=0.00172, distort=0.00000, normal=0.00121, Points=778922, p_depth=0.00030, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress: 100%|██████████| 7000/7000 [05:32<00:00, 20.45it/s, Loss=0.00172, distort=0.00000, normal=0.00121, Points=778922, p_depth=0.00030, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Training progress: 100%|██████████| 7000/7000 [05:32<00:00, 21.04it/s, Loss=0.00172, distort=0.00000, normal=0.00121, Points=778922, p_depth=0.00030, p_normal=0.00028, p_curvature=0.00026, aniso=0.00000]
+Traceback (most recent call last):
+  File "/root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/train_with_charts.py", line 740, in <module>
+    training(
+  File "/root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/train_with_charts.py", line 560, in training
+    training_report(tb_writer, iteration, Ll1, loss, l1_loss, iter_start.elapsed_time(iter_end), testing_iterations, scene, render, (pipe, background))
+  File "/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/train_with_charts.py", line 668, in training_report
+    depth = colormap(depth.cpu().numpy()[0], cmap='turbo')
+  File "/root/autodl-tmp/DP-GS/baselines/MAtCha/2d-gaussian-splatting/utils/general_utils.py", line 173, in colormap
+    data = np.frombuffer(fig.canvas.tostring_rgb(), dtype=np.uint8)
+AttributeError: 'FigureCanvasAgg' object has no attribute 'tostring_rgb'. Did you mean: 'tostring_argb'?
+Traceback (most recent call last):
+  File "/root/autodl-tmp/DP-GS/baselines/MAtCha/scripts/refine_free_gaussians.py", line 78, in <module>
+    subprocess.run(command, shell=True, check=True)
+  File "/root/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'python 2d-gaussian-splatting/train_with_charts.py -s /root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/mast3r_sfm -m /root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/free_gaussians --iterations 7000 --densify_until_iter 3500 --opacity_reset_interval 1000 --depth_ratio 0.5 --use_mip_filter  --normal_consistency_from 3500 --distortion_from 1500 --depthanythingv2_checkpoint_dir ./Depth-Anything-V2/checkpoints/ --depthanything_encoder vitl --dense_regul default' returned non-zero exit status 1.
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/DP-GS/repro/run_matcha_dtu.py", line 125, in <module>
+    run(scan,'refinement',[sys.executable,'scripts/refine_free_gaussians.py','--mast3r_scene',sfm,'--output_path',free,'--config','default'])
+  File "/root/autodl-tmp/DP-GS/repro/run_matcha_dtu.py", line 104, in main
+    raise subprocess.CalledProcessError(proc.returncode, command)
+  File "/root/autodl-tmp/DP-GS/repro/run_matcha_dtu.py", line 84, in run
+    def save():
+subprocess.CalledProcessError: Command '['/root/autodl-tmp/DP-GS/baselines/MAtCha/.venv/bin/python', 'scripts/refine_free_gaussians.py', '--mast3r_scene', PosixPath('/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/mast3r_sfm'), '--output_path', PosixPath('/root/autodl-tmp/DP-GS/output/MAtCha_DTU/posed_small_overlap/scan24/free_gaussians'), '--config', 'default']' returned non-zero exit status 1.
